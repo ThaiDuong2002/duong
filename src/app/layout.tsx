@@ -13,8 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Phạm Giang Thái Dương",
+  title: "Duong Pham",
   description: "My profile page",
+  icons: {
+    icon: "/page-icon.png",
+  },
 };
 
 export default function RootLayout({
