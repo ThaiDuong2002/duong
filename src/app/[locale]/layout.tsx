@@ -30,7 +30,7 @@ const RootLayout = async ({
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: { locale: Locale };
+  params: Promise<{ locale: Locale }>;
 }>) => {
   const { locale } = await params;
 
