@@ -1,11 +1,17 @@
 import Navbar from "@/components/custom/navbar";
 import { Locale, routing } from "@/i18n/routing";
-import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { Geist, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 import "./globals.css";
+
+interface MetadataProps {
+  Metadata: {
+    title: string;
+    description: string;
+  };
+}
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,12 +23,22 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Duong Pham",
-  description: "My profile page",
-  icons: {
-    icon: "/page-icon.png",
-  },
+export const generateMetadata = async ({
+  params: { locale },
+}: {
+  params: { locale: Locale };
+}) => {
+  const messages = (await getMessages({ locale })) as unknown as MetadataProps;
+  const title = messages.Metadata.title;
+  const description = messages.Metadata.description;
+
+  return {
+    title,
+    description,
+    icons: {
+      icon: "/page-icon.png",
+    },
+  };
 };
 
 const RootLayout = async ({
