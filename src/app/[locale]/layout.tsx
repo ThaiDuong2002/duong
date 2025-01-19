@@ -24,10 +24,12 @@ const geistMono = Geist_Mono({
 });
 
 export const generateMetadata = async ({
-  params: { locale },
-}: {
-  params: { locale: Locale };
-}) => {
+  params,
+}: Readonly<{
+  params: Promise<{ locale: Locale }>;
+}>) => {
+  const { locale } = await params;
+
   const messages = (await getMessages({ locale })) as unknown as MetadataProps;
   const title = messages.Metadata.title;
   const description = messages.Metadata.description;
