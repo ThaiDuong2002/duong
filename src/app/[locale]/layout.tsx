@@ -1,4 +1,5 @@
 import Navbar from "@/components/custom/navbar";
+import { CustomThemeProvider } from "@/components/themes";
 import { Locale, routing } from "@/i18n/routing";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
@@ -59,16 +60,24 @@ const RootLayout = async ({
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} suppressHydrationWarning>
+      <head />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <NextIntlClientProvider messages={messages}>
-          <Navbar />
-          <div className="flex h-auto items-center justify-center">
-            {children}
-          </div>
-        </NextIntlClientProvider>
+        <CustomThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <NextIntlClientProvider messages={messages}>
+            <Navbar />
+            <div className="flex h-auto items-center justify-center">
+              {children}
+            </div>
+          </NextIntlClientProvider>
+        </CustomThemeProvider>
       </body>
     </html>
   );
