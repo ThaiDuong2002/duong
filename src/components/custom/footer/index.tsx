@@ -1,9 +1,14 @@
+import { useTranslations } from "next-intl";
+
 const Footer = () => {
+  const t = useTranslations("Footer");
+
   return (
     <footer className="bg-slate-500 h-80 flex flex-col items-center justify-center text-white">
-      <div></div>
-      <h6>Designed and developed by Duong Pham</h6>
-      <h6>Copyright © 2025 Duong Pham. All rights reserved</h6>
+      <h3>{t("title")}</h3>
+      <div className="mb-6" />
+      <h6>{t("design")}</h6>
+      <h6>{t("copyright")}</h6>
     </footer>
   );
 };
