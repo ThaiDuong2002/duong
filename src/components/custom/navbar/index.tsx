@@ -1,5 +1,5 @@
 import ModeToggle from "@/components/themes";
-import I18nConstants from "@/constants/i18n";
+import { I18nConstants } from "@/constants/i18n";
 import { useTranslations } from "next-intl";
 import LocaleSwitcher from "../locale-switcher";
 import MaxWidthWrapper from "../max-width-wrapper";

@@ -39,4 +39,9 @@ const I18nConstants = {
   },
 };
 
-export default I18nConstants;
+const localeConstants = {
+  en: "en",
+  vi: "vi",
+};
+
+export { I18nConstants, localeConstants };
