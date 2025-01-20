@@ -11,7 +11,7 @@ const Navbar = () => {
       <MaxWidthWrapper>
         <div className="flex h-14 gap-5 items-center justify-between border-b border-zinc-200">
           <h2>{t("title")}</h2>
-          <div className="flex gap-2">
+          <div className="flex gap-1">
             <LocaleSwitcher />
             <ModeToggle />
           </div>
