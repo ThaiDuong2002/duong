@@ -1,18 +1,12 @@
 import Navbar from "@/components/custom/navbar";
 import { CustomThemeProvider } from "@/components/themes";
 import { Locale, routing } from "@/i18n/routing";
+import { MetadataProps } from "@/interface";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { Geist, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 import "./globals.css";
-
-interface MetadataProps {
-  Metadata: {
-    title: string;
-    description: string;
-  };
-}
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,8 +26,8 @@ export const generateMetadata = async ({
   const { locale } = await params;
 
   const messages = (await getMessages({ locale })) as unknown as MetadataProps;
-  const title = messages.Metadata.title;
-  const description = messages.Metadata.description;
+  const title = messages.metadata.title;
+  const description = messages.metadata.description;
 
   return {
     title,

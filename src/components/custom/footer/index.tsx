@@ -1,14 +1,20 @@
+import I18nConstants from "@/constants/i18n";
 import { useTranslations } from "next-intl";
+import FooterItems from "./footer-items";
 
 const Footer = () => {
-  const t = useTranslations("Footer");
+  const footer = I18nConstants.footer;
+  const list = I18nConstants.list;
+  const t = useTranslations(footer.id);
 
   return (
     <footer className="bg-slate-200 dark:bg-slate-500 text-slate-600 dark:text-white h-80 flex flex-col items-center justify-center">
-      <h3>{t("title")}</h3>
+      <b className="text-3xl">{t(footer.title)}</b>
       <div className="mb-6" />
-      <h6>{t("design")}</h6>
-      <h6>{t("copyright")}</h6>
+      <FooterItems list={list} />
+      <div className="mb-6" />
+      <h6>{t(footer.design)}</h6>
+      <h6>{t(footer.copyright)}</h6>
     </footer>
   );
 };

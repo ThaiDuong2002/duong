@@ -1,14 +1,22 @@
 {
-  "Metadata": {
+  "metadata": {
     "title": "Dương Phạm",
     "description": "Trang web cá nhân của Dương Phạm"
   },
-  "Navbar": {
+  "navbar": {
     "title": "Dương Phạm"
   },
-  "Footer": {
+  "footer": {
     "title": "Dương Phạm",
     "design": "Thiết kế và phát triển bởi Dương Phạm",
     "copyright": "Bản quyền © 2025 Dương Phạm. Tất cả các quyền được bảo lưu"
+  },
+  "list": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "education": "Học vấn",
+    "experience": "Kinh nghiệm",
+    "projects": "Dự án",
+    "contact": "Liên hệ"
   }
 }

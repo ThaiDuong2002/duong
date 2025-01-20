@@ -1,14 +1,22 @@
 {
-  "Metadata": {
+  "metadata": {
     "title": "Duong Pham",
     "description": "Duong Pham's personal website"
   },
-  "Navbar": {
+  "navbar": {
     "title": "Duong Pham"
   },
-  "Footer": {
+  "footer": {
     "title": "Duong Pham",
     "design": "Designed and developed by Duong Pham",
     "copyright": "Copyright © 2025 Duong Pham. All rights reserved"
+  },
+  "list": {
+    "home": "Home",
+    "about": "About",
+    "education": "Education",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
   }
 }
