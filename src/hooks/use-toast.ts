@@ -3,7 +3,7 @@
 // Inspired by react-hot-toast library
 import * as React from "react";
 
-import { TOAST_LIMIT, TOAST_REMOVE_DELAY } from "@/constants/hooks";
+import { TOAST_LIMIT, TOAST_REMOVE_DELAY } from "@/constants";
 import { State } from "@/interface";
 import { Action, Toast, ToasterToast } from "@/types/hooks";
 

@@ -1,4 +1,4 @@
-import { localeConstants } from "@/constants/i18n";
+import { localeConstants } from "@/constants";
 import { createNavigation } from "next-intl/navigation";
 import { defineRouting } from "next-intl/routing";
 

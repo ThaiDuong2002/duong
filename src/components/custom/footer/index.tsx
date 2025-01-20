@@ -1,4 +1,4 @@
-import { I18nConstants } from "@/constants/i18n";
+import { I18nConstants } from "@/constants";
 import { useTranslations } from "next-intl";
 import FooterItems from "./footer-items";
 
