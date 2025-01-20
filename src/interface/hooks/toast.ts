@@ -1,4 +1,4 @@
-import { ToasterToast } from "@/types/hooks";
+import { ToasterToast } from "@/types";
 
 interface State {
   toasts: ToasterToast[];
