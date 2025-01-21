@@ -1,12 +1,24 @@
 import { Button } from "@/components/ui/button";
 import { NavbarItemsProps } from "@/interface";
+import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 
-const NavbarItems = ({ list }: { list: NavbarItemsProps }) => {
+const NavbarItems = ({
+  list,
+  className,
+}: {
+  list: NavbarItemsProps;
+  className?: string;
+}) => {
   const t = useTranslations(list.id);
 
   return (
-    <div className="flex items-center justify-center gap-3 max-lg:gap-1 w-auto">
+    <div
+      className={cn(
+        "flex items-center justify-center gap-3 max-lg:gap-1 w-auto",
+        className
+      )}
+    >
       {list.items.map((item) => (
         <Button
           key={item.id}

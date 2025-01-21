@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import LocaleSwitcher from "../locale-switcher";
 import MaxWidthWrapper from "../max-width-wrapper";
 import NavbarItems from "./navbar-items";
+import NavbarMenu from "./navbar-menu";
 
 const Navbar = () => {
   const navbar = I18nConstants.navbar;
@@ -17,12 +18,13 @@ const Navbar = () => {
           <b className="text-2xl max-lg:hidden max-md:flex">
             {t(navbar.title)}
           </b>
-          <div className="flex gap-10 max-lg:gap-1 max-md:hidden">
-            <NavbarItems list={list} />
+          <div className="flex gap-10 max-lg:gap-1">
+            <NavbarItems list={list} className="max-md:hidden" />
             <div className="flex">
               <LocaleSwitcher />
               <ModeToggle />
             </div>
+            <NavbarMenu list={list} className="md:hidden" />
           </div>
         </div>
       </MaxWidthWrapper>
