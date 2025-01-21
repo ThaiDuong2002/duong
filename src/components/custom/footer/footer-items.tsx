@@ -6,11 +6,11 @@ const FooterItems = ({ list }: { list: FooterItemsProps }) => {
   const t = useTranslations(list.id);
 
   return (
-    <div className="flex h-14 gap-1 items-center justify-between w-auto">
+    <div className="flex flex-col md:flex-row h-auto gap-1 items-center justify-between w-auto">
       {list.items.map((item) => (
         <Button
           variant="ghost"
-          size="lg"
+          size="default"
           key={item.id}
           className="text-slate-600 dark:text-white text-lg"
         >
