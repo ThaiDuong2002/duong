@@ -5,7 +5,7 @@ import Experience from "@/components/custom/experience";
 import Footer from "@/components/custom/footer";
 import Projects from "@/components/custom/projects";
 
-const Home = () => {
+const Root = () => {
   return (
     <div className="flex flex-col w-full">
       <About />
@@ -18,4 +18,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Root;
