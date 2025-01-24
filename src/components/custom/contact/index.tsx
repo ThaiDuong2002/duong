@@ -23,7 +23,7 @@ const Contact = () => {
 
   return (
     <div className="py-10">
-      <div className="mx-auto max-w-screen-lg border rounded-lg">
+      <div className="mx-auto max-w-screen-lg border rounded-lg border-gray-200 dark:border-gray-600">
         <div className="flex items-center justify-center h-20 bg-gray-200 dark:bg-gray-700 rounded-t-lg">
           <span className="text-4xl text-slate-600 dark:text-white">
             {t("title")}
