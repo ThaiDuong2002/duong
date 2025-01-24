@@ -18,5 +18,9 @@
     "experience": "Experience",
     "projects": "Projects",
     "contact": "Contact"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Contact me via phone number or email"
   }
 }

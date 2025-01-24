@@ -27,6 +27,7 @@ const NavbarItems = ({
           className="text-slate-600 dark:text-white text-lg"
         >
           {t(item.id)}
+          <span className="sr-only">Navbar Items</span>
         </Button>
       ))}
     </div>

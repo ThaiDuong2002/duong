@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { NavbarItemsProps } from "@/interface";
 import { cn } from "@/lib/utils";
-import { Menu } from "lucide-react";
+import { MenuIcon } from "lucide-react";
 
 const NavbarMenu = ({
   list,
@@ -21,8 +21,13 @@ const NavbarMenu = ({
     <div className={cn("flex items-center justify-center", className)}>
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
-          <Button variant="ghost" size="sm">
-            <Menu size={100} />
+          <Button
+            variant="ghost"
+            size="icon"
+            className="[&_svg]:h-7 [&_svg]:w-7"
+          >
+            <MenuIcon />
+            <span className="sr-only">Navbar Menu</span>
           </Button>
         </DropdownMenuTrigger>
         <DropdownMenuContent className="w-40" align="start">

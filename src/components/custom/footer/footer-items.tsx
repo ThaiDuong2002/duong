@@ -15,6 +15,7 @@ const FooterItems = ({ list }: { list: FooterItemsProps }) => {
           className="text-slate-600 dark:text-white text-lg"
         >
           {t(item.id)}
+          <span className="sr-only">Footer Items</span>
         </Button>
       ))}
     </div>

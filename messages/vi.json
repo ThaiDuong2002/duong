@@ -18,5 +18,9 @@
     "experience": "Kinh nghiệm",
     "projects": "Dự án",
     "contact": "Liên hệ"
+  },
+  "contact": {
+    "title": "Liên hệ",
+    "description": "Hãy liên hệ với tôi qua số điện thoại hoặc email"
   }
 }
