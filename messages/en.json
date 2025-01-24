@@ -21,6 +21,8 @@
   },
   "contact": {
     "title": "Contact",
-    "description": "Contact me via phone number or email"
+    "description": "Contact me via phone number or email",
+    "email": "Email Address",
+    "phone": "Phone Number"
   }
 }

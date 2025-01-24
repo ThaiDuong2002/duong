@@ -21,6 +21,8 @@
   },
   "contact": {
     "title": "Liên hệ",
-    "description": "Hãy liên hệ với tôi qua số điện thoại hoặc email"
+    "description": "Hãy liên hệ với tôi qua số điện thoại hoặc email",
+    "email": "Địa chỉ Email",
+    "phone": "Số điện thoại"
   }
 }
