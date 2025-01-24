@@ -1,10 +1,10 @@
-import { JSX } from "react";
+import { ReactNode } from "react";
 
 interface NavbarItemsProps {
   id: string;
   items: Array<{
     id: string;
-    icon: JSX.Element;
+    icon: ReactNode;
   }>;
 }
 
