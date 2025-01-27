@@ -8,7 +8,7 @@ import Projects from "@/components/custom/projects";
 
 const Root = () => {
   return (
-    <div className="flex flex-col w-full bg-white/75 dark:bg-black">
+    <div className="flex flex-col bg-white/75 dark:bg-black w-full">
       <Home />
       <About />
       <Education />

@@ -8,7 +8,7 @@ const Footer = () => {
   const t = useTranslations(footer.id);
 
   return (
-    <footer className="w-full border-y border-gray-200 dark:border-gray-600 bg-white/75 dark:bg-black text-slate-600 dark:text-white h-[450px] md:h-64 flex flex-col items-center justify-center">
+    <footer className="flex flex-col justify-center items-center border-gray-200 border-y dark:border-gray-600 bg-white/75 dark:bg-black w-full h-[450px] md:h-64 text-slate-600 dark:text-white">
       <b className="text-3xl">{t(footer.title)}</b>
       <div className="mb-6" />
       <FooterItems list={list} />

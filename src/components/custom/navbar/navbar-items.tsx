@@ -15,7 +15,7 @@ const NavbarItems = ({
   return (
     <div
       className={cn(
-        "flex items-center justify-center gap-3 max-lg:gap-1 w-auto",
+        "flex justify-center items-center gap-3 max-lg:gap-1 w-auto",
         className
       )}
     >
@@ -24,7 +24,7 @@ const NavbarItems = ({
           key={item.id}
           variant="ghost"
           size="default"
-          className="text-slate-600 dark:text-white text-lg"
+          className="text-lg text-slate-600 dark:text-white"
         >
           {t(item.id)}
           <span className="sr-only">Navbar Items</span>

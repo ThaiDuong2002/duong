@@ -31,7 +31,7 @@ const SwitcherSelect = ({
   return (
     <Select defaultValue={defaultValue} onValueChange={onSelected}>
       <SelectTrigger
-        className="w-auto h-8 border-none bg-transparent focus:ring-0 focus:ring-offset-0 gap-1"
+        className="gap-1 bg-transparent border-none focus:ring-0 focus:ring-offset-0 w-auto h-8"
         aria-label={label}
       >
         <SelectValue />

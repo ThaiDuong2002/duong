@@ -67,7 +67,7 @@ const RootLayout = async ({
         >
           <NextIntlClientProvider messages={messages}>
             <Navbar />
-            <div className="flex h-auto w-full items-center justify-center">
+            <div className="flex justify-center items-center w-full h-auto">
               {children}
             </div>
           </NextIntlClientProvider>

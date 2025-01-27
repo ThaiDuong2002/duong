@@ -18,13 +18,13 @@ const NavbarMenu = ({
   className?: string;
 }) => {
   return (
-    <div className={cn("flex items-center justify-center", className)}>
+    <div className={cn("flex justify-center items-center", className)}>
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
           <Button
             variant="ghost"
             size="icon"
-            className="[&_svg]:h-7 [&_svg]:w-7"
+            className="[&_svg]:w-7 [&_svg]:h-7"
           >
             <MenuIcon />
             <span className="sr-only">Navbar Menu</span>

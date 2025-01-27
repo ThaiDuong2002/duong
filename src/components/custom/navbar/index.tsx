@@ -12,10 +12,10 @@ const Navbar = () => {
   const t = useTranslations(navbar.id);
 
   return (
-    <nav className="sticky h-14 inset-x-0 top-0 z-30 w-full border-b border-gray-200 dark:border-gray-600 bg-white/75 dark:bg-black backdrop-blur-lg transition-all">
+    <nav className="top-0 z-30 sticky inset-x-0 border-gray-200 dark:border-gray-600 bg-white/75 dark:bg-black backdrop-blur-lg border-b w-full h-14 transition-all">
       <MaxWidthWrapper className="w-full">
-        <div className="flex h-14 gap-5 items-center justify-between max-lg:justify-center max-md:justify-between max-md:px-3">
-          <b className="text-2xl max-lg:hidden max-md:flex">
+        <div className="flex justify-between max-md:justify-between max-lg:justify-center items-center gap-5 max-md:px-3 h-14">
+          <b className="max-md:flex max-lg:hidden text-2xl">
             {t(navbar.title)}
           </b>
           <div className="flex gap-10 max-lg:gap-1">
