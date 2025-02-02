@@ -30,9 +30,11 @@ class ContributorMapper {
   ): ContributorInfoDto[] {
     contributorsInfoDto = contributors.map((contributor) => {
       const contributorInfoDto = new ContributorInfoDto();
-      contributorInfoDto.setLogin(contributor.login);
-      contributorInfoDto.setAvatarUrl(contributor.avatar_url);
-      contributorInfoDto.setHtmlUrl(contributor.html_url);
+      
+      contributorInfoDto.setLogin(contributor.getLogin());
+      contributorInfoDto.setAvatarUrl(contributor.getAvatarUrl());
+      contributorInfoDto.setHtmlUrl(contributor.getHtmlUrl());
+
       return contributorInfoDto;
     });
 

@@ -9,6 +9,7 @@ import {
   NotFoundException,
   UnauthorizedException,
 } from "@/exceptions";
+import dataInjection from "@/lib/data-injection";
 import ContributorMapper from "@/mappers/contributor-mapper";
 
 const ContributorService = {
@@ -32,7 +33,11 @@ const ContributorService = {
       });
 
       if (response.status === 200) {
-        const contributors: Contributor[] = await response.json();
+        const data = (await response.json()) as unknown[];
+
+        const contributors = data.map((item) =>
+          dataInjection(Contributor, item)
+        );
 
         const contributorsInfo: ContributorInfoDto[] =
           ContributorMapper.mapToContributorsInfoDto(contributors, []);

@@ -1,69 +1,25 @@
 import BaseEntity from "./base-entity";
 
 class Contributor extends BaseEntity {
-  login: string;
-  node_id: string;
-  avatar_url: string;
-  gravatar_id: string;
-  url: string;
-  html_url: string;
-  followers_url: string;
-  following_url: string;
-  gists_url: string;
-  starred_url: string;
-  subscriptions_url: string;
-  organizations_url: string;
-  repos_url: string;
-  events_url: string;
-  received_events_url: string;
-  type: string;
-  user_view_type: string;
-  site_admin: boolean;
-  contributions: number;
-
-  constructor(
-    id: number,
-    login: string,
-    node_id: string,
-    avatar_url: string,
-    gravatar_id: string,
-    url: string,
-    html_url: string,
-    followers_url: string,
-    following_url: string,
-    gists_url: string,
-    starred_url: string,
-    subscriptions_url: string,
-    organizations_url: string,
-    repos_url: string,
-    events_url: string,
-    received_events_url: string,
-    type: string,
-    user_view_type: string,
-    site_admin: boolean,
-    contributions: number
-  ) {
-    super(id);
-    this.login = login;
-    this.node_id = node_id;
-    this.avatar_url = avatar_url;
-    this.gravatar_id = gravatar_id;
-    this.url = url;
-    this.html_url = html_url;
-    this.followers_url = followers_url;
-    this.following_url = following_url;
-    this.gists_url = gists_url;
-    this.starred_url = starred_url;
-    this.subscriptions_url = subscriptions_url;
-    this.organizations_url = organizations_url;
-    this.repos_url = repos_url;
-    this.events_url = events_url;
-    this.received_events_url = received_events_url;
-    this.type = type;
-    this.user_view_type = user_view_type;
-    this.site_admin = site_admin;
-    this.contributions = contributions;
-  }
+  private login!: string;
+  private node_id!: string;
+  private avatar_url!: string;
+  private gravatar_id!: string;
+  private url!: string;
+  private html_url!: string;
+  private followers_url!: string;
+  private following_url!: string;
+  private gists_url!: string;
+  private starred_url!: string;
+  private subscriptions_url!: string;
+  private organizations_url!: string;
+  private repos_url!: string;
+  private events_url!: string;
+  private received_events_url!: string;
+  private type!: string;
+  private user_view_type!: string;
+  private site_admin!: boolean;
+  private contributions!: number;
 
   /**
    * Retrieves the login name of the contributor.
