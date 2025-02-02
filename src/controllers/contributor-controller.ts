@@ -3,11 +3,13 @@ import HttpStatus from "@/constants/http/status";
 import ContributorInfoDto from "@/dto/contributor-info-dto";
 import ErrorResponseDto from "@/dto/error-response-dto";
 import ResponseDto from "@/dto/response-dto";
-import BadRequestException from "@/exceptions/bad-request";
-import ForbiddenException from "@/exceptions/forbidden";
-import InternalServerException from "@/exceptions/internal-server";
-import NotFoundException from "@/exceptions/not-found";
-import UnauthorizedException from "@/exceptions/unauthorized";
+import {
+  BadRequestException,
+  ForbiddenException,
+  InternalServerException,
+  NotFoundException,
+  UnauthorizedException,
+} from "@/exceptions";
 import ContributorService from "@/services/contributor-service";
 
 const ContributorController = {
