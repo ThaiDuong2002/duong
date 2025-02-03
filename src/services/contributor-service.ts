@@ -1,7 +1,9 @@
-import apiContributors from "@/constants/contributors";
-import ErrorConstants from "@/constants/errors";
-import HttpMethod from "@/constants/http/method";
-import HttpStatus from "@/constants/http/status";
+import {
+  apiContributors,
+  ErrorConstants,
+  HttpMethod,
+  HttpStatus,
+} from "@/constants";
 import ContributorInfoDto from "@/dto/contributor-info-dto";
 import Contributor from "@/entity/contributor";
 import {
