@@ -1,5 +1,7 @@
 import apiContributors from "@/constants/contributors";
 import ErrorConstants from "@/constants/errors";
+import HttpMethod from "@/constants/http/method";
+import HttpStatus from "@/constants/http/status";
 import ContributorInfoDto from "@/dto/contributor-info-dto";
 import Contributor from "@/entity/contributor";
 import {
@@ -26,13 +28,13 @@ const ContributorService = {
   ): Promise<ContributorInfoDto[]> => {
     try {
       const response = await fetch(apiContributors(owner, repo), {
-        method: "GET",
+        method: HttpMethod.GET,
         headers: {
           "Content-Type": "application/json",
         },
       });
 
-      if (response.status === 200) {
+      if (response.status === HttpStatus.OK) {
         const data = (await response.json()) as unknown[];
 
         const contributors = data.map((item) =>
@@ -43,16 +45,16 @@ const ContributorService = {
           ContributorMapper.mapToContributorsInfoDto(contributors, []);
 
         return contributorsInfo;
-      } else if (response.status === 400) {
+      } else if (response.status === HttpStatus.BAD_REQUEST) {
         const error = await response.json();
         throw new BadRequestException(error.message, error.documentation_url);
-      } else if (response.status === 401) {
+      } else if (response.status === HttpStatus.UNAUTHORIZED) {
         const error = await response.json();
         throw new UnauthorizedException(error.message, error.documentation_url);
-      } else if (response.status === 403) {
+      } else if (response.status === HttpStatus.FORBIDDEN) {
         const error = await response.json();
         throw new ForbiddenException(error.message, error.documentation_url);
-      } else if (response.status === 404) {
+      } else if (response.status === HttpStatus.NOT_FOUND) {
         const error = await response.json();
         throw new NotFoundException(error.message, error.documentation_url);
       } else {

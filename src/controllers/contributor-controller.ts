@@ -1,4 +1,5 @@
 import ErrorConstants from "@/constants/errors";
+import HttpMessage from "@/constants/http/message";
 import HttpStatus from "@/constants/http/status";
 import ContributorInfoDto from "@/dto/contributor-info-dto";
 import ErrorResponseDto from "@/dto/error-response-dto";
@@ -32,7 +33,7 @@ const ContributorController = {
 
       return new ResponseDto(
         HttpStatus.OK,
-        "Success to get contributors",
+        HttpMessage.SUCCESS_CONTRIBUTORS,
         contributors
       );
     } catch (error) {
