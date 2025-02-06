@@ -75,3 +75,4 @@ const Contact = () => {
 };
 
 export default Contact;
+export { ContactCard, SocialButton };
