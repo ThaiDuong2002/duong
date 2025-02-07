@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import { scrollToSection } from "@/functions";
 import { NavbarItemsProps } from "@/interface";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
@@ -16,24 +17,11 @@ const NavbarItems = ({
   const [activeSection, setActiveSection] = useState<string | null>(null);
   const t = useTranslations(list.id);
 
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-
-    if (!element) return;
-
-    const scrollPosition = element.offsetTop - 56;
-
-    window.scrollTo({
-      top: scrollPosition,
-      behavior: "smooth",
-    });
-  };
-
   useEffect(() => {
     setActiveSection(list.items[0].id);
 
     const handleScroll = () => {
-      const scrollPosition = window.scrollY;
+      const scrollPosition = window.scrollY + 56;
 
       list.items.forEach((item) => {
         const element = document.getElementById(item.id);

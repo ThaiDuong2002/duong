@@ -1,3 +1,4 @@
-import { copyToClipboardWithMeta } from "./components/copy-button";
+import { copyToClipboardWithMeta } from "./copy-to-clipboard";
+import { scrollToSection } from "./scroll-to-section";
 
-export { copyToClipboardWithMeta };
+export { copyToClipboardWithMeta, scrollToSection };
