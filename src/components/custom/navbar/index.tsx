@@ -12,7 +12,7 @@ const Navbar = () => {
   const t = useTranslations(navbar.id);
 
   return (
-    <nav className="top-0 z-30 sticky inset-x-0 border-gray-200 dark:border-gray-600 bg-white/75 dark:bg-black backdrop-blur-lg border-b w-full h-14 transition-all">
+    <nav className="top-0 z-30 sticky inset-x-0 border-gray-200 dark:border-gray-600 bg-white/75 dark:bg-black backdrop-blur-lg w-full h-14 transition-all">
       <MaxWidthWrapper className="w-full">
         <div className="flex justify-between max-md:justify-between max-lg:justify-center items-center gap-5 h-14">
           <b className="max-md:flex max-lg:hidden text-2xl max-md:text-xl">

@@ -1,7 +1,8 @@
 const Experience = () => {
   return (
-    <div>
+    <div className="min-h-screen">
       <h1>Experience</h1>
+      <p>Details about my professional experience...</p>
     </div>
   );
 };

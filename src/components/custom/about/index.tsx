@@ -1,7 +1,8 @@
 const About = () => {
   return (
-    <div>
+    <div className="min-h-screen">
       <h1>About</h1>
+      <p>This section provides information about our mission and values.</p>
     </div>
   );
 };
