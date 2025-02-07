@@ -12,7 +12,7 @@ const FooterItems = ({ list }: { list: FooterItemsProps }) => {
           variant="ghost"
           size="default"
           key={item.id}
-          className="text-lg text-slate-600 dark:text-white"
+          className="text-lg text-slate-600 max-md:text-sm dark:text-white"
         >
           {t(item.id)}
           <span className="sr-only">Footer Items</span>

@@ -24,7 +24,7 @@ const NavbarMenu = ({
           <Button
             variant="ghost"
             size="icon"
-            className="[&_svg]:w-7 [&_svg]:h-7"
+            className="[&_svg]:w-7 max-md:[&_svg]:w-5 [&_svg]:h-7 max-md:[&_svg]:h-5 max-md:size-8"
           >
             <MenuIcon />
             <span className="sr-only">Navbar Menu</span>

@@ -13,8 +13,8 @@ const Footer = () => {
       <div className="mb-6" />
       <FooterItems list={list} />
       <div className="mb-6" />
-      <h6>{t(footer.design)}</h6>
-      <h6>{t(footer.copyright)}</h6>
+      <h6 className="max-md:text-xs">{t(footer.design)}</h6>
+      <h6 className="max-md:text-xs">{t(footer.copyright)}</h6>
     </footer>
   );
 };
