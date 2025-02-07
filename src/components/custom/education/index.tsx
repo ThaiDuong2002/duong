@@ -1,6 +1,6 @@
-const Education = () => {
+const Education = ({ id }: { id?: string }) => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen" id={id}>
       <h1>Education</h1>
     </div>
   );

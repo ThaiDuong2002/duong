@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { NavbarItemsProps } from "@/interface";
 import { cn } from "@/lib/utils";
@@ -12,6 +14,16 @@ const NavbarItems = ({
 }) => {
   const t = useTranslations(list.id);
 
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+
+    element?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
+  };
+
   return (
     <div
       className={cn(
@@ -25,6 +37,7 @@ const NavbarItems = ({
           variant="ghost"
           size="default"
           className="text-lg text-slate-600 dark:text-white"
+          onClick={() => scrollToSection(item.id)}
         >
           {t(item.id)}
           <span className="sr-only">Navbar Items</span>

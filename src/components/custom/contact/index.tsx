@@ -12,11 +12,11 @@ import { useTranslations } from "next-intl";
 import ContactCard from "./contact-card";
 import SocialButton from "./social-button";
 
-const Contact = () => {
+const Contact = ({ id }: { id?: string }) => {
   const t = useTranslations("contact");
 
   return (
-    <div className="max-md:px-5 py-10">
+    <div className="max-md:px-5 py-10" id={id}>
       <div className="border-gray-200 dark:border-gray-600 mx-auto border rounded-lg max-w-screen-lg">
         <div className="flex justify-center items-center bg-gray-200 dark:bg-gray-700 rounded-t-lg h-20">
           <span className="text-4xl text-slate-600 dark:text-white">
