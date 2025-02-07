@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { NavbarItemsProps } from "@/interface";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
+import { useEffect, useState } from "react";
 
 const NavbarItems = ({
   list,
@@ -12,17 +13,48 @@ const NavbarItems = ({
   list: NavbarItemsProps;
   className?: string;
 }) => {
+  const [activeSection, setActiveSection] = useState<string | null>(null);
   const t = useTranslations(list.id);
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
 
-    element?.scrollIntoView({
+    if (!element) return;
+
+    const scrollPosition = element.offsetTop - 56;
+
+    window.scrollTo({
+      top: scrollPosition,
       behavior: "smooth",
-      block: "start",
-      inline: "nearest",
     });
   };
+
+  useEffect(() => {
+    setActiveSection(list.items[0].id);
+
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+
+      list.items.forEach((item) => {
+        const element = document.getElementById(item.id);
+
+        if (!element) return;
+
+        if (
+          element.offsetTop <= scrollPosition &&
+          element.offsetTop + element.offsetHeight > scrollPosition
+        ) {
+          setActiveSection(item.id);
+        }
+      });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [list.items]);
 
   return (
     <div
@@ -36,7 +68,12 @@ const NavbarItems = ({
           key={item.id}
           variant="ghost"
           size="default"
-          className="text-lg text-slate-600 dark:text-white"
+          className={
+            `text-lg text-slate-600 dark:text-white` +
+            (activeSection === item.id
+              ? " bg-gray-200 dark:bg-gray-800 hover:dark:bg-gray-700"
+              : "")
+          }
           onClick={() => scrollToSection(item.id)}
         >
           {t(item.id)}
