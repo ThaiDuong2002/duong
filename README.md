@@ -1,16 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) and [`bun.js`](https://bun.sh).
 
 ## Getting Started
 
-First, run the development server:
+First, run installation command by using one of these commands:
+
+```bash
+npm install
+```
+
+```bash
+yarn add
+```
+
+```bash
+pnpm install
+```
+
+```bash
+bun install
+```
+
+Second, run the development server:
 
 ```bash
 npm run dev
-# or
+```
+
+```bash
 yarn dev
-# or
+```
+
+```bash
 pnpm dev
-# or
+```
+
+```bash
 bun dev
 ```
 
