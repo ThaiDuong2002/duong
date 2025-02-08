@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -6,6 +8,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { scrollToSection } from "@/functions";
 import { NavbarItemsProps } from "@/interface";
 import { cn } from "@/lib/utils";
 import { MenuIcon } from "lucide-react";
@@ -33,7 +36,11 @@ const NavbarMenu = ({
         <DropdownMenuContent className="w-40" align="start">
           <DropdownMenuGroup>
             {list.items.map((item) => (
-              <DropdownMenuItem key={item.id} className="uppercase">
+              <DropdownMenuItem
+                key={item.id}
+                className="uppercase"
+                onClick={() => scrollToSection(item.id)}
+              >
                 {item.icon}
                 {item.id}
               </DropdownMenuItem>
