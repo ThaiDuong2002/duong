@@ -1,10 +1,4 @@
-import {
-  BookOpenText,
-  FlaskConical,
-  Home,
-  PhoneCall,
-  User,
-} from "lucide-react";
+import { FlaskConical, Home, PhoneCall, User } from "lucide-react";
 
 const I18nConstants = {
   metadata: {
@@ -47,10 +41,6 @@ const I18nConstants = {
       {
         id: "about",
         icon: <User size={24} />,
-      },
-      {
-        id: "education",
-        icon: <BookOpenText size={24} />,
       },
       // {
       //   id: "experience",

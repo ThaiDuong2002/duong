@@ -37,5 +37,14 @@
     "title": "About Me",
     "paragraph1": "My name is Pham Giang Thai Duong, and I am in my final year and waiting for graduation at the University of Science, VNU-HCM. Throughout my academic journey, I have honed my skills in TypeScript, React, Node.js, and Express.js, equipping me with a solid foundation for modern web development. I am particularly interested in Java, Spring Boot, and Microservices, and I am dedicated to building a successful career as a backend developer.",
     "paragraph2": "My ambition is to make meaningful contributions to large-scale, complex projects that tackle critical challenges in security, data management, and beyond. I am eager to leverage my knowledge and experience to create innovative solutions that drive progress and enhance user experiences."
+  },
+  "education": {
+    "title": "Education",
+    "degree": "Bachelor of Software Engineering",
+    "university": "University of Science, VNU-HCM",
+    "certificates": "Certificates",
+    "certificate1": "React - The Complete Guide (incl Hooks, React Router, Redux)",
+    "certificate2": "Node.js, Express, MongoDB & More: The Complete Bootcamp 2021",
+    "certificate3": "The Complete Java Masterclass: Learn Java From Scratch"
   }
 }
