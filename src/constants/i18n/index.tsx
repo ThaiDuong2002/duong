@@ -1,5 +1,4 @@
 import {
-  Award,
   BookOpenText,
   FlaskConical,
   Home,
@@ -53,10 +52,10 @@ const I18nConstants = {
         id: "education",
         icon: <BookOpenText size={24} />,
       },
-      {
-        id: "experience",
-        icon: <Award size={24} />,
-      },
+      // {
+      //   id: "experience",
+      //   icon: <Award size={24} />,
+      // },
       {
         id: "projects",
         icon: <FlaskConical size={24} />,

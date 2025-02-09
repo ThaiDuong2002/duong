@@ -8,7 +8,7 @@ const About = ({ id }: { id?: string }) => {
   const t = useTranslations(about.id);
   return (
     <div className="flex justify-center items-center min-h-screen" id={id}>
-      <MaxWidthWrapper className="flex max-md:flex-col justify-center items-center gap-20 max-md:gap-10 shadow-xl m-10 p-20 border rounded-xl max-w-screen-lg h-auto">
+      <MaxWidthWrapper className="flex max-md:flex-col justify-center items-center gap-20 max-md:gap-10 shadow-sm dark:shadow-gray-500 m-10 p-20 border rounded-xl max-w-screen-lg h-auto">
         <div className="bg-gray-900/5 -m-2 lg:-m-4 p-2 lg:p-4 rounded-xl lg:rounded-2xl ring-1 ring-gray-900/10 ring-inset">
           <Image
             alt="Profile Image"
