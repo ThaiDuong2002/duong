@@ -23,6 +23,15 @@ const I18nConstants = {
     design: "design",
     copyright: "copyright",
   },
+  home: {
+    id: "home",
+    greeting: "greeting",
+    pronouns: "pronouns",
+    job: "job",
+    description: "description",
+    projects: "projects",
+    contact: "contact",
+  },
   list: {
     id: "list",
     items: [

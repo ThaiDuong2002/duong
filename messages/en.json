@@ -24,5 +24,13 @@
     "description": "Contact me via phone number or email",
     "email": "Email Address",
     "phone": "Phone Number"
+  },
+  "home": {
+    "greeting": "Hi there!",
+    "pronouns": "I'm",
+    "job": "a Software Engineer",
+    "description": "I am a software engineer with a passion for building web applications and solving problems. I have experience working with JavaScript, TypeScript, React, Node.js, and more.",
+    "projects": "My Projects",
+    "contact": "Contact Me"
   }
 }

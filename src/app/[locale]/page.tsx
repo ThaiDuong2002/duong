@@ -10,7 +10,7 @@ import { I18nConstants } from "@/constants";
 const Root = () => {
   const listId = I18nConstants.list;
   return (
-    <div className="flex flex-col bg-white/75 dark:bg-black w-full">
+    <div className="flex flex-col bg-white/20 dark:bg-black/20 w-full">
       <Home id={listId.items[0].id} />
       <About id={listId.items[1].id} />
       <Education id={listId.items[2].id} />

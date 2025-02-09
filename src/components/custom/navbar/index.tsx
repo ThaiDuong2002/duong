@@ -2,7 +2,6 @@ import ModeToggle from "@/components/themes";
 import { I18nConstants } from "@/constants";
 import { useTranslations } from "next-intl";
 import LocaleSwitcher from "../locale-switcher";
-import MaxWidthWrapper from "../max-width-wrapper";
 import NavbarItems from "./navbar-items";
 import NavbarMenu from "./navbar-menu";
 
@@ -12,10 +11,10 @@ const Navbar = () => {
   const t = useTranslations(navbar.id);
 
   return (
-    <nav className="top-0 z-30 sticky inset-x-0 border-gray-200 dark:border-gray-600 bg-white/75 dark:bg-black backdrop-blur-lg w-full h-14 transition-all">
-      <MaxWidthWrapper className="w-full">
+    <nav className="top-0 z-50 sticky inset-x-0 bg-white dark:bg-black backdrop-blur-lg border-gray-200 dark:border-gray-600 w-full h-14 transition-all">
+      <div className="px-2.5 md:px-10 w-full">
         <div className="flex justify-between max-md:justify-between max-lg:justify-center items-center gap-5 h-14">
-          <b className="max-md:flex max-lg:hidden text-2xl max-md:text-xl">
+          <b className="max-lg:hidden max-md:flex max-md:text-xl text-2xl">
             {t(navbar.title)}
           </b>
           <div className="flex gap-10 max-lg:gap-1">
@@ -27,7 +26,7 @@ const Navbar = () => {
             <NavbarMenu list={list} className="md:hidden" />
           </div>
         </div>
-      </MaxWidthWrapper>
+      </div>
     </nav>
   );
 };
