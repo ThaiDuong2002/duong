@@ -32,5 +32,10 @@
     "description": "Tôi là một kỹ sư phần mềm với niềm đam mê xây dựng ứng dụng web và giải quyết vấn đề. Tôi có kinh nghiệm làm việc với JavaScript, TypeScript, React, Node.js, và nhiều công nghệ khác.",
     "projects": "Dự án",
     "contact": "Liên hệ"
+  },
+  "about": {
+    "title": "Về tôi",
+    "paragraph1": "Tên tôi là Phạm Giang Thái Dương, và tôi đang ở năm cuối và chờ tốt nghiệp tại Đại học Khoa học Tự nhiên, ĐHQG-HCM. Trong suốt hành trình học tập của mình, tôi đã rèn luyện kỹ năng với TypeScript, React, Node.js, và Express.js, trang bị cho mình nền tảng vững chắc cho phát triển web hiện đại. Tôi đặc biệt quan tâm đến Java, Spring Boot, và Microservices, và tôi mong muốn xây dựng một sự nghiệp thành công với vai trò là một lập trình viên backend.",
+    "paragraph2": "Hoài bão của tôi là đóng góp ý nghĩa vào các dự án lớn, phức tạp giải quyết các thách thức quan trọng về bảo mật, quản lý dữ liệu, và hơn thế nữa. Tôi rất háo hức sử dụng kiến thức và kinh nghiệm của mình để tạo ra những giải pháp sáng tạo nhằm thúc đẩy tiến bộ và nâng cao trải nghiệm người dùng."
   }
 }

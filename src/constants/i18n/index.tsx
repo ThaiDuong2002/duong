@@ -32,6 +32,12 @@ const I18nConstants = {
     projects: "projects",
     contact: "contact",
   },
+  about: {
+    id: "about",
+    title: "title",
+    paragraph1: "paragraph1",
+    paragraph2: "paragraph2",
+  },
   list: {
     id: "list",
     items: [

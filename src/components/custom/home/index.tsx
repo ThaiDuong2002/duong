@@ -8,8 +8,8 @@ import Image from "next/image";
 import MaxWidthWrapper from "../max-width-wrapper";
 
 const Home = ({ id }: { id?: string }) => {
-  const t = useTranslations("home");
   const home = I18nConstants.home;
+  const t = useTranslations(home.id);
   return (
     <div className="relative min-h-screen" id={id}>
       <div className="-z-50 absolute inset-0 min-h-screen">

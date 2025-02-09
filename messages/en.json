@@ -32,5 +32,10 @@
     "description": "I am a software engineer with a passion for building web applications and solving problems. I have experience working with JavaScript, TypeScript, React, Node.js, and more.",
     "projects": "My Projects",
     "contact": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "paragraph1": "My name is Pham Giang Thai Duong, and I am in my final year and waiting for graduation at the University of Science, VNU-HCM. Throughout my academic journey, I have honed my skills in TypeScript, React, Node.js, and Express.js, equipping me with a solid foundation for modern web development. I am particularly interested in Java, Spring Boot, and Microservices, and I am dedicated to building a successful career as a backend developer.",
+    "paragraph2": "My ambition is to make meaningful contributions to large-scale, complex projects that tackle critical challenges in security, data management, and beyond. I am eager to leverage my knowledge and experience to create innovative solutions that drive progress and enhance user experiences."
   }
 }
