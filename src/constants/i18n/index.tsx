@@ -31,6 +31,17 @@ const I18nConstants = {
     paragraph1: "paragraph1",
     paragraph2: "paragraph2",
   },
+  education: {
+    id: "education",
+    title: "title",
+    university: "university",
+    degree: "degree",
+    gpa: "gpa",
+    award1: "award1",
+    certificates: "certificates",
+    certificate1: "certificate1",
+    certificate2: "certificate2",
+  },
   list: {
     id: "list",
     items: [

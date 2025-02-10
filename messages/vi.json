@@ -35,7 +35,17 @@
   },
   "about": {
     "title": "Về tôi",
-    "paragraph1": "Tên tôi là Phạm Giang Thái Dương, và tôi đang ở năm cuối và chờ tốt nghiệp tại Đại học Khoa học Tự nhiên, ĐHQG-HCM. Trong suốt hành trình học tập của mình, tôi đã rèn luyện kỹ năng với TypeScript, React, Node.js, và Express.js, trang bị cho mình nền tảng vững chắc cho phát triển web hiện đại. Tôi đặc biệt quan tâm đến Java, Spring Boot, và Microservices, và tôi mong muốn xây dựng một sự nghiệp thành công với vai trò là một lập trình viên backend.",
+    "paragraph1": "Tên tôi là Phạm Giang Thái Dương, tôi hiện là sinh viên năm cuối và đang chờ tốt nghiệp tại Đại học Khoa học Tự nhiên, ĐHQG-HCM. Trong suốt hành trình học tập của mình, tôi đã rèn luyện kỹ năng với TypeScript, React, Node.js, và Express.js, trang bị cho mình nền tảng vững chắc cho phát triển web hiện đại. Tôi đặc biệt quan tâm đến Java, Spring Boot, và Microservices, và tôi mong muốn xây dựng một sự nghiệp thành công với vai trò là một lập trình viên backend.",
     "paragraph2": "Hoài bão của tôi là đóng góp ý nghĩa vào các dự án lớn, phức tạp giải quyết các thách thức quan trọng về bảo mật, quản lý dữ liệu, và hơn thế nữa. Tôi rất háo hức sử dụng kiến thức và kinh nghiệm của mình để tạo ra những giải pháp sáng tạo nhằm thúc đẩy tiến bộ và nâng cao trải nghiệm người dùng."
+  },
+  "education": {
+    "title": "Học vấn",
+    "degree": "Cử nhân Kỹ thuật Phần mềm",
+    "university": "Đại học Khoa học Tự nhiên, ĐHQG-HCM",
+    "gpa": "Điểm trung bình: 3.48/4.0",
+    "award1": "Được trao Học bổng Khuyến khích Học tập của trường đại học cho năm học 2021-2022.",
+    "certificates": "Chứng chỉ",
+    "certificate1": "Chứng chỉ Microsoft Office Specialist (MOS) (2019)",
+    "certificate2": "IELTS 6.0 (2025)"
   }
 }

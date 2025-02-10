@@ -6,7 +6,9 @@ import MaxWidthWrapper from "../max-width-wrapper";
 
 const About = ({ id }: { id?: string }) => {
   const about = I18nConstants.about;
-  const t = useTranslations(about.id);
+  const education = I18nConstants.education;
+  const aboutT = useTranslations(about.id);
+  const educationT = useTranslations(education.id);
 
   return (
     <div
@@ -27,13 +29,13 @@ const About = ({ id }: { id?: string }) => {
           </div>
           <div className="flex flex-col justify-center items-start max-w-lg">
             <h1 className="mt-4 font-bold text-gray-900 dark:text-white text-4xl">
-              {t(about.title)}
+              {aboutT(about.title)}
             </h1>
             <p className="mt-4 text-gray-700 dark:text-gray-300 text-lg">
-              {t(about.paragraph1)}
+              {aboutT(about.paragraph1)}
             </p>
             <p className="mt-4 text-gray-700 dark:text-gray-300 text-lg">
-              {t(about.paragraph2)}
+              {aboutT(about.paragraph2)}
             </p>
           </div>
         </div>
@@ -45,21 +47,20 @@ const About = ({ id }: { id?: string }) => {
                 className="text-blue-600 dark:text-blue-400"
               />
               <h1 className="font-bold text-gray-900 dark:text-white text-4xl">
-                Education
+                {educationT(education.title)}
               </h1>
             </div>
             <p className="mt-4 font-medium text-gray-700 dark:text-gray-300 text-lg leading-none">
-              University of Science, VNU-HCM
+              {educationT(education.university)}
             </p>
             <p className="mt-4 font-medium text-gray-700 dark:text-gray-300 text-lg leading-none">
-              Bachelor of Software Engineering
+              {educationT(education.degree)}
             </p>
             <p className="mt-4 font-medium text-gray-700 dark:text-gray-300 text-lg leading-none">
-              GPA: 3.48/4.0
+              {educationT(education.gpa)}
             </p>
             <p className="mt-4 font-medium text-gray-700 dark:text-gray-300 text-lg leading-none">
-              Awarded the university&apos;s Academic Encouragement Scholarship for
-              the 2021-2022 academic year.
+              {educationT(education.award1)}
             </p>
           </div>
           <div className="flex-1 justify-start items-start gap-4">
@@ -69,14 +70,14 @@ const About = ({ id }: { id?: string }) => {
                 className="text-yellow-600 dark:text-yellow-400"
               />
               <h1 className="font-bold text-gray-900 dark:text-white text-4xl">
-                Certifications
+                {educationT(education.certificates)}
               </h1>
             </div>
             <p className="mt-4 font-medium text-gray-700 dark:text-gray-300 text-lg leading-none">
-              Microsoft Office Specialist (MOS) certification (2019)
+              {educationT(education.certificate1)}
             </p>
             <p className="mt-4 font-medium text-gray-700 dark:text-gray-300 text-lg leading-none">
-              IELTS 6.0 (2025)
+              {educationT(education.certificate2)}
             </p>
           </div>
         </div>
