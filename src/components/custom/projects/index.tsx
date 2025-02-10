@@ -1,3 +1,6 @@
+import MaxWidthWrapper from "../max-width-wrapper";
+import ProjectCard from "./project-card";
+
 const Projects = ({ id }: { id?: string }) => {
   return (
     <div
@@ -9,7 +12,20 @@ const Projects = ({ id }: { id?: string }) => {
         Below is a comprehensive list of impactful personal and team projects
         that I have successfully contributed to.
       </p>
-      <div></div>
+      <MaxWidthWrapper className="mt-10">
+        <div className="gap-14 grid grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-2 max-lg:grid-cols-2 max-xl:grid-cols-3">
+          {Array.from({ length: 10 }).map((_, index) => (
+            <ProjectCard
+              key={index}
+              imageSrc="/profile-background.jpg"
+              projectType="Personal"
+              title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptate neque sapiente suscipit facere porro a. Consequuntur est consequatur provident unde, error, nihil blanditiis esse, quibusdam dicta consectetur explicabo doloremque."
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptate neque sapiente suscipit facere porro a. Consequuntur est consequatur provident unde, error, nihil blanditiis esse, quibusdam dicta consectetur explicabo doloremque."
+              githubUrl="https://github.com"
+            />
+          ))}
+        </div>
+      </MaxWidthWrapper>
     </div>
   );
 };
