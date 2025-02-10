@@ -1,15 +1,15 @@
 import { ErrorConstants, HttpMessage, HttpStatus } from "@/constants";
-import ContributorInfoDto from "@/dto/contributor-info-dto";
-import ErrorResponseDto from "@/dto/error-response-dto";
-import ResponseDto from "@/dto/response-dto";
+import ContributorInfoDto from "@/data-fetching/dto/contributor-info-dto";
+import ErrorResponseDto from "@/data-fetching/dto/error-response-dto";
+import ResponseDto from "@/data-fetching/dto/response-dto";
 import {
   BadRequestException,
   ForbiddenException,
   InternalServerException,
   NotFoundException,
   UnauthorizedException,
-} from "@/exceptions";
-import ContributorService from "@/services/contributor-service";
+} from "@/data-fetching/exceptions";
+import ContributorService from "@/data-fetching/services/contributor-service";
 
 const ContributorController = {
   /**

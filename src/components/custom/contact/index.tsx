@@ -9,17 +9,17 @@ import {
 } from "@/constants";
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
+import SocialButton from "../social-button";
 import ContactCard from "./contact-card";
-import SocialButton from "./social-button";
 
 const Contact = ({ id }: { id?: string }) => {
   const t = useTranslations("contact");
 
   return (
     <div className="max-md:px-5 py-10" id={id}>
-      <div className="border-gray-200 dark:border-gray-600 mx-auto border rounded-lg max-w-screen-lg">
+      <div className="mx-auto border border-gray-200 dark:border-gray-600 rounded-lg max-w-screen-lg">
         <div className="flex justify-center items-center bg-gray-200 dark:bg-gray-700 rounded-t-lg h-20">
-          <span className="text-4xl text-slate-600 dark:text-white">
+          <span className="text-slate-600 dark:text-white text-4xl">
             {t("title")}
           </span>
         </div>
@@ -47,7 +47,7 @@ const Contact = ({ id }: { id?: string }) => {
                     variant="default"
                     className="dark:hover:bg-gray-300 hover:bg-gray-700 rounded-full [&_svg]:w-7 max-md:[&_svg]:w-5 [&_svg]:h-7 max-md:[&_svg]:h-5 max-md:size-8"
                   >
-                    <Github className="dark:fill-black fill-white" />
+                    <Github className="fill-white dark:fill-black" />
                     <span className="sr-only">github</span>
                   </Button>
                 }

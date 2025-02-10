@@ -1,5 +1,5 @@
-import ContributorInfoDto from "@/dto/contributor-info-dto";
-import Contributor from "@/entity/contributor";
+import ContributorInfoDto from "@/data-fetching/dto/contributor-info-dto";
+import Contributor from "@/data-fetching/entity/contributor";
 
 class ContributorMapper {
   public static mapToContributor(
@@ -30,7 +30,7 @@ class ContributorMapper {
   ): ContributorInfoDto[] {
     contributorsInfoDto = contributors.map((contributor) => {
       const contributorInfoDto = new ContributorInfoDto();
-      
+
       contributorInfoDto.setLogin(contributor.getLogin());
       contributorInfoDto.setAvatarUrl(contributor.getAvatarUrl());
       contributorInfoDto.setHtmlUrl(contributor.getHtmlUrl());

@@ -1,4 +1,4 @@
-import BaseEntity from "@/entity/base-entity";
+import BaseEntity from "@/data-fetching/entity/base-entity";
 
 const dataInjection = <T extends BaseEntity>(
   constructor: new () => T,

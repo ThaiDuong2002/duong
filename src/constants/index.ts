@@ -5,6 +5,8 @@ import {
   LINKEDIN,
   LINKEDIN_URL,
   PHONE_NUMBER,
+  SOURCE_CODE_TOOLTIP,
+  SOURCE_CODE_URL,
 } from "./components/contact";
 import { COPY } from "./components/copy-button";
 import apiContributors, { owner, repositories } from "./contributors";
@@ -34,6 +36,8 @@ export {
   owner,
   PHONE_NUMBER,
   repositories,
+  SOURCE_CODE_TOOLTIP,
+  SOURCE_CODE_URL,
   TOAST_LIMIT,
   TOAST_REMOVE_DELAY,
 };

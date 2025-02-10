@@ -4,17 +4,17 @@ import {
   HttpMethod,
   HttpStatus,
 } from "@/constants";
-import ContributorInfoDto from "@/dto/contributor-info-dto";
-import Contributor from "@/entity/contributor";
+import ContributorInfoDto from "@/data-fetching/dto/contributor-info-dto";
+import Contributor from "@/data-fetching/entity/contributor";
 import {
   BadRequestException,
   ForbiddenException,
   InternalServerException,
   NotFoundException,
   UnauthorizedException,
-} from "@/exceptions";
+} from "@/data-fetching/exceptions";
+import ContributorMapper from "@/data-fetching/mappers/contributor-mapper";
 import dataInjection from "@/lib/data-injection";
-import ContributorMapper from "@/mappers/contributor-mapper";
 
 const ContributorService = {
   /**
