@@ -22,6 +22,7 @@ const Projects = ({ id }: { id?: string }) => {
               title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptate neque sapiente suscipit facere porro a. Consequuntur est consequatur provident unde, error, nihil blanditiis esse, quibusdam dicta consectetur explicabo doloremque."
               description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptate neque sapiente suscipit facere porro a. Consequuntur est consequatur provident unde, error, nihil blanditiis esse, quibusdam dicta consectetur explicabo doloremque."
               githubUrl="https://github.com"
+              multipleGit={index % 2 === 0 ? true : false}
             />
           ))}
         </div>

@@ -7,6 +7,7 @@ import { getMessages } from "next-intl/server";
 import { Geist, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 import "./globals.css";
+import { ReactNode } from "react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -42,7 +43,7 @@ const RootLayout = async ({
   children,
   params,
 }: Readonly<{
-  children: React.ReactNode;
+  children: ReactNode;
   params: Promise<{ locale: Locale }>;
 }>) => {
   const { locale } = await params;
