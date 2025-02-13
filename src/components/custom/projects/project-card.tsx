@@ -5,7 +5,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 import { ReactNode } from "react";
 
@@ -15,7 +15,7 @@ const ProjectCard = ({
   title,
   description,
   githubUrl,
-  multipleGit,
+  multipleGit = false,
   children,
 }: {
   imageSrc: string;
@@ -29,14 +29,19 @@ const ProjectCard = ({
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <div className="shadow-lg border rounded-lg overflow-hidden hover:scale-[1.02] transition-transform duration-300 cursor-pointer transform">
-          <div className="relative w-full h-56">
+        <div className="shadow-lg dark:shadow-gray-700 border rounded-lg overflow-hidden hover:scale-[1.02] transition-transform duration-300 cursor-pointer transform">
+          <div className="relative pb-[56.25%] w-full h-0">
+            {" "}
+            {/* 16:9 Aspect Ratio */}
             <Image
               src={imageSrc}
               alt={title}
-              layout="fill"
+              layout="responsive"
+              width={16}
+              height={9}
               objectFit="cover"
               className="rounded-t-lg"
+              quality={100}
             />
           </div>
           <div className="space-y-3 px-10 py-5">
