@@ -31,8 +31,6 @@ const ProjectCard = ({
       <DialogTrigger asChild>
         <div className="shadow-lg dark:shadow-gray-700 border rounded-lg overflow-hidden hover:scale-[1.02] transition-transform duration-300 cursor-pointer transform">
           <div className="relative pb-[56.25%] w-full h-0">
-            {" "}
-            {/* 16:9 Aspect Ratio */}
             <Image
               src={imageSrc}
               alt={title}
