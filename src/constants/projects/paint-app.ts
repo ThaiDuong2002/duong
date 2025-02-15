@@ -10,6 +10,10 @@ const PaintAppConstants = {
   multipleGit: false,
   owner: owner[0].name,
   repository: repositories[5].name,
+  techs: [
+    "C#",
+    "WPF",
+  ]
 };
 
 export default PaintAppConstants;

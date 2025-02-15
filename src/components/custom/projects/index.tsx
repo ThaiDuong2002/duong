@@ -25,7 +25,7 @@ const Projects = ({ id }: { id?: string }) => {
             description={PaintAppConstants.description}
             githubUrl={PaintAppConstants.githubUrl}
             multipleGit={PaintAppConstants.multipleGit}
-          />
+          ></ProjectCard>
           <ProjectCard
             imageSrc="/projects/my-shop/my-shop-dashboard.png"
             projectType="Personal"
@@ -33,7 +33,7 @@ const Projects = ({ id }: { id?: string }) => {
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptate neque sapiente suscipit facere porro a. Consequuntur est consequatur provident unde, error, nihil blanditiis esse, quibusdam dicta consectetur explicabo doloremque."
             githubUrl="https://github.com"
             multipleGit
-          />
+          ></ProjectCard>
           <ProjectCard
             imageSrc="/projects/hotel-booking/hotel-booking-search.png"
             projectType="Personal"
@@ -41,7 +41,7 @@ const Projects = ({ id }: { id?: string }) => {
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptate neque sapiente suscipit facere porro a. Consequuntur est consequatur provident unde, error, nihil blanditiis esse, quibusdam dicta consectetur explicabo doloremque."
             githubUrl="https://github.com"
             multipleGit
-          />
+          ></ProjectCard>
           <ProjectCard
             imageSrc="/projects/online-academy/online-academy.png"
             projectType="Personal"
@@ -49,7 +49,7 @@ const Projects = ({ id }: { id?: string }) => {
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptate neque sapiente suscipit facere porro a. Consequuntur est consequatur provident unde, error, nihil blanditiis esse, quibusdam dicta consectetur explicabo doloremque."
             githubUrl="https://github.com"
             multipleGit
-          />
+          ></ProjectCard>
           <ProjectCard
             imageSrc="/projects/video-sharing/video-sharing.png"
             projectType="Personal"
@@ -57,7 +57,7 @@ const Projects = ({ id }: { id?: string }) => {
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptate neque sapiente suscipit facere porro a. Consequuntur est consequatur provident unde, error, nihil blanditiis esse, quibusdam dicta consectetur explicabo doloremque."
             githubUrl="https://github.com"
             multipleGit
-          />
+          ></ProjectCard>
           <ProjectCard
             imageSrc="/projects/chat-app/chat-app.png"
             projectType="Personal"
@@ -65,7 +65,7 @@ const Projects = ({ id }: { id?: string }) => {
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptate neque sapiente suscipit facere porro a. Consequuntur est consequatur provident unde, error, nihil blanditiis esse, quibusdam dicta consectetur explicabo doloremque."
             githubUrl="https://github.com"
             multipleGit
-          />
+          ></ProjectCard>
         </div>
       </MaxWidthWrapper>
     </div>

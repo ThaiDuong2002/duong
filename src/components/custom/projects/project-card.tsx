@@ -1,3 +1,5 @@
+"use client";
+
 import { buttonVariants } from "@/components/ui/button";
 import {
   Dialog,
@@ -58,6 +60,7 @@ const ProjectCard = ({
                     variant: "outline",
                     size: "sm",
                   })}
+                  onClick={(e) => e.stopPropagation()}
                 >
                   View on GitHub
                 </Link>
