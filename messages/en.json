@@ -52,7 +52,7 @@
     "title": "Projects",
     "description": "Here is a detailed list of personal and team projects that I have successfully contributed to."
   },
- "paint": {
-  
- }
+  "paint-app": {
+    "description": "A simple drawing application based on Windows Paint. It allows users to draw, erase, change colors, and save their artwork."
+  }
 }

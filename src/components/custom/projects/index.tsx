@@ -1,6 +1,7 @@
-import { I18nConstants, PaintAppConstants } from "@/constants";
+import { I18nConstants } from "@/constants";
 import { useTranslations } from "next-intl";
 import MaxWidthWrapper from "../max-width-wrapper";
+import PaintApp from "./list/paint-app";
 import ProjectCard from "./project-card";
 
 const Projects = ({ id }: { id?: string }) => {
@@ -18,14 +19,7 @@ const Projects = ({ id }: { id?: string }) => {
       </p>
       <MaxWidthWrapper className="mt-10">
         <div className="gap-14 grid grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-2 max-lg:grid-cols-2 max-xl:grid-cols-3">
-          <ProjectCard
-            imageSrc={PaintAppConstants.imageSrc}
-            projectType={PaintAppConstants.type}
-            title={PaintAppConstants.title}
-            description={PaintAppConstants.description}
-            githubUrl={PaintAppConstants.githubUrl}
-            multipleGit={PaintAppConstants.multipleGit}
-          ></ProjectCard>
+          <PaintApp />
           <ProjectCard
             imageSrc="/projects/my-shop/my-shop-dashboard.png"
             projectType="Personal"

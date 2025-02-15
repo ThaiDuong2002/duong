@@ -1,6 +1,7 @@
 import { apiContributors, githubUrl, owner, repositories } from "../contributors";
 
 const PaintAppConstants = {
+  id: "paint-app",
   title: "Paint App - Windows Application",
   description: "description",
   type: "Windows Application",
@@ -13,6 +14,8 @@ const PaintAppConstants = {
   techs: [
     "C#",
     "WPF",
+    "MVVM",
+    "XAML"
   ]
 };
 
