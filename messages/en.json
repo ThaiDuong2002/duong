@@ -47,5 +47,9 @@
     "certificates": "Certificates",
     "certificate1": "Microsoft Office Specialist (MOS) certification (2019)",
     "certificate2": "IELTS 6.0 (2025)"
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "Here is a detailed list of personal and team projects that I have successfully contributed to."
   }
 }

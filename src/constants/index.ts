@@ -9,7 +9,12 @@ import {
   SOURCE_CODE_URL,
 } from "./components/contact";
 import { COPY } from "./components/copy-button";
-import apiContributors, { owner, repositories } from "./contributors";
+import {
+  apiContributors,
+  githubUrl,
+  owner,
+  repositories,
+} from "./contributors";
 import ErrorConstants from "./errors";
 import { MOBILE_BREAKPOINT } from "./hooks/mobile";
 import { TOAST_LIMIT, TOAST_REMOVE_DELAY } from "./hooks/toast";
@@ -17,6 +22,7 @@ import HttpMessage from "./http/message";
 import HttpMethod from "./http/method";
 import HttpStatus from "./http/status";
 import { I18nConstants, localeConstants } from "./i18n";
+import PaintAppConstants from "./projects/paint-app";
 
 export {
   apiContributors,
@@ -25,6 +31,7 @@ export {
   ErrorConstants,
   GITHUB,
   GITHUB_URL,
+  githubUrl,
   HttpMessage,
   HttpMethod,
   HttpStatus,
@@ -34,6 +41,7 @@ export {
   localeConstants,
   MOBILE_BREAKPOINT,
   owner,
+  PaintAppConstants,
   PHONE_NUMBER,
   repositories,
   SOURCE_CODE_TOOLTIP,

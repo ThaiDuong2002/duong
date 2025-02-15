@@ -48,7 +48,7 @@ const ProjectCard = ({
             <p className="max-w-full h-12 text-gray-700 text-md dark:text-gray-300 line-clamp-2">
               {description}
             </p>
-            {multipleGit && (
+            {!multipleGit && (
               <div className="flex justify-center mt-4">
                 <Link
                   href={githubUrl || "#"}
