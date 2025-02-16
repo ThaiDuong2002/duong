@@ -21,6 +21,7 @@ const PaintAppConstants = {
   owner: owner[0].name,
   repository: repositories[5].name,
   techs: ["C#", "WPF", "MVVM", "XAML"],
+  technologies: "Technologies",
   contributors: "Contributors",
 };
 

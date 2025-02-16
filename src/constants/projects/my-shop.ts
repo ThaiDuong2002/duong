@@ -22,6 +22,7 @@ const MyShopConstants = {
   owner: owner[0].name,
   repository: repositories[6].name,
   techs: ["C#", "WPF", "MVVM", "XAML", "Entity Framework", "MSSQL Server"],
+  technologies: "Technologies",
   contributors: "Contributors",
 };
 

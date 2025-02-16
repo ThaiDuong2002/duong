@@ -76,7 +76,12 @@ const MyShop = () => {
               View on GitHub
             </Link>
           </div>
-          <div className="flex flex-col flex-1 gap-4">
+          <div className="flex flex-col flex-1 gap-2">
+            <div>
+              <h1 className="font-bold text-gray-900 max-md:text-md dark:text-white max-sm:text-sm max-lg:text-lg text-xl">
+                {MyShopConstants.technologies}
+              </h1>
+            </div>
             <div className="flex-wrap space-x-2 space-y-2">
               {projects.techs.map((tech, index) => (
                 <Badge key={index} variant="outline" className="text-md">
