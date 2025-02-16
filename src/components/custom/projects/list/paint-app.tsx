@@ -54,8 +54,8 @@ const PaintApp = () => {
       multipleGit={PaintAppConstants.multipleGit}
       description={t(PaintAppConstants.description)}
     >
-      <div className="flex flex-col gap-4">
-        <div className="flex max-md:flex-col flex-wrap justify-between gap-4">
+      <div className="flex flex-col gap-4 mx-10">
+        <div className="flex max-md:flex-col flex-wrap justify-between gap-8">
           <div className="flex-1">
             <h1 className="m-0 p-0 font-bold text-gray-900 dark:text-white max-sm:text-xl max-md:text-3xl text-4xl">
               {PaintAppConstants.title}
