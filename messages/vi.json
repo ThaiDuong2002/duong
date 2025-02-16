@@ -54,5 +54,8 @@
   },
   "paint-app": {
     "description": "Một ứng dụng vẽ đơn giản dựa trên Windows Paint. Nó cho phép người dùng vẽ, xóa, thay đổi màu sắc, và lưu tác phẩm của mình. Ứng dụng được xây dựng bằng C#, WPF, và XAML."
+  },
+  "my-shop": {
+    "description": "Một ứng dụng Windows được xây dựng bằng C#, WPF và MSSQL Server. Ứng dụng này giúp quản lý sản phẩm và đơn hàng của máy tính và PC. Người dùng có thể cung cấp các chương trình giảm giá và xem thống kê bán hàng."
   }
 }

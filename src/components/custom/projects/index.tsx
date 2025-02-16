@@ -1,6 +1,7 @@
 import { I18nConstants } from "@/constants";
 import { useTranslations } from "next-intl";
 import MaxWidthWrapper from "../max-width-wrapper";
+import MyShop from "./list/my-shop";
 import PaintApp from "./list/paint-app";
 import ProjectCard from "./project-card";
 
@@ -20,14 +21,7 @@ const Projects = ({ id }: { id?: string }) => {
       <MaxWidthWrapper className="mt-10">
         <div className="gap-14 grid grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-2 max-lg:grid-cols-2 max-xl:grid-cols-3">
           <PaintApp />
-          <ProjectCard
-            imageSrc="/projects/my-shop/my-shop-dashboard.png"
-            projectType="Personal"
-            title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptate neque sapiente suscipit facere porro a. Consequuntur est consequatur provident unde, error, nihil blanditiis esse, quibusdam dicta consectetur explicabo doloremque."
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptate neque sapiente suscipit facere porro a. Consequuntur est consequatur provident unde, error, nihil blanditiis esse, quibusdam dicta consectetur explicabo doloremque."
-            githubUrl="https://github.com"
-            multipleGit
-          ></ProjectCard>
+          <MyShop />
           <ProjectCard
             imageSrc="/projects/hotel-booking/hotel-booking-search.png"
             projectType="Personal"

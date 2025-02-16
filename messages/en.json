@@ -54,5 +54,8 @@
   },
   "paint-app": {
     "description": "A simple drawing application based on Windows Paint. It allows users to draw, erase, change colors, and save their artwork. The application was built using C#, WPF, and XAML."
+  },
+  "my-shop": {
+    "description": "A Windows application built using C#, WPF, and MSSQL Server. This application helps manage products and orders of computers and PCs. Users can provide discounts and view sales statistics."
   }
 }
