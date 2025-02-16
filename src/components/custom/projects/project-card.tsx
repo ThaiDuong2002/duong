@@ -69,8 +69,8 @@ const ProjectCard = ({
           </div>
         </div>
       </DialogTrigger>
-      <DialogContent className="[&>button]:hidden">
-        <DialogTitle>{title}</DialogTitle>
+      <DialogContent className="[&>button]:hidden max-w-screen-lg max-sm:max-w-[90vw] max-h-[80vh] max-md:max-w-[90vw] overflow-y-auto">
+        <DialogTitle></DialogTitle>
         {children}
       </DialogContent>
     </Dialog>

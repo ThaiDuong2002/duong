@@ -7,7 +7,7 @@ const Introduction = () => {
   const t = useTranslations(introduction.id);
 
   return (
-    <div className="flex max-md:flex-col justify-center items-center gap-10">
+    <div className="flex max-lg:flex-col justify-center items-center gap-10">
       <div className="bg-gray-900/5 -m-2 lg:-m-4 p-2 lg:p-4 rounded-xl lg:rounded-2xl ring-1 ring-gray-900/10 ring-inset">
         <Image
           alt="Profile Image"
