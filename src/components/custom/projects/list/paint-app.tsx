@@ -1,5 +1,6 @@
 "use client";
 
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import {
@@ -9,15 +10,40 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 import { PaintAppConstants } from "@/constants";
+import ContributorController from "@/data-fetching/controllers/contributor-controller";
+import ContributorInfoDto from "@/data-fetching/dto/contributor-info-dto";
+import ErrorResponseDto from "@/data-fetching/dto/error-response-dto";
 import { useTranslations } from "next-intl";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import ProjectCard from "../project-card";
 
 const PaintApp = () => {
   const projects = PaintAppConstants;
   const t = useTranslations(projects.id);
+
+  const [contributors, setContributors] = useState<ContributorInfoDto[]>([]);
+
+  useEffect(() => {
+    ContributorController.getContributorsInfo(
+      projects.owner,
+      projects.repository
+    ).then((response) => {
+      if (response instanceof ErrorResponseDto) {
+        console.error(response);
+      } else {
+        setContributors(response.getData());
+      }
+    });
+  }, [projects.owner, projects.repository]);
 
   return (
     <ProjectCard
@@ -50,27 +76,60 @@ const PaintApp = () => {
               View on GitHub
             </Link>
           </div>
-          <div className="flex-wrap flex-1 space-x-3">
-            {projects.techs.map((tech, index) => (
-              <Badge key={index} variant="outline" className="text-md">
-                {tech}
-              </Badge>
-            ))}
+          <div className="flex flex-col flex-1 gap-4">
+            <div className="flex-wrap space-x-2 space-y-2">
+              {projects.techs.map((tech, index) => (
+                <Badge key={index} variant="outline" className="text-md">
+                  {tech}
+                </Badge>
+              ))}
+            </div>
+            <div>
+              <h1 className="font-bold text-gray-900 dark:text-white text-xl">
+                {PaintAppConstants.contributors}
+              </h1>
+            </div>
+            <div className="flex flex-row gap-3">
+              {contributors.length > 0 &&
+                contributors.map((contributor, index) => (
+                  <TooltipProvider>
+                    <Tooltip>
+                      <TooltipTrigger asChild>
+                        <Avatar key={index}>
+                          <AvatarImage
+                            src={contributor.getAvatarUrl()}
+                            alt=""
+                          />
+                          <AvatarFallback>
+                            {contributor.getAvatarUrl()}
+                          </AvatarFallback>
+                        </Avatar>
+                      </TooltipTrigger>
+                      <TooltipContent>{contributor.getLogin()}</TooltipContent>
+                    </Tooltip>
+                  </TooltipProvider>
+                ))}
+            </div>
           </div>
         </div>
         <div className="flex justify-center items-center mt-10">
           <Carousel className="w-full max-w-[80%]">
             <CarouselContent>
               {PaintAppConstants.imageList.map((image, index) => (
-                <CarouselItem key={index}>
-                  <div className="bg-gray-900/5 -m-2 lg:-m-4 p-2 lg:p-4 rounded-xl lg:rounded-2xl ring-1 ring-gray-900/10 ring-inset">
+                <CarouselItem
+                  key={index}
+                  className="flex justify-center items-center w-full h-full"
+                >
+                  <div className="relative pb-[56.25%] w-full h-0">
                     <Image
                       alt=""
                       src={image}
-                      width={1920}
-                      height={1080}
+                      width={16}
+                      height={9}
                       quality={100}
-                      className="bg-white shadow-2xl p-2 rounded-md ring-1 ring-gray-900/10"
+                      objectFit="cover"
+                      layout="responsive"
+                      className="border-muted-foreground rounded-md"
                     />
                   </div>
                 </CarouselItem>
