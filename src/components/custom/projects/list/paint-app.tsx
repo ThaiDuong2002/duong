@@ -92,10 +92,10 @@ const PaintApp = () => {
             <div className="flex flex-row gap-3">
               {contributors.length > 0 &&
                 contributors.map((contributor, index) => (
-                  <TooltipProvider>
+                  <TooltipProvider key={index}>
                     <Tooltip>
                       <TooltipTrigger asChild>
-                        <Avatar key={index}>
+                        <Avatar>
                           <AvatarImage
                             src={contributor.getAvatarUrl()}
                             alt=""
