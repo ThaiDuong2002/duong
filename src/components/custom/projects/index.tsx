@@ -6,6 +6,7 @@ import PaintApp from "./list/paint-app";
 import ProjectCard from "./project-card";
 import HotelBooking from "./list/hotel-booking";
 import ChatApp from "./list/chat-app";
+import VideoSharing from "./list/video-sharing";
 
 const Projects = ({ id }: { id?: string }) => {
   const projects = I18nConstants.projects;
@@ -33,14 +34,7 @@ const Projects = ({ id }: { id?: string }) => {
             githubUrl="https://github.com"
             multipleGit
           ></ProjectCard>
-          <ProjectCard
-            imageSrc="/projects/video-sharing/video-sharing.png"
-            projectType="Personal"
-            title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptate neque sapiente suscipit facere porro a. Consequuntur est consequatur provident unde, error, nihil blanditiis esse, quibusdam dicta consectetur explicabo doloremque."
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptate neque sapiente suscipit facere porro a. Consequuntur est consequatur provident unde, error, nihil blanditiis esse, quibusdam dicta consectetur explicabo doloremque."
-            githubUrl="https://github.com"
-            multipleGit
-          ></ProjectCard>
+          <VideoSharing />
           <ChatApp />
         </div>
       </MaxWidthWrapper>

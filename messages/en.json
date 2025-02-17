@@ -63,5 +63,8 @@
   },
   "chat-app": {
     "description": "A real-time chat application that allows users to create chat rooms and send messages. The application was built using React, Node.js, Firebase Cloud. Users can join chat rooms, send messages, and view the chat history."
+  },
+  "video-sharing": {
+    "description": "A video sharing platform built using React, Node.js, Express.js, and MongoDB. Users can upload videos, like, share, and subscribe to channels. This application is cloned from YouTube."
   }
 }

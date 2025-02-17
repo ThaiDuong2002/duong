@@ -63,5 +63,8 @@
   },
   "chat-app": {
     "description": "Một ứng dụng chat realtime cho phép người dùng trò chuyện với nhau. Ứng dụng được xây dựng bằng React, Node.js, Firebase Cloud. Người dùng có thể tạo phòng chat, tham gia phòng chat, và gửi tin nhắn."
+  },
+  "video-sharing": {
+    "description": "Một nền tảng chia sẻ video được xây dựng bằng React, Node.js, Express.js và MongoDB. Người dùng có thể tải lên video, thích, chia sẻ và đăng ký kênh. Ứng dụng này được sao chép từ YouTube."
   }
 }
