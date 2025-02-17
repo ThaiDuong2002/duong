@@ -21,7 +21,15 @@ const MyShopConstants = {
   multipleGit: false,
   owner: owner[0].name,
   repository: repositories[6].name,
-  techs: ["C#", "WPF", "MVVM", "XAML", "Entity Framework", "MSSQL Server"],
+  techs: [
+    "C#",
+    "WPF",
+    "Excel",
+    "MVVM Architecture",
+    "XAML",
+    "Entity Framework",
+    "MSSQL Server",
+  ],
   technologies: "Technologies",
   contributors: "Contributors",
 };

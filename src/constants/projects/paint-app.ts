@@ -20,7 +20,14 @@ const PaintAppConstants = {
   multipleGit: false,
   owner: owner[0].name,
   repository: repositories[5].name,
-  techs: ["C#", "WPF", "MVVM", "XAML"],
+  techs: [
+    "C#",
+    "WPF",
+    "MVVM Architecture",
+    "XAML",
+    "Plugin Architecture",
+    "Design Patterns",
+  ],
   technologies: "Technologies",
   contributors: "Contributors",
 };
