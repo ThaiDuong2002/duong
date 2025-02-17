@@ -60,5 +60,8 @@
   },
   "hotel-booking": {
     "description": "A web application that allows users to book hotel rooms. The application was built using React, Node.js, Express.js, and MongoDB. Users can view available rooms, book rooms, and view their booking history. The application also includes an admin panel for managing rooms and bookings."
+  },
+  "chat-app": {
+    "description": "A real-time chat application that allows users to create chat rooms and send messages. The application was built using React, Node.js, Firebase Cloud. Users can join chat rooms, send messages, and view the chat history."
   }
 }
