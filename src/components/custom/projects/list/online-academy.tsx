@@ -106,7 +106,10 @@ const OnlineAcademy = () => {
                             alt=""
                           />
                           <AvatarFallback>
-                            {contributor.getAvatarUrl()}
+                            {contributor
+                              .getLogin()
+                              .substring(0, 2)
+                              .toUpperCase()}
                           </AvatarFallback>
                         </Avatar>
                       </TooltipTrigger>
