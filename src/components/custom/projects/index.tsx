@@ -1,11 +1,13 @@
+"use client";
+
 import { I18nConstants } from "@/constants";
 import { useTranslations } from "next-intl";
 import MaxWidthWrapper from "../max-width-wrapper";
-import MyShop from "./list/my-shop";
-import PaintApp from "./list/paint-app";
-import ProjectCard from "./project-card";
-import HotelBooking from "./list/hotel-booking";
 import ChatApp from "./list/chat-app";
+import HotelBooking from "./list/hotel-booking";
+import MyShop from "./list/my-shop";
+import OnlineAcademy from "./list/online-academy";
+import PaintApp from "./list/paint-app";
 import VideoSharing from "./list/video-sharing";
 
 const Projects = ({ id }: { id?: string }) => {
@@ -26,14 +28,7 @@ const Projects = ({ id }: { id?: string }) => {
           <PaintApp />
           <MyShop />
           <HotelBooking />
-          <ProjectCard
-            imageSrc="/projects/online-academy/online-academy.png"
-            projectType="Personal"
-            title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptate neque sapiente suscipit facere porro a. Consequuntur est consequatur provident unde, error, nihil blanditiis esse, quibusdam dicta consectetur explicabo doloremque."
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptate neque sapiente suscipit facere porro a. Consequuntur est consequatur provident unde, error, nihil blanditiis esse, quibusdam dicta consectetur explicabo doloremque."
-            githubUrl="https://github.com"
-            multipleGit
-          ></ProjectCard>
+          <OnlineAcademy />
           <VideoSharing />
           <ChatApp />
         </div>

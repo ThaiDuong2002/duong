@@ -66,5 +66,8 @@
   },
   "video-sharing": {
     "description": "A video sharing platform built using React, Node.js, Express.js, and MongoDB. Users can upload videos, like, share, and subscribe to channels. This application is cloned from YouTube."
+  },
+  "online-academy": {
+    "description": "An online learning platform built using Handlebars, Express, and MongoDB. This application offers courses on various subjects, allowing users to enroll in courses, view course materials, and complete quizzes and assignments."
   }
 }

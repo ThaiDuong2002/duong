@@ -66,5 +66,8 @@
   },
   "video-sharing": {
     "description": "Một nền tảng chia sẻ video được xây dựng bằng React, Node.js, Express.js và MongoDB. Người dùng có thể tải lên video, thích, chia sẻ và đăng ký kênh. Ứng dụng này được sao chép từ YouTube."
+  },
+  "online-academy": {
+    "description": "Một nền tảng học trực tuyến được xây dựng bằng Handlebars, Express và MongoDB. Ứng dụng này cung cấp các khóa học về nhiều chủ đề khác nhau, cho phép người dùng đăng ký khóa học, xem tài liệu học tập và hoàn thành các bài kiểm tra và bài tập."
   }
 }
