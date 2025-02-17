@@ -1,22 +1,8 @@
 "use client";
 
-import HotelBookingConstants from "@/constants/projects/hotel-booking";
-import ContributorController from "@/data-fetching/controllers/contributor-controller";
-import ContributorInfoDto from "@/data-fetching/dto/contributor-info-dto";
-import ErrorResponseDto from "@/data-fetching/dto/error-response-dto";
-import { useTranslations } from "next-intl";
-import { useEffect, useState } from "react";
-import ProjectCard from "../project-card";
-import Link from "next/link";
-import { buttonVariants } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Badge } from "@/components/ui/badge";
+import { buttonVariants } from "@/components/ui/button";
 import {
   Carousel,
   CarouselContent,
@@ -24,8 +10,21 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+import { VideoSharingConstants } from "@/constants";
+import ContributorController from "@/data-fetching/controllers/contributor-controller";
+import ContributorInfoDto from "@/data-fetching/dto/contributor-info-dto";
+import ErrorResponseDto from "@/data-fetching/dto/error-response-dto";
+import { useTranslations } from "next-intl";
 import Image from "next/legacy/image";
-import VideoSharingConstants from "@/constants/projects/video-sharing";
+import Link from "next/link";
+import { useEffect, useState } from "react";
+import ProjectCard from "../project-card";
 
 const VideoSharing = () => {
   const projects = VideoSharingConstants;

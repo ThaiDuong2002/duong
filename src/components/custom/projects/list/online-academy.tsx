@@ -16,7 +16,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import OnlineAcademyConstants from "@/constants/projects/online-academy";
+import { OnlineAcademyConstants } from "@/constants";
 import ContributorController from "@/data-fetching/controllers/contributor-controller";
 import ContributorInfoDto from "@/data-fetching/dto/contributor-info-dto";
 import ErrorResponseDto from "@/data-fetching/dto/error-response-dto";

@@ -15,7 +15,7 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import MyShopConstants from "@/constants/projects/my-shop";
+import { MyShopConstants } from "@/constants";
 import ContributorController from "@/data-fetching/controllers/contributor-controller";
 import ContributorInfoDto from "@/data-fetching/dto/contributor-info-dto";
 import ErrorResponseDto from "@/data-fetching/dto/error-response-dto";
