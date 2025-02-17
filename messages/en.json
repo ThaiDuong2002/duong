@@ -57,5 +57,8 @@
   },
   "my-shop": {
     "description": "A Windows application built using C#, WPF, and MSSQL Server. This application helps manage products and orders of computers and PCs. Users can provide discounts and view sales statistics."
+  },
+  "hotel-booking": {
+    "description": "A web application that allows users to book hotel rooms. The application was built using React, Node.js, Express.js, and MongoDB. Users can view available rooms, book rooms, and view their booking history. The application also includes an admin panel for managing rooms and bookings."
   }
 }

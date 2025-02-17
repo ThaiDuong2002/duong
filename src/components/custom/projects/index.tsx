@@ -4,6 +4,7 @@ import MaxWidthWrapper from "../max-width-wrapper";
 import MyShop from "./list/my-shop";
 import PaintApp from "./list/paint-app";
 import ProjectCard from "./project-card";
+import HotelBooking from "./list/hotel-booking";
 
 const Projects = ({ id }: { id?: string }) => {
   const projects = I18nConstants.projects;
@@ -22,14 +23,7 @@ const Projects = ({ id }: { id?: string }) => {
         <div className="gap-14 grid grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-2 max-lg:grid-cols-2 max-xl:grid-cols-3">
           <PaintApp />
           <MyShop />
-          <ProjectCard
-            imageSrc="/projects/hotel-booking/hotel-booking-search.png"
-            projectType="Personal"
-            title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptate neque sapiente suscipit facere porro a. Consequuntur est consequatur provident unde, error, nihil blanditiis esse, quibusdam dicta consectetur explicabo doloremque."
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptate neque sapiente suscipit facere porro a. Consequuntur est consequatur provident unde, error, nihil blanditiis esse, quibusdam dicta consectetur explicabo doloremque."
-            githubUrl="https://github.com"
-            multipleGit
-          ></ProjectCard>
+          <HotelBooking />
           <ProjectCard
             imageSrc="/projects/online-academy/online-academy.png"
             projectType="Personal"

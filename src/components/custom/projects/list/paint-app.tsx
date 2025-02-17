@@ -47,24 +47,24 @@ const PaintApp = () => {
 
   return (
     <ProjectCard
-      title={PaintAppConstants.title}
-      projectType={PaintAppConstants.type}
-      imageSrc={PaintAppConstants.imageSrc}
-      githubUrl={PaintAppConstants.githubUrl}
-      multipleGit={PaintAppConstants.multipleGit}
-      description={t(PaintAppConstants.description)}
+      title={projects.title}
+      projectType={projects.type}
+      imageSrc={projects.imageSrc}
+      githubUrl={projects.githubUrl}
+      multipleGit={projects.multipleGit}
+      description={t(projects.description)}
     >
       <div className="flex flex-col gap-4 mx-10">
         <div className="flex max-md:flex-col flex-wrap justify-between gap-8">
           <div className="flex-1">
             <h1 className="m-0 p-0 font-bold text-gray-900 dark:text-white max-sm:text-xl max-md:text-3xl text-4xl">
-              {PaintAppConstants.title}
+              {projects.title}
             </h1>
             <p className="my-4 text-muted-foreground max-md:text-sm text-lg">
-              {t(PaintAppConstants.description)}
+              {t(projects.description)}
             </p>
             <Link
-              href={PaintAppConstants.githubUrl}
+              href={projects.githubUrl}
               target="_blank"
               rel="noopener noreferrer"
               className={buttonVariants({
@@ -79,19 +79,19 @@ const PaintApp = () => {
           <div className="flex flex-col flex-1 gap-2">
             <div>
               <h1 className="font-bold text-gray-900 max-md:text-md dark:text-white max-sm:text-sm max-lg:text-lg text-xl">
-                {PaintAppConstants.technologies}
+                {projects.technologies}
               </h1>
             </div>
-            <div className="flex-wrap space-x-2 space-y-2">
+            <div className="flex-wrap space-y-2">
               {projects.techs.map((tech, index) => (
-                <Badge key={index} variant="outline" className="text-md">
+                <Badge key={index} variant="outline" className="mr-2 text-md">
                   {tech}
                 </Badge>
               ))}
             </div>
             <div>
               <h1 className="font-bold text-gray-900 max-md:text-md dark:text-white max-sm:text-sm max-lg:text-lg text-xl">
-                {PaintAppConstants.contributors}
+                {projects.contributors}
               </h1>
             </div>
             <div className="flex flex-row gap-3">
@@ -120,7 +120,7 @@ const PaintApp = () => {
         <div className="flex justify-center items-center mt-10">
           <Carousel className="w-full max-w-[80%]">
             <CarouselContent>
-              {PaintAppConstants.imageList.map((image, index) => (
+              {projects.imageList.map((image, index) => (
                 <CarouselItem
                   key={index}
                   className="flex justify-center items-center w-full h-full"
@@ -140,7 +140,7 @@ const PaintApp = () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            {PaintAppConstants.imageList.length > 1 && (
+            {projects.imageList.length > 1 && (
               <>
                 <CarouselPrevious />
                 <CarouselNext />

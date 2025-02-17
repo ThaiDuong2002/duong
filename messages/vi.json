@@ -57,5 +57,8 @@
   },
   "my-shop": {
     "description": "Một ứng dụng Windows được xây dựng bằng C#, WPF và MSSQL Server. Ứng dụng này giúp quản lý sản phẩm và đơn hàng của máy tính và PC. Người dùng có thể cung cấp các chương trình giảm giá và xem thống kê bán hàng."
+  },
+  "hotel-booking": {
+    "description": "Một ứng dụng web cho phép người dùng đặt phòng khách sạn. Ứng dụng được xây dựng bằng React, Node.js, Express.js, và MongoDB. Người dùng có thể xem phòng có sẵn, đặt phòng, và xem lịch sử đặt phòng của họ. Ứng dụng cũng bao gồm một trang điều khiển quản trị để quản lý các phòng và đặt chỗ."
   }
 }
