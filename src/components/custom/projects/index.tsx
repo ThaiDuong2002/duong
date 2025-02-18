@@ -4,6 +4,7 @@ import { I18nConstants } from "@/constants";
 import { useTranslations } from "next-intl";
 import MaxWidthWrapper from "../max-width-wrapper";
 import ChatApp from "./list/chat-app";
+import CoffeeOrder from "./list/coffee-order";
 import HotelBooking from "./list/hotel-booking";
 import MyShop from "./list/my-shop";
 import OnlineAcademy from "./list/online-academy";
@@ -27,6 +28,7 @@ const Projects = ({ id }: { id?: string }) => {
         <div className="gap-14 grid grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-2 max-lg:grid-cols-2 max-xl:grid-cols-3">
           <PaintApp />
           <MyShop />
+          <CoffeeOrder />
           <HotelBooking />
           <OnlineAcademy />
           <VideoSharing />

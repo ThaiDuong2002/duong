@@ -69,5 +69,8 @@
   },
   "online-academy": {
     "description": "An online learning platform built using Handlebars, Express, and MongoDB. This application offers courses on various subjects, allowing users to enroll in courses, view course materials, and complete quizzes and assignments."
+  },
+  "coffee-order": {
+    "description": "Introducing a powerful application crafted with Kotlin in Android Studio, JavaScript, and MySQL. This innovative platform not only enables users to effortlessly order their favorite coffee and customize their selections with a variety of toppings but also includes a robust administration panel for streamlined management. Experience convenience and control like never before!"
   }
 }

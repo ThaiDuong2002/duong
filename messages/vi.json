@@ -69,5 +69,8 @@
   },
   "online-academy": {
     "description": "Một nền tảng học trực tuyến được xây dựng bằng Handlebars, Express và MongoDB. Ứng dụng này cung cấp các khóa học về nhiều chủ đề khác nhau, cho phép người dùng đăng ký khóa học, xem tài liệu học tập và hoàn thành các bài kiểm tra và bài tập."
+  },
+  "coffee-order": {
+    "description": "Giới thiệu một ứng dụng mạnh mẽ được tạo ra bằng Kotlin trong Android Studio, JavaScript và MySQL. Nền tảng sáng tạo này không chỉ cho phép người dùng dễ dàng đặt cà phê yêu thích và tùy chỉnh lựa chọn với nhiều loại topping mà còn bao gồm một bảng quản trị mạnh mẽ để quản lý hiệu quả. Trải nghiệm sự tiện lợi và kiểm soát chưa từng có!"
   }
 }
