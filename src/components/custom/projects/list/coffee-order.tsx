@@ -16,7 +16,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { ChatAppConstants, CoffeeOrderConstants } from "@/constants";
+import { CoffeeOrderConstants } from "@/constants";
 import ContributorController from "@/data-fetching/controllers/contributor-controller";
 import ContributorInfoDto from "@/data-fetching/dto/contributor-info-dto";
 import ErrorResponseDto from "@/data-fetching/dto/error-response-dto";
