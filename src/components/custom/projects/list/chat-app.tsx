@@ -119,7 +119,7 @@ const ChatApp = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center mt-10">
+        <div className="flex justify-center items-center my-10">
           <Carousel className="w-full max-w-[80%]">
             <CarouselContent>
               {projects.imageList.map((image, index) => (
