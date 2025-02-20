@@ -3,6 +3,7 @@
 import { I18nConstants } from "@/constants";
 import { useTranslations } from "next-intl";
 import MaxWidthWrapper from "../max-width-wrapper";
+import AdsManagement from "./list/ads-management";
 import ChatApp from "./list/chat-app";
 import CoffeeOrder from "./list/coffee-order";
 import HotelBooking from "./list/hotel-booking";
@@ -26,6 +27,7 @@ const Projects = ({ id }: { id?: string }) => {
       </p>
       <MaxWidthWrapper className="mt-10">
         <div className="gap-14 grid grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-2 max-lg:grid-cols-2 max-xl:grid-cols-3">
+          <AdsManagement />
           <PaintApp />
           <MyShop />
           <CoffeeOrder />

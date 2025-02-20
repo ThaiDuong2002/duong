@@ -72,5 +72,8 @@
   },
   "coffee-order": {
     "description": "Introducing a powerful application crafted with Kotlin in Android Studio, JavaScript, and MySQL. This innovative platform not only enables users to effortlessly order their favorite coffee and customize their selections with a variety of toppings but also includes a robust administration panel for streamlined management. Experience convenience and control like never before!"
+  },
+  "ads-management": {
+    "description": "This innovative application is crafted to revolutionize the management of advertising boards across City X. By addressing the needs of residents, local officials at both ward and district levels, and the Department of Culture and Sports, it offers a powerful, transparent, and efficient solution for overseeing the city’s advertising landscape. Embrace this opportunity to enhance communication and engagement within our community."
   }
 }

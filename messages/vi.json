@@ -72,5 +72,8 @@
   },
   "coffee-order": {
     "description": "Giới thiệu một ứng dụng mạnh mẽ được tạo ra bằng Kotlin trong Android Studio, JavaScript và MySQL. Nền tảng sáng tạo này không chỉ cho phép người dùng dễ dàng đặt cà phê yêu thích và tùy chỉnh lựa chọn với nhiều loại topping mà còn bao gồm một bảng quản trị mạnh mẽ để quản lý hiệu quả. Trải nghiệm sự tiện lợi và kiểm soát chưa từng có!"
+  },
+  "ads-management": {
+    "description": "Ứng dụng sáng tạo này được thiết kế để cách mạng hóa việc quản lý các bảng quảng cáo trên toàn thành phố X. Bằng cách đáp ứng nhu cầu của cư dân, các quan chức địa phương ở cả cấp phường và quận, và Sở Văn hóa và Thể thao, nó cung cấp một giải pháp mạnh mẽ, minh bạch và hiệu quả để giám sát cảnh quan quảng cáo của thành phố. Hãy nắm bắt cơ hội này để nâng cao giao tiếp và sự tham gia trong cộng đồng của chúng ta."
   }
 }
