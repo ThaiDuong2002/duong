@@ -75,5 +75,9 @@
   },
   "ads-management": {
     "description": "This innovative application is crafted to revolutionize the management of advertising boards across City X. By addressing the needs of residents, local officials at both ward and district levels, and the Department of Culture and Sports, it offers a powerful, transparent, and efficient solution for overseeing the city’s advertising landscape. Embrace this opportunity to enhance communication and engagement within our community."
+  },
+  "car-booking": {
+    "description": "This revolutionary application, comparable to Uber and Grab, is purposefully crafted to transform the car booking experience for residents of City X. Utilizing the powerful capabilities of Flutter and React, it boasts intuitive mobile applications for both customers and drivers, alongside a user-friendly web platform for call center agents. Customers can effortlessly secure rides through the mobile app or by connecting with our attentive call center agents, ensuring a seamless and remarkable service that redefines convenience and efficiency."
+
   }
 }

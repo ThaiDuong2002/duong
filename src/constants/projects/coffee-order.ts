@@ -7,7 +7,7 @@ import {
 
 const CoffeeOrderConstants = {
   id: "coffee-order",
-  title: "Coffee Order Application",
+  title: "Infinity - Coffee Order Application",
   description: "description",
   type: "Web Application",
   imageSrc: "/projects/coffee-order/coffee-order.png",

@@ -75,5 +75,8 @@
   },
   "ads-management": {
     "description": "Ứng dụng sáng tạo này được thiết kế để cách mạng hóa việc quản lý các bảng quảng cáo trên toàn thành phố X. Bằng cách đáp ứng nhu cầu của cư dân, các quan chức địa phương ở cả cấp phường và quận, và Sở Văn hóa và Thể thao, nó cung cấp một giải pháp mạnh mẽ, minh bạch và hiệu quả để giám sát cảnh quan quảng cáo của thành phố. Hãy nắm bắt cơ hội này để nâng cao giao tiếp và sự tham gia trong cộng đồng của chúng ta."
+  },
+  "car-booking": {
+    "description": "Ứng dụng cách mạng này, tương tự như Uber và Grab, được thiết kế đặc biệt để biến đổi trải nghiệm đặt xe cho cư dân thành phố X. Sử dụng khả năng mạnh mẽ của Flutter và React, nó có các ứng dụng di động trực quan cho cả khách hàng và tài xế, cùng với một nền tảng web thân thiện với người dùng cho các nhân viên tổng đài. Khách hàng có thể dễ dàng đặt xe thông qua ứng dụng di động hoặc kết nối với các nhân viên tổng đài tận tâm của chúng tôi, đảm bảo một dịch vụ liền mạch và đáng chú ý, tái định nghĩa sự tiện lợi và hiệu quả."
   }
 }
