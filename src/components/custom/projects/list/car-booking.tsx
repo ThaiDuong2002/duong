@@ -1,29 +1,16 @@
 "use client";
 
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
 import { CarBookingConstants } from "@/constants";
 import ContributorController from "@/data-fetching/controllers/contributor-controller";
 import ContributorInfoDto from "@/data-fetching/dto/contributor-info-dto";
 import ErrorResponseDto from "@/data-fetching/dto/error-response-dto";
 import { useTranslations } from "next-intl";
-import Image from "next/legacy/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import BadgeList from "../badge-list";
+import ContributorList from "../contributor-list";
+import ImageCarousel from "../image-carousel";
 import ProjectCard from "../project-card";
 
 const CarBooking = () => {
@@ -81,146 +68,42 @@ const CarBooking = () => {
                 {projects.technologies}
               </h1>
             </div>
-            <div className="flex-wrap space-y-2">
-              {projects.techs.map((tech, index) => (
-                <Badge key={index} variant="outline" className="mr-2 text-md">
-                  {tech}
-                </Badge>
-              ))}
-            </div>
+            <BadgeList badges={projects.techs} />
             <div>
               <h1 className="font-bold text-gray-900 max-md:text-md dark:text-white max-sm:text-sm max-lg:text-lg text-xl">
                 {projects.contributors}
               </h1>
             </div>
-            <div className="flex flex-row gap-3">
-              {contributors.length > 0 &&
-                contributors.map((contributor, index) => (
-                  <TooltipProvider key={index}>
-                    <Tooltip>
-                      <TooltipTrigger asChild>
-                        <Avatar>
-                          <AvatarImage
-                            src={contributor.getAvatarUrl()}
-                            alt=""
-                          />
-                          <AvatarFallback>
-                            {contributor
-                              .getLogin()
-                              .substring(0, 2)
-                              .toUpperCase()}
-                          </AvatarFallback>
-                        </Avatar>
-                      </TooltipTrigger>
-                      <TooltipContent>{contributor.getLogin()}</TooltipContent>
-                    </Tooltip>
-                  </TooltipProvider>
-                ))}
-            </div>
+            <ContributorList contributors={contributors} />
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center my-5">
-          <h1 className="mb-4 font-bold text-gray-900 max-md:text-md dark:text-white max-sm:text-sm max-lg:text-lg text-xl">
-            {projects.customer}
-          </h1>
-          <Carousel className="w-full max-w-[80%]">
-            <CarouselContent>
-              {projects.imageListCustomer.map((image, index) => (
-                <CarouselItem
-                  key={index}
-                  className="flex justify-center items-center w-full h-full"
-                >
-                  <div className="relative pb-[56.25%] w-full h-0">
-                    <Image
-                      alt=""
-                      src={image}
-                      width={16}
-                      height={9}
-                      quality={100}
-                      objectFit="cover"
-                      layout="responsive"
-                      className="border-muted-foreground rounded-md"
-                    />
-                  </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-            {projects.imageListCustomer.length > 1 && (
-              <>
-                <CarouselPrevious />
-                <CarouselNext />
-              </>
-            )}
-          </Carousel>
-        </div>
-        <div className="flex flex-col justify-center items-center my-5">
-          <h1 className="mb-4 font-bold text-gray-900 max-md:text-md dark:text-white max-sm:text-sm max-lg:text-lg text-xl">
-            {projects.driver}
-          </h1>
-          <Carousel className="w-full max-w-[80%]">
-            <CarouselContent>
-              {projects.imageListDriver.map((image, index) => (
-                <CarouselItem
-                  key={index}
-                  className="flex justify-center items-center w-full h-full"
-                >
-                  <div className="relative pb-[56.25%] w-full h-0">
-                    <Image
-                      alt=""
-                      src={image}
-                      width={16}
-                      height={9}
-                      quality={100}
-                      objectFit="cover"
-                      layout="responsive"
-                      className="border-muted-foreground rounded-md"
-                    />
-                  </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-            {projects.imageListDriver.length > 1 && (
-              <>
-                <CarouselPrevious />
-                <CarouselNext />
-              </>
-            )}
-          </Carousel>
-        </div>
-        <div className="flex flex-col justify-center items-center my-5">
-          <h1 className="mb-4 font-bold text-gray-900 max-md:text-md dark:text-white max-sm:text-sm max-lg:text-lg text-xl">
-            {projects.callCenter}
-          </h1>
-          <Carousel className="w-full max-w-[80%]">
-            <CarouselContent>
-              {projects.imageListCallCenter.map((image, index) => (
-                <CarouselItem
-                  key={index}
-                  className="flex justify-center items-center w-full h-full"
-                >
-                  <div className="relative pb-[56.25%] w-full h-0">
-                    <Image
-                      alt=""
-                      src={image}
-                      width={16}
-                      height={9}
-                      quality={100}
-                      objectFit="cover"
-                      layout="responsive"
-                      className="border-muted-foreground rounded-md"
-                    />
-                  </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-            {projects.imageListCallCenter.length > 1 && (
-              <>
-                <CarouselPrevious />
-                <CarouselNext />
-              </>
-            )}
-          </Carousel>
-        </div>
+        <ImageCarousel
+          list={projects.imageListCustomer}
+          className="flex-col my-5"
+          header={
+            <h1 className="mb-4 font-bold text-gray-900 max-md:text-md dark:text-white max-sm:text-sm max-lg:text-lg text-xl">
+              {projects.customer}
+            </h1>
+          }
+        />
+        <ImageCarousel
+          list={projects.imageListDriver}
+          className="flex-col my-5"
+          header={
+            <h1 className="mb-4 font-bold text-gray-900 max-md:text-md dark:text-white max-sm:text-sm max-lg:text-lg text-xl">
+              {projects.driver}
+            </h1>
+          }
+        />
+        <ImageCarousel
+          list={projects.imageListCallCenter}
+          className="flex-col my-5"
+          header={
+            <h1 className="mb-4 font-bold text-gray-900 max-md:text-md dark:text-white max-sm:text-sm max-lg:text-lg text-xl">
+              {projects.callCenter}
+            </h1>
+          }
+        />
       </div>
     </ProjectCard>
   );
