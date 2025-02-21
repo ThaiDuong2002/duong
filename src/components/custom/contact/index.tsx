@@ -1,3 +1,7 @@
+"use client";
+
+import ContactCard from "@/components/custom/contact/contact-card";
+import SocialButton from "@/components/custom/social-button";
 import { Button } from "@/components/ui/button";
 import {
   EMAIL_ADDRESS,
@@ -9,8 +13,6 @@ import {
 } from "@/constants";
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
-import SocialButton from "../social-button";
-import ContactCard from "./contact-card";
 
 const Contact = ({ id }: { id?: string }) => {
   const t = useTranslations("contact");

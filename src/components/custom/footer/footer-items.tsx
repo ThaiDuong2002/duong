@@ -15,7 +15,7 @@ const FooterItems = ({ list }: { list: FooterItemsProps }) => {
           variant="ghost"
           size="default"
           key={item.id}
-          className="hover:dark:bg-gray-700 text-lg text-slate-600 max-md:text-sm dark:text-white"
+          className="hover:dark:bg-gray-700 text-slate-600 dark:text-white max-md:text-sm text-lg"
           onClick={() => scrollToSection(item.id)}
         >
           {t(item.id)}

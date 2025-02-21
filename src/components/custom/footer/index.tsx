@@ -1,3 +1,7 @@
+"use client";
+
+import FooterItems from "@/components/custom/footer/footer-items";
+import SocialButton from "@/components/custom/social-button";
 import { Button } from "@/components/ui/button";
 import {
   I18nConstants,
@@ -6,8 +10,6 @@ import {
 } from "@/constants";
 import { Github } from "lucide-react";
 import { useTranslations } from "next-intl";
-import SocialButton from "../social-button";
-import FooterItems from "./footer-items";
 
 const Footer = () => {
   const footer = I18nConstants.footer;

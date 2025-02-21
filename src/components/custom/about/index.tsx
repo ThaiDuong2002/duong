@@ -1,6 +1,6 @@
-import MaxWidthWrapper from "../max-width-wrapper";
-import Education from "./education";
-import Introduction from "./introduction";
+import Education from "@/components/custom/about/education";
+import Introduction from "@/components/custom/about/introduction";
+import MaxWidthWrapper from "@/components/custom/max-width-wrapper";
 
 const About = ({ id }: { id?: string }) => {
   return (

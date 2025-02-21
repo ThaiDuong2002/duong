@@ -7,31 +7,31 @@ import {
   PHONE_NUMBER,
   SOURCE_CODE_TOOLTIP,
   SOURCE_CODE_URL,
-} from "./components/contact";
-import { COPY } from "./components/copy-button";
+} from "@/constants/components/contact";
+import { COPY } from "@/constants/components/copy-button";
 import {
   apiContributors,
   githubUrl,
   owner,
   repositories,
-} from "./contributors";
-import ErrorConstants from "./errors";
-import { MOBILE_BREAKPOINT } from "./hooks/mobile";
-import { TOAST_LIMIT, TOAST_REMOVE_DELAY } from "./hooks/toast";
-import HttpMessage from "./http/message";
-import HttpMethod from "./http/method";
-import HttpStatus from "./http/status";
-import { I18nConstants, localeConstants } from "./i18n";
-import AdsManagementConstants from "./projects/ads-management";
-import CarBookingConstants from "./projects/car-booking";
-import ChatAppConstants from "./projects/chap-app";
-import CoffeeOrderConstants from "./projects/coffee-order";
-import FamFundConstants from "./projects/fam-fund";
-import HotelBookingConstants from "./projects/hotel-booking";
-import MyShopConstants from "./projects/my-shop";
-import OnlineAcademyConstants from "./projects/online-academy";
-import PaintAppConstants from "./projects/paint-app";
-import VideoSharingConstants from "./projects/video-sharing";
+} from "@/constants/contributors";
+import ErrorConstants from "@/constants/errors";
+import { MOBILE_BREAKPOINT } from "@/constants/hooks/mobile";
+import { TOAST_LIMIT, TOAST_REMOVE_DELAY } from "@/constants/hooks/toast";
+import HttpMessage from "@/constants/http/message";
+import HttpMethod from "@/constants/http/method";
+import HttpStatus from "@/constants/http/status";
+import { I18nConstants, localeConstants } from "@/constants/i18n";
+import AdsManagementConstants from "@/constants/projects/ads-management";
+import CarBookingConstants from "@/constants/projects/car-booking";
+import ChatAppConstants from "@/constants/projects/chap-app";
+import CoffeeOrderConstants from "@/constants/projects/coffee-order";
+import FamFundConstants from "@/constants/projects/fam-fund";
+import HotelBookingConstants from "@/constants/projects/hotel-booking";
+import MyShopConstants from "@/constants/projects/my-shop";
+import OnlineAcademyConstants from "@/constants/projects/online-academy";
+import PaintAppConstants from "@/constants/projects/paint-app";
+import VideoSharingConstants from "@/constants/projects/video-sharing";
 
 export {
   AdsManagementConstants,

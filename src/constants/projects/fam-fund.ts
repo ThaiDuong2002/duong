@@ -3,7 +3,7 @@ import {
   githubUrl,
   owner,
   repositories,
-} from "../contributors";
+} from "@/constants/contributors";
 
 const FamFundConstants = {
   id: "fam-fund",

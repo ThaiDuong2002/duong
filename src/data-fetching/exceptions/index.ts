@@ -1,8 +1,8 @@
-import BadRequestException from "./bad-request";
-import ForbiddenException from "./forbidden";
-import InternalServerException from "./internal-server";
-import NotFoundException from "./not-found";
-import UnauthorizedException from "./unauthorized";
+import BadRequestException from "@/data-fetching/exceptions/bad-request";
+import ForbiddenException from "@/data-fetching/exceptions/forbidden";
+import InternalServerException from "@/data-fetching/exceptions/internal-server";
+import NotFoundException from "@/data-fetching/exceptions/not-found";
+import UnauthorizedException from "@/data-fetching/exceptions/unauthorized";
 
 export {
   BadRequestException,

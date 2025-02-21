@@ -1,4 +1,4 @@
-import BaseEntity from "./base-entity";
+import BaseEntity from "@/data-fetching/entity/base-entity";
 
 class Contributor extends BaseEntity {
   private login!: string;

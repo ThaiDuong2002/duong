@@ -1,3 +1,5 @@
+"use client";
+
 import { I18nConstants } from "@/constants";
 import { GraduationCap, Trophy } from "lucide-react";
 import { useTranslations } from "next-intl";

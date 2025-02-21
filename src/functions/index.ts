@@ -1,4 +1,4 @@
-import { copyToClipboardWithMeta } from "./copy-to-clipboard";
-import { scrollToSection } from "./scroll-to-section";
+import { copyToClipboardWithMeta } from "@/functions/copy-to-clipboard";
+import { scrollToSection } from "@/functions/scroll-to-section";
 
 export { copyToClipboardWithMeta, scrollToSection };

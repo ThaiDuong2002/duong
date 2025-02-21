@@ -1,18 +1,18 @@
 "use client";
 
+import MaxWidthWrapper from "@/components/custom/max-width-wrapper";
+import AdsManagement from "@/components/custom/projects/list/ads-management";
+import CarBooking from "@/components/custom/projects/list/car-booking";
+import ChatApp from "@/components/custom/projects/list/chat-app";
+import CoffeeOrder from "@/components/custom/projects/list/coffee-order";
+import FamFund from "@/components/custom/projects/list/fam-fund";
+import HotelBooking from "@/components/custom/projects/list/hotel-booking";
+import MyShop from "@/components/custom/projects/list/my-shop";
+import OnlineAcademy from "@/components/custom/projects/list/online-academy";
+import PaintApp from "@/components/custom/projects/list/paint-app";
+import VideoSharing from "@/components/custom/projects/list/video-sharing";
 import { I18nConstants } from "@/constants";
 import { useTranslations } from "next-intl";
-import MaxWidthWrapper from "../max-width-wrapper";
-import AdsManagement from "./list/ads-management";
-import CarBooking from "./list/car-booking";
-import ChatApp from "./list/chat-app";
-import CoffeeOrder from "./list/coffee-order";
-import HotelBooking from "./list/hotel-booking";
-import MyShop from "./list/my-shop";
-import OnlineAcademy from "./list/online-academy";
-import PaintApp from "./list/paint-app";
-import VideoSharing from "./list/video-sharing";
-import FamFund from "./list/fam-fund";
 
 const Projects = ({ id }: { id?: string }) => {
   const projects = I18nConstants.projects;

@@ -1,9 +1,11 @@
+"use client";
+
+import LocaleSwitcher from "@/components/custom/locale-switcher";
+import NavbarItems from "@/components/custom/navbar/navbar-items";
+import NavbarMenu from "@/components/custom/navbar/navbar-menu";
 import ModeToggle from "@/components/themes";
 import { I18nConstants } from "@/constants";
 import { useTranslations } from "next-intl";
-import LocaleSwitcher from "../locale-switcher";
-import NavbarItems from "./navbar-items";
-import NavbarMenu from "./navbar-menu";
 
 const Navbar = () => {
   const navbar = I18nConstants.navbar;

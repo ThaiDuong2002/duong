@@ -1,9 +1,12 @@
-import { ContactCardProps, SocialButtonProps } from "./components/contact";
-import { CopyButtonProps } from "./components/copy-button";
-import { FooterItemsProps } from "./components/footer";
-import { MetadataProps } from "./components/home";
-import { NavbarItemsProps } from "./components/navbar";
-import { State } from "./hooks/toast";
+import {
+  ContactCardProps,
+  SocialButtonProps,
+} from "@/interface/components/contact";
+import { CopyButtonProps } from "@/interface/components/copy-button";
+import { FooterItemsProps } from "@/interface/components/footer";
+import { MetadataProps } from "@/interface/components/home";
+import { NavbarItemsProps } from "@/interface/components/navbar";
+import { State } from "@/interface/hooks/toast";
 
 export type {
   ContactCardProps,

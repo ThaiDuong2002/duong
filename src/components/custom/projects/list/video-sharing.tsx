@@ -1,5 +1,9 @@
 "use client";
 
+import BadgeList from "@/components/custom/projects/badge-list";
+import ContributorList from "@/components/custom/projects/contributor-list";
+import ImageCarousel from "@/components/custom/projects/image-carousel";
+import ProjectCard from "@/components/custom/projects/project-card";
 import { buttonVariants } from "@/components/ui/button";
 import { VideoSharingConstants } from "@/constants";
 import ContributorController from "@/data-fetching/controllers/contributor-controller";
@@ -8,10 +12,6 @@ import ErrorResponseDto from "@/data-fetching/dto/error-response-dto";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import BadgeList from "../badge-list";
-import ContributorList from "../contributor-list";
-import ImageCarousel from "../image-carousel";
-import ProjectCard from "../project-card";
 
 const VideoSharing = () => {
   const projects = VideoSharingConstants;

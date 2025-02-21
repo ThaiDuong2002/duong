@@ -1,6 +1,8 @@
+"use client";
+
+import SwitcherSelect from "@/components/custom/locale-switcher/switcher-select";
 import { Globe } from "lucide-react";
 import { useLocale } from "next-intl";
-import SwitcherSelect from "./switcher-select";
 
 const LocaleSwitcher = () => {
   const locale = useLocale();

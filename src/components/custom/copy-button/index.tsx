@@ -28,7 +28,7 @@ const CopyButton = ({
       size="icon"
       variant={variant}
       className={cn(
-        "relative z-10 hover:bg-zinc-700 w-8 [&_svg]:w-5 h-8 [&_svg]:h-5 text-slate-600 hover:text-zinc-50 dark:text-white",
+        "z-10 relative hover:bg-zinc-700 w-8 [&_svg]:w-5 h-8 [&_svg]:h-5 text-slate-600 hover:text-zinc-50 dark:text-white",
         className
       )}
       onClick={() => {

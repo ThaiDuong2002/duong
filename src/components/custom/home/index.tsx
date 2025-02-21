@@ -1,15 +1,16 @@
 "use client";
 
+import MaxWidthWrapper from "@/components/custom/max-width-wrapper";
 import { Button } from "@/components/ui/button";
 import { I18nConstants } from "@/constants";
 import { scrollToSection } from "@/functions";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import MaxWidthWrapper from "../max-width-wrapper";
 
 const Home = ({ id }: { id?: string }) => {
   const home = I18nConstants.home;
   const t = useTranslations(home.id);
+  
   return (
     <div className="relative min-h-screen" id={id}>
       <div className="-z-50 absolute inset-0 min-h-screen">

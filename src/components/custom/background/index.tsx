@@ -1,3 +1,3 @@
-import Cloud from "./cloud";
+import Cloud from "@/components/custom/background/cloud";
 
 export { Cloud };

@@ -1,3 +1,5 @@
+"use client";
+
 import { I18nConstants } from "@/constants";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
