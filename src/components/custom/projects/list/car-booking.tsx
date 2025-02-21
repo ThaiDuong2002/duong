@@ -119,10 +119,13 @@ const CarBooking = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center my-10">
+        <div className="flex flex-col justify-center items-center my-5">
+          <h1 className="mb-4 font-bold text-gray-900 max-md:text-md dark:text-white max-sm:text-sm max-lg:text-lg text-xl">
+            {projects.customer}
+          </h1>
           <Carousel className="w-full max-w-[80%]">
             <CarouselContent>
-              {projects.imageList.map((image, index) => (
+              {projects.imageListCustomer.map((image, index) => (
                 <CarouselItem
                   key={index}
                   className="flex justify-center items-center w-full h-full"
@@ -142,7 +145,75 @@ const CarBooking = () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            {projects.imageList.length > 1 && (
+            {projects.imageListCustomer.length > 1 && (
+              <>
+                <CarouselPrevious />
+                <CarouselNext />
+              </>
+            )}
+          </Carousel>
+        </div>
+        <div className="flex flex-col justify-center items-center my-5">
+          <h1 className="mb-4 font-bold text-gray-900 max-md:text-md dark:text-white max-sm:text-sm max-lg:text-lg text-xl">
+            {projects.driver}
+          </h1>
+          <Carousel className="w-full max-w-[80%]">
+            <CarouselContent>
+              {projects.imageListDriver.map((image, index) => (
+                <CarouselItem
+                  key={index}
+                  className="flex justify-center items-center w-full h-full"
+                >
+                  <div className="relative pb-[56.25%] w-full h-0">
+                    <Image
+                      alt=""
+                      src={image}
+                      width={16}
+                      height={9}
+                      quality={100}
+                      objectFit="cover"
+                      layout="responsive"
+                      className="border-muted-foreground rounded-md"
+                    />
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            {projects.imageListDriver.length > 1 && (
+              <>
+                <CarouselPrevious />
+                <CarouselNext />
+              </>
+            )}
+          </Carousel>
+        </div>
+        <div className="flex flex-col justify-center items-center my-5">
+          <h1 className="mb-4 font-bold text-gray-900 max-md:text-md dark:text-white max-sm:text-sm max-lg:text-lg text-xl">
+            {projects.callCenter}
+          </h1>
+          <Carousel className="w-full max-w-[80%]">
+            <CarouselContent>
+              {projects.imageListCallCenter.map((image, index) => (
+                <CarouselItem
+                  key={index}
+                  className="flex justify-center items-center w-full h-full"
+                >
+                  <div className="relative pb-[56.25%] w-full h-0">
+                    <Image
+                      alt=""
+                      src={image}
+                      width={16}
+                      height={9}
+                      quality={100}
+                      objectFit="cover"
+                      layout="responsive"
+                      className="border-muted-foreground rounded-md"
+                    />
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            {projects.imageListCallCenter.length > 1 && (
               <>
                 <CarouselPrevious />
                 <CarouselNext />
