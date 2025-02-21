@@ -2,7 +2,7 @@
 
 import ContactCard from "@/components/custom/contact/contact-card";
 import SocialButton from "@/components/custom/social-button";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/ui/button";
 import {
   EMAIL_ADDRESS,
   GITHUB,

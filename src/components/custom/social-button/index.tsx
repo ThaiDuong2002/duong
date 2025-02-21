@@ -1,10 +1,10 @@
+import { SocialButtonProps } from "@/interface";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@/components/ui/tooltip";
-import { SocialButtonProps } from "@/interface";
+} from "@/ui/tooltip";
 import Link from "next/link";
 
 const SocialButton = ({ href, tooltip, button }: SocialButtonProps) => {

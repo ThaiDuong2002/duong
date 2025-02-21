@@ -1,9 +1,9 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
 import { scrollToSection } from "@/functions";
 import { NavbarItemsProps } from "@/interface";
 import { cn } from "@/lib/utils";
+import { Button } from "@/ui/button";
 import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 

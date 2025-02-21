@@ -12,10 +12,15 @@
   },
   "aliases": {
     "components": "@/components",
-    "utils": "@/lib/utils",
-    "ui": "@/components/ui",
+    "constants": "@/constants",
+    "data-fetching": "@/data-fetching",
+    "functions": "@/functions",
+    "hooks": "@/hooks",
+    "i18n": "@/i18n",
+    "interface": "@/interface",
     "lib": "@/lib",
-    "hooks": "@/hooks"
+    "types": "@/types",
+    "ui": "@/components/ui"
   },
   "iconLibrary": "lucide"
 }

@@ -1,13 +1,13 @@
 "use client";
 
+import { Locale, routing, usePathname, useRouter } from "@/i18n/routing";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
-import { Locale, routing, usePathname, useRouter } from "@/i18n/routing";
+} from "@/ui/select";
 
 const SwitcherSelect = ({
   defaultValue,

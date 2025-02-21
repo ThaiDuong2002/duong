@@ -1,4 +1,4 @@
-import { ToastActionElement, ToastProps } from "@/components/ui/toast";
+import { ToastActionElement, ToastProps } from "@/ui/toast";
 import { ReactNode } from "react";
 
 type Toast = Omit<ToasterToast, "id">;
@@ -35,4 +35,4 @@ type Action =
       toastId?: ToasterToast["id"];
     };
 
-export type { Action, ActionType, ToasterToast, Toast };
+export type { Action, ActionType, Toast, ToasterToast };

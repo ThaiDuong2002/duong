@@ -1,10 +1,10 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
 import { COPY } from "@/constants";
 import { copyToClipboardWithMeta } from "@/functions";
 import { CopyButtonProps } from "@/interface";
 import { cn } from "@/lib/utils";
+import { Button } from "@/ui/button";
 import { CheckIcon, ClipboardIcon } from "lucide-react";
 import { useEffect, useState } from "react";
 

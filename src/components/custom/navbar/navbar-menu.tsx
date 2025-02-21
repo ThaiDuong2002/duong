@@ -1,16 +1,16 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
+import { scrollToSection } from "@/functions";
+import { NavbarItemsProps } from "@/interface";
+import { cn } from "@/lib/utils";
+import { Button } from "@/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuGroup,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { scrollToSection } from "@/functions";
-import { NavbarItemsProps } from "@/interface";
-import { cn } from "@/lib/utils";
+} from "@/ui/dropdown-menu";
 import { MenuIcon } from "lucide-react";
 
 const NavbarMenu = ({

@@ -1,11 +1,11 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import ContributorInfoDto from "@/data-fetching/dto/contributor-info-dto";
+import { Avatar, AvatarFallback, AvatarImage } from "@/ui/avatar";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@/components/ui/tooltip";
-import ContributorInfoDto from "@/data-fetching/dto/contributor-info-dto";
+} from "@/ui/tooltip";
 
 const ContributorList = ({
   contributors,

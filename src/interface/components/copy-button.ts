@@ -1,5 +1,5 @@
-import { ButtonProps } from "@/components/ui/button";
 import { Event } from "@/lib/events";
+import { ButtonProps } from "@/ui/button";
 
 interface CopyButtonProps extends ButtonProps {
   value: string;

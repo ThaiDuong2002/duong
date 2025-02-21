@@ -1,12 +1,7 @@
 "use client";
 
-import { buttonVariants } from "@/components/ui/button";
-import {
-  Dialog,
-  DialogContent,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
+import { buttonVariants } from "@/ui/button";
+import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "@/ui/dialog";
 import Image from "next/legacy/image";
 import Link from "next/link";
 import { ReactNode } from "react";

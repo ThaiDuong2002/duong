@@ -1,8 +1,8 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
 import { scrollToSection } from "@/functions";
 import { FooterItemsProps } from "@/interface";
+import { Button } from "@/ui/button";
 import { useTranslations } from "next-intl";
 
 const FooterItems = ({ list }: { list: FooterItemsProps }) => {

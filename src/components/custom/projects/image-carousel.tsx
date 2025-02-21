@@ -1,11 +1,11 @@
+import { cn } from "@/lib/utils";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel";
-import { cn } from "@/lib/utils";
+} from "@/ui/carousel";
 import Image from "next/legacy/image";
 import { ReactNode } from "react";
 

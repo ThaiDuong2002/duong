@@ -2,12 +2,12 @@
 
 import FooterItems from "@/components/custom/footer/footer-items";
 import SocialButton from "@/components/custom/social-button";
-import { Button } from "@/components/ui/button";
 import {
   I18nConstants,
   SOURCE_CODE_TOOLTIP,
   SOURCE_CODE_URL,
 } from "@/constants";
+import { Button } from "@/ui/button";
 import { Github } from "lucide-react";
 import { useTranslations } from "next-intl";
 
