@@ -78,6 +78,8 @@
   },
   "car-booking": {
     "description": "This revolutionary application, comparable to Uber and Grab, is purposefully crafted to transform the car booking experience for residents of City X. Utilizing the powerful capabilities of Flutter and React, it boasts intuitive mobile applications for both customers and drivers, alongside a user-friendly web platform for call center agents. Customers can effortlessly secure rides through the mobile app or by connecting with our attentive call center agents, ensuring a seamless and remarkable service that redefines convenience and efficiency."
-
+  },
+  "fam-fund": {
+    "description": "Introducing a powerful financial management application designed to help families track their expenses, set budgets, and achieve their financial goals. This intuitive tool empowers users to manage their finances effectively, visualize their spending habits, and make informed financial decisions. With features for expense tracking, budgeting, and goal setting, this application is your trusted companion for financial success. Additionally, it includes features for scheduling, education management for kids, news updates, a chat function to keep the family connected and informed, etc."
   }
 }

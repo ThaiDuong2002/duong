@@ -78,5 +78,8 @@
   },
   "car-booking": {
     "description": "Ứng dụng cách mạng này, tương tự như Uber và Grab, được chế tác đặc biệt để biến đổi trải nghiệm đặt xe cho cư dân Thành phố X. Sử dụng các khả năng mạnh mẽ của Flutter và React, nó có các ứng dụng di động trực quan cho cả khách hàng và tài xế, cùng với một nền tảng web thân thiện với người dùng cho các đại lý trung tâm cuộc gọi. Khách hàng có thể dễ dàng đặt xe thông qua ứng dụng di động hoặc bằng cách kết nối với các đại lý trung tâm cuộc gọi tận tâm của chúng tôi, đảm bảo một dịch vụ liền mạch và đáng chú ý, định nghĩa lại sự tiện lợi và hiệu quả."
+  },
+  "fam-fund": {
+    "description": "Giới thiệu một ứng dụng quản lý tài chính mạnh mẽ được thiết kế để giúp các gia đình theo dõi chi tiêu, lập ngân sách và đạt được các mục tiêu tài chính của họ. Công cụ trực quan này cho phép người dùng quản lý tài chính hiệu quả, hình dung thói quen chi tiêu và đưa ra các quyết định tài chính thông minh. Với các tính năng theo dõi chi tiêu, lập ngân sách và đặt mục tiêu, ứng dụng này là người bạn đồng hành đáng tin cậy của bạn để đạt được thành công tài chính. Ngoài ra, nó còn bao gồm các tính năng lập lịch, quản lý giáo dục cho trẻ em, cập nhật tin tức, chức năng trò chuyện để giữ cho gia đình luôn kết nối và thông tin, v.v."
   }
 }
