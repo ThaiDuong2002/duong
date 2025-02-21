@@ -53,30 +53,30 @@
     "description": "Dưới đây là danh sách chi tiết các dự án cá nhân và dự án nhóm mà tôi đã đóng góp."
   },
   "paint-app": {
-    "description": "Một ứng dụng vẽ đơn giản dựa trên Windows Paint. Nó cho phép người dùng vẽ, xóa, thay đổi màu sắc, và lưu tác phẩm của mình. Ứng dụng được xây dựng bằng C#, WPF, và XAML."
+    "description": "Giới thiệu một ứng dụng vẽ mạnh mẽ lấy cảm hứng từ Windows Paint yêu thích. Công cụ trực quan này cho phép người dùng thỏa sức sáng tạo, cung cấp các tính năng vẽ, xóa, thay đổi màu sắc và lưu tác phẩm nghệ thuật của họ một cách liền mạch. Được xây dựng bằng công nghệ tiên tiến sử dụng C#, WPF và XAML, ứng dụng này được thiết kế để nâng cao trải nghiệm nghệ thuật của bạn và biến tầm nhìn của bạn thành hiện thực."
   },
   "my-shop": {
-    "description": "Một ứng dụng Windows được xây dựng bằng C#, WPF và MSSQL Server. Ứng dụng này giúp quản lý sản phẩm và đơn hàng của máy tính và PC. Người dùng có thể cung cấp các chương trình giảm giá và xem thống kê bán hàng."
+    "description": "Giới thiệu một ứng dụng Windows mạnh mẽ được phát triển chuyên nghiệp bằng C#, WPF và MSSQL Server, được thiết kế để tối ưu hóa việc quản lý sản phẩm và đơn hàng máy tính và PC của bạn. Với công cụ sáng tạo này, người dùng có thể dễ dàng áp dụng giảm giá và có được thông tin chi tiết có giá trị thông qua thống kê bán hàng toàn diện, giúp bạn tối ưu hóa hoạt động kinh doanh và thúc đẩy thành công."
   },
   "hotel-booking": {
-    "description": "Một ứng dụng web cho phép người dùng đặt phòng khách sạn. Ứng dụng được xây dựng bằng React, Node.js, Express.js, và MongoDB. Người dùng có thể xem phòng có sẵn, đặt phòng, và xem lịch sử đặt phòng của họ. Ứng dụng cũng bao gồm một trang điều khiển quản trị để quản lý các phòng và đặt chỗ."
+    "description": "Ứng dụng web sáng tạo này cách mạng hóa cách người dùng đặt phòng khách sạn với sự dễ dàng và hiệu quả vượt trội. Được phát triển bằng các công nghệ tiên tiến như React, Node.js, Express.js và MongoDB, nó mang lại trải nghiệm người dùng liền mạch. Khách hàng có thể dễ dàng khám phá một loạt các phòng có sẵn, đặt chỗ ngay lập tức và theo dõi lịch sử đặt phòng của họ - tất cả trong một nơi. Hơn nữa, bảng điều khiển quản trị mạnh mẽ cho phép quản trị viên quản lý hiệu quả kho phòng và đặt phòng, đảm bảo hoạt động suôn sẻ. Trải nghiệm tương lai của việc đặt phòng khách sạn với ứng dụng xuất sắc này!"
   },
   "chat-app": {
-    "description": "Một ứng dụng chat realtime cho phép người dùng trò chuyện với nhau. Ứng dụng được xây dựng bằng React, Node.js, Firebase Cloud. Người dùng có thể tạo phòng chat, tham gia phòng chat, và gửi tin nhắn."
+    "description": "Giới thiệu một ứng dụng trò chuyện thời gian thực mạnh mẽ cho phép người dùng dễ dàng tạo phòng trò chuyện và giao tiếp với nhau. Được phát triển bằng các công nghệ tiên tiến như React, Node.js và Firebase Cloud, ứng dụng này không chỉ tạo điều kiện nhắn tin liền mạch mà còn cho phép người dùng tham gia các phòng trò chuyện động và dễ dàng truy cập lịch sử trò chuyện của họ. Trải nghiệm một mức độ kết nối và tương tác mới với nền tảng sáng tạo của chúng tôi!"
   },
   "video-sharing": {
-    "description": "Một nền tảng chia sẻ video được xây dựng bằng React, Node.js, Express.js và MongoDB. Người dùng có thể tải lên video, thích, chia sẻ và đăng ký kênh. Ứng dụng này được sao chép từ YouTube."
+    "description": "Giới thiệu một nền tảng chia sẻ video tiên tiến được phát triển bằng các công nghệ mới nhất, bao gồm React, Node.js, Express.js và MongoDB. Người dùng có thể dễ dàng tải lên video của họ, tương tác với nội dung thông qua lượt thích và chia sẻ, và đăng ký các kênh yêu thích của họ. Ứng dụng sáng tạo này là một bản sao mạnh mẽ của YouTube, được thiết kế để nâng cao trải nghiệm chia sẻ video của bạn và tạo ra một cộng đồng trực tuyến sôi động. Tham gia với chúng tôi và trở thành một phần của nền tảng năng động này!"
   },
   "online-academy": {
-    "description": "Một nền tảng học trực tuyến được xây dựng bằng Handlebars, Express và MongoDB. Ứng dụng này cung cấp các khóa học về nhiều chủ đề khác nhau, cho phép người dùng đăng ký khóa học, xem tài liệu học tập và hoàn thành các bài kiểm tra và bài tập."
+    "description": "Giới thiệu một nền tảng học trực tuyến sáng tạo, được chế tác chuyên nghiệp bằng Handlebars, Express và MongoDB. Ứng dụng này cung cấp cho người học một loạt các khóa học đa dạng trên nhiều chủ đề. Người dùng có thể dễ dàng đăng ký các khóa học, truy cập một kho tài liệu khóa học phong phú và nâng cao kiến thức của họ thông qua các bài kiểm tra và bài tập tương tác. Biến đổi trải nghiệm học tập của bạn và đạt được mục tiêu giáo dục của bạn với chúng tôi!"
   },
   "coffee-order": {
-    "description": "Giới thiệu một ứng dụng mạnh mẽ được tạo ra bằng Kotlin trong Android Studio, JavaScript và MySQL. Nền tảng sáng tạo này không chỉ cho phép người dùng dễ dàng đặt cà phê yêu thích và tùy chỉnh lựa chọn với nhiều loại topping mà còn bao gồm một bảng quản trị mạnh mẽ để quản lý hiệu quả. Trải nghiệm sự tiện lợi và kiểm soát chưa từng có!"
+    "description": "Giới thiệu một ứng dụng mạnh mẽ được chế tác bằng Kotlin trong Android Studio, JavaScript và MySQL. Nền tảng sáng tạo này không chỉ cho phép người dùng dễ dàng đặt hàng cà phê yêu thích của họ và tùy chỉnh lựa chọn của họ với nhiều loại topping mà còn bao gồm một bảng điều khiển quản trị mạnh mẽ để quản lý hợp lý. Trải nghiệm sự tiện lợi và kiểm soát chưa từng có!"
   },
   "ads-management": {
-    "description": "Ứng dụng sáng tạo này được thiết kế để cách mạng hóa việc quản lý các bảng quảng cáo trên toàn thành phố X. Bằng cách đáp ứng nhu cầu của cư dân, các quan chức địa phương ở cả cấp phường và quận, và Sở Văn hóa và Thể thao, nó cung cấp một giải pháp mạnh mẽ, minh bạch và hiệu quả để giám sát cảnh quan quảng cáo của thành phố. Hãy nắm bắt cơ hội này để nâng cao giao tiếp và sự tham gia trong cộng đồng của chúng ta."
+    "description": "Ứng dụng sáng tạo này được chế tác để cách mạng hóa việc quản lý các bảng quảng cáo trên toàn Thành phố X. Bằng cách đáp ứng nhu cầu của cư dân, các quan chức địa phương ở cả cấp phường và quận, và Sở Văn hóa và Thể thao, nó cung cấp một giải pháp mạnh mẽ, minh bạch và hiệu quả để giám sát cảnh quan quảng cáo của thành phố. Nắm bắt cơ hội này để nâng cao giao tiếp và sự tham gia trong cộng đồng của chúng ta."
   },
   "car-booking": {
-    "description": "Ứng dụng cách mạng này, tương tự như Uber và Grab, được thiết kế đặc biệt để biến đổi trải nghiệm đặt xe cho cư dân thành phố X. Sử dụng khả năng mạnh mẽ của Flutter và React, nó có các ứng dụng di động trực quan cho cả khách hàng và tài xế, cùng với một nền tảng web thân thiện với người dùng cho các nhân viên tổng đài. Khách hàng có thể dễ dàng đặt xe thông qua ứng dụng di động hoặc kết nối với các nhân viên tổng đài tận tâm của chúng tôi, đảm bảo một dịch vụ liền mạch và đáng chú ý, tái định nghĩa sự tiện lợi và hiệu quả."
+    "description": "Ứng dụng cách mạng này, tương tự như Uber và Grab, được chế tác đặc biệt để biến đổi trải nghiệm đặt xe cho cư dân Thành phố X. Sử dụng các khả năng mạnh mẽ của Flutter và React, nó có các ứng dụng di động trực quan cho cả khách hàng và tài xế, cùng với một nền tảng web thân thiện với người dùng cho các đại lý trung tâm cuộc gọi. Khách hàng có thể dễ dàng đặt xe thông qua ứng dụng di động hoặc bằng cách kết nối với các đại lý trung tâm cuộc gọi tận tâm của chúng tôi, đảm bảo một dịch vụ liền mạch và đáng chú ý, định nghĩa lại sự tiện lợi và hiệu quả."
   }
 }
