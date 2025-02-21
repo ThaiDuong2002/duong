@@ -20,7 +20,8 @@
     "interface": "@/interface",
     "lib": "@/lib",
     "types": "@/types",
-    "ui": "@/components/ui"
+    "ui": "@/components/ui",
+    "utils": "@/lib/utils"
   },
   "iconLibrary": "lucide"
 }
