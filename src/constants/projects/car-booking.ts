@@ -9,7 +9,7 @@ const CarBookingConstants = {
   id: "car-booking",
   title: "RideNow - Car Booking System",
   description: "description",
-  type: "Mobile Application",
+  type: "Web & Mobile Application",
   imageSrc: "/projects/car-booking/car-booking.png",
   customer: "Customer",
   driver: "Driver",

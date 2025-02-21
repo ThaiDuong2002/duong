@@ -12,6 +12,7 @@ import MyShop from "./list/my-shop";
 import OnlineAcademy from "./list/online-academy";
 import PaintApp from "./list/paint-app";
 import VideoSharing from "./list/video-sharing";
+import FamFund from "./list/fam-fund";
 
 const Projects = ({ id }: { id?: string }) => {
   const projects = I18nConstants.projects;
@@ -28,6 +29,7 @@ const Projects = ({ id }: { id?: string }) => {
       </p>
       <MaxWidthWrapper className="mt-10">
         <div className="gap-14 grid grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-2 max-lg:grid-cols-2 max-xl:grid-cols-3">
+          <FamFund />
           <CarBooking />
           <AdsManagement />
           <PaintApp />

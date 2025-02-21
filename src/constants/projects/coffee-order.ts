@@ -9,7 +9,7 @@ const CoffeeOrderConstants = {
   id: "coffee-order",
   title: "Infinity - Coffee Order Application",
   description: "description",
-  type: "Web Application",
+  type: "Mobile Application",
   imageSrc: "/projects/coffee-order/coffee-order.png",
   imageList: [
     "/projects/coffee-order/coffee-order.png",
