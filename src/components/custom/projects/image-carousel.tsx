@@ -21,7 +21,7 @@ const ImageCarousel = ({
   return (
     <div className={cn("flex justify-center items-center", className)}>
       {header}
-      <Carousel className="w-full max-w-[80%]">
+      <Carousel className="w-full max-w-[80%] max-sm:max-w-full">
         <CarouselContent>
           {list.map((image, index) => (
             <CarouselItem

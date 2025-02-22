@@ -12,6 +12,7 @@ import { buttonVariants } from "@/ui/button";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import ProjectDetail from "../project-detail";
 
 const ChatApp = () => {
   const projects = ChatAppConstants;
@@ -78,6 +79,7 @@ const ChatApp = () => {
           </div>
         </div>
         <ImageCarousel list={projects.imageList} className="my-10" />
+        <ProjectDetail id={projects.id} />
       </div>
     </ProjectCard>
   );
