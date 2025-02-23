@@ -30,31 +30,36 @@ const ChatAppConstants = {
   technologies: "Technologies",
   contributors: "Contributors",
   detailInfo: {
-    name: "overview",
-    technologies: "Technologies",
-    features: "Features",
-    architecture: "Architecture",
-    overview: [
-      {
-        role: "client",
-        features: ["feature-01", "feature-02", "feature-03", "feature-04"],
-        techInfo: [
-          "tech-01",
-          "tech-02",
-          "tech-03",
-          "tech-04",
-          "tech-05",
-          "tech-06",
-          "tech-07",
-        ],
-        techImages: [
-          "/technologies/react-js.png",
-          "/technologies/firebase.png",
-          "/technologies/node-js.png",
-        ],
-      },
-    ],
-    architectureImages: [],
+    features: {
+      id: "features",
+      name: "Features",
+      applications: [
+        {
+          application: "User",
+          featureList: ["feature-01", "feature-02", "feature-03"],
+        },
+      ],
+    },
+    technologies: {
+      id: "technologies",
+      name: "Technologies",
+      techs: [
+        {
+          application: "User",
+          techList: ["tech-01", "tech-02", "tech-03"],
+        },
+      ],
+      techImages: [
+        "/technologies/firebase.png",
+        "/technologies/node-js.png",
+        "/technologies/react-js.png",
+      ],
+    },
+    architectures: {
+      id: "architectures",
+      name: "Architectures",
+      architectureList: [],
+    },
   },
 };
 
