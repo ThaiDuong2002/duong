@@ -79,8 +79,8 @@ const ChatApp = () => {
           </div>
         </div>
         <ImageCarousel list={projects.imageList} className="my-10" />
+        <ProjectDetail id={projects.id} />
       </div>
-      <ProjectDetail id={projects.id}  />
     </ProjectCard>
   );
 };
