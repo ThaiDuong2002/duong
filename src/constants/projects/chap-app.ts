@@ -30,6 +30,7 @@ const ChatAppConstants = {
   technologies: "Technologies",
   contributors: "Contributors",
   detailInfo: {
+    imageList: ["/projects/chat-app/chat-app.png"],
     features: {
       id: "features",
       name: "Features",
@@ -58,7 +59,7 @@ const ChatAppConstants = {
     architectures: {
       id: "architectures",
       name: "Architectures",
-      architectureList: [],
+      architectureList: null,
     },
   },
 };
