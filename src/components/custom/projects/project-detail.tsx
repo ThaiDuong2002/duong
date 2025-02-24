@@ -1,7 +1,7 @@
 "use client";
 
-// import { useTranslations } from "next-intl";
 import ImageCarousel from "@/components/custom/projects/image-carousel";
+import { useTranslations } from "next-intl";
 
 interface ProjectDetailProps {
   id: string;
@@ -43,7 +43,7 @@ const ProjectDetail = ({
   detailInfo,
   imageListOption = "single",
 }: ProjectDetailProps) => {
-  // const t = useTranslations(id);
+  const t = useTranslations(id);
 
   return (
     <div className="flex flex-col">
@@ -54,6 +54,7 @@ const ProjectDetail = ({
         <div className="border-b-2 border-black font-bold text-gray-900 dark:text-white max-sm:text-sm max-md:text-xl text-2xl">
           {detailInfo.features.name}
         </div>
+        {t("description")}
         <div className="border-b-2 border-black font-bold text-gray-900 dark:text-white max-sm:text-sm max-md:text-xl text-2xl">
           {detailInfo.technologies.name}
         </div>
