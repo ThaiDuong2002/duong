@@ -11,7 +11,6 @@ const ChatAppConstants = {
   description: "description",
   type: "Web Application",
   imageSrc: "/projects/chat-app/chat-app.png",
-  imageList: ["/projects/chat-app/chat-app.png"],
   githubUrl: githubUrl(owner[0].name, repositories[12].name),
   apiContributors: apiContributors(owner[0].name, repositories[12].name),
   multipleGit: false,

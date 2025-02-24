@@ -7,7 +7,7 @@ interface ProjectDetailProps {
   id: string;
   imageListOption?: "multiple" | "single";
   detailInfo: {
-    imageList: string[];
+    imageList: string[] | null;
     overview: {
       id: string;
       name: string;
@@ -48,7 +48,7 @@ const ProjectDetail = ({
 
   return (
     <div className="flex flex-col">
-      {imageListOption === "single" && (
+      {imageListOption === "single" && detailInfo.imageList && (
         <ImageCarousel list={detailInfo.imageList} className="my-10" />
       )}
       <div className="flex flex-col gap-4 mx-10 max-sm:mx-0 lg:mx-32">
