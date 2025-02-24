@@ -8,12 +8,13 @@ interface ProjectDetailProps {
   imageListOption?: "multiple" | "single";
   detailInfo: {
     imageList: string[];
-    features: {
+    overview: {
       id: string;
       name: string;
       applications: {
         application: string;
-        featureList: string[];
+        overviewList: string[];
+        imageList: string[] | null;
       }[];
     };
     technologies: {
@@ -21,9 +22,9 @@ interface ProjectDetailProps {
       name: string;
       techs: {
         application: string;
-        techList: string[];
+        techList: { name: string; description: string }[];
+        techImages: string[] | null;
       }[];
-      techImages: string[];
     };
     architectures: {
       id: string;
@@ -52,15 +53,14 @@ const ProjectDetail = ({
       )}
       <div className="flex flex-col gap-4 mx-10 max-sm:mx-0 lg:mx-32">
         <div className="border-b-2 border-black font-bold text-gray-900 dark:text-white max-sm:text-sm max-md:text-xl text-2xl">
-          {detailInfo.features.name}
+          {detailInfo.overview.name}
         </div>
-        {t("description")}
         <div className="border-b-2 border-black font-bold text-gray-900 dark:text-white max-sm:text-sm max-md:text-xl text-2xl">
           {detailInfo.technologies.name}
         </div>
         {detailInfo.architectures.architectureList && (
           <div className="border-b-2 border-black font-bold text-gray-900 dark:text-white max-sm:text-sm max-md:text-xl text-2xl">
-            {detailInfo.features.name}
+            {detailInfo.architectures.name}
           </div>
         )}
       </div>

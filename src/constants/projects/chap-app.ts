@@ -31,13 +31,14 @@ const ChatAppConstants = {
   contributors: "Contributors",
   detailInfo: {
     imageList: ["/projects/chat-app/chat-app.png"],
-    features: {
-      id: "features",
-      name: "Features",
+    overview: {
+      id: "overview",
+      name: "Overview",
       applications: [
         {
           application: "User",
-          featureList: ["feature-01", "feature-02", "feature-03"],
+          overviewList: ["overview-01", "overview-02", "overview-03"],
+          imageList: null,
         },
       ],
     },
@@ -47,13 +48,26 @@ const ChatAppConstants = {
       techs: [
         {
           application: "User",
-          techList: ["tech-01", "tech-02", "tech-03"],
+          techList: [
+            {
+              name: "Node.Js",
+              description: "tech-01",
+            },
+            {
+              name: "React.Js",
+              description: "tech-02",
+            },
+            {
+              name: "Firebase",
+              description: "tech-03",
+            },
+          ],
+          techImages: [
+            "/technologies/firebase.png",
+            "/technologies/node-js.png",
+            "/technologies/react-js.png",
+          ],
         },
-      ],
-      techImages: [
-        "/technologies/firebase.png",
-        "/technologies/node-js.png",
-        "/technologies/react-js.png",
       ],
     },
     architectures: {

@@ -62,7 +62,17 @@
     "description": "Ứng dụng web sáng tạo này cách mạng hóa cách người dùng đặt phòng khách sạn với sự dễ dàng và hiệu quả vượt trội. Được phát triển bằng các công nghệ tiên tiến như React, Node.js, Express.js và MongoDB, nó mang lại trải nghiệm người dùng liền mạch. Khách hàng có thể dễ dàng khám phá một loạt các phòng có sẵn, đặt chỗ ngay lập tức và theo dõi lịch sử đặt phòng của họ - tất cả trong một nơi. Hơn nữa, bảng điều khiển quản trị mạnh mẽ cho phép quản trị viên quản lý hiệu quả kho phòng và đặt phòng, đảm bảo hoạt động suôn sẻ. Trải nghiệm tương lai của việc đặt phòng khách sạn với ứng dụng xuất sắc này!"
   },
   "chat-app": {
-    "description": "Giới thiệu một ứng dụng trò chuyện thời gian thực mạnh mẽ cho phép người dùng dễ dàng tạo phòng trò chuyện và giao tiếp với nhau. Được phát triển bằng các công nghệ tiên tiến như React, Node.js và Firebase Cloud, ứng dụng này không chỉ tạo điều kiện nhắn tin liền mạch mà còn cho phép người dùng tham gia các phòng trò chuyện động và dễ dàng truy cập lịch sử trò chuyện của họ. Trải nghiệm một mức độ kết nối và tương tác mới với nền tảng sáng tạo của chúng tôi!"
+    "description": "Giới thiệu một ứng dụng trò chuyện thời gian thực mạnh mẽ cho phép người dùng dễ dàng tạo phòng trò chuyện và giao tiếp với nhau. Được phát triển bằng các công nghệ tiên tiến như React, Node.js và Firebase Cloud, ứng dụng này không chỉ tạo điều kiện nhắn tin liền mạch mà còn cho phép người dùng tham gia các phòng trò chuyện động và dễ dàng truy cập lịch sử trò chuyện của họ. Trải nghiệm một mức độ kết nối và tương tác mới với nền tảng sáng tạo của chúng tôi!",
+    "features": {
+      "feature-01": "Dễ dàng tìm bất kỳ người dùng nào bằng cách nhập tên của họ vào thanh tìm kiếm. Tận dụng tính năng đơn giản này để kết nối với những người bạn cần!",
+      "feature-02": "Dễ dàng tạo phòng trò chuyện mới chỉ bằng cách bắt đầu cuộc trò chuyện với người dùng bạn muốn trò chuyện.",
+      "feature-03": "Bạn có thể dễ dàng gửi tin nhắn văn bản, hình ảnh hấp dẫn và biểu tượng cảm xúc sinh động."
+    },
+    "technologies": {
+      "tech-01": "Được xây dựng với Node.js để cung cấp các hoạt động phía máy chủ hiệu quả và mạnh mẽ, đảm bảo hiệu suất và độ tin cậy tối ưu.",
+      "tech-02": "Tận dụng sức mạnh của React.js để cung cấp giao diện người dùng hấp dẫn và phản hồi nhanh, nâng cao trải nghiệm người dùng tổng thể.",
+      "tech-03": "Sử dụng Firebase để cho phép trò chuyện thời gian thực liền mạch và các giải pháp lưu trữ dữ liệu mạnh mẽ."
+    }
   },
   "video-sharing": {
     "description": "Giới thiệu một nền tảng chia sẻ video tiên tiến được phát triển bằng các công nghệ mới nhất, bao gồm React, Node.js, Express.js và MongoDB. Người dùng có thể dễ dàng tải lên video của họ, tương tác với nội dung thông qua lượt thích và chia sẻ, và đăng ký các kênh yêu thích của họ. Ứng dụng sáng tạo này là một bản sao mạnh mẽ của YouTube, được thiết kế để nâng cao trải nghiệm chia sẻ video của bạn và tạo ra một cộng đồng trực tuyến sôi động. Tham gia với chúng tôi và trở thành một phần của nền tảng năng động này!"
