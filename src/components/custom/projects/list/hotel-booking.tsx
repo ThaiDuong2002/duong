@@ -41,7 +41,7 @@ const HotelBooking = () => {
       multipleGit={projects.multipleGit}
       description={t(projects.description)}
     >
-      <div className="flex flex-col gap-4 mx-10">
+      <div className="flex flex-col gap-4 mx-10 max-sm:mx-2">
         <div className="flex max-md:flex-col flex-wrap justify-between gap-8">
           <div className="flex-1">
             <h1 className="m-0 p-0 font-bold text-gray-900 dark:text-white max-sm:text-xl max-md:text-3xl text-4xl">
