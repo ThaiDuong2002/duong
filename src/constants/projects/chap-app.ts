@@ -35,6 +35,7 @@ const ChatAppConstants = {
       name: "Overview",
       applications: [
         {
+          id: "frontend",
           application: "User",
           overviewList: ["overview-01", "overview-02", "overview-03"],
           imageList: null,
@@ -46,6 +47,7 @@ const ChatAppConstants = {
       name: "Technologies",
       techs: [
         {
+          id: "frontend",
           application: "User",
           techList: [
             {

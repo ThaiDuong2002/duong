@@ -80,7 +80,6 @@ const ChatApp = () => {
         <ProjectDetail
           id={projects.id}
           detailInfo={projects.detailInfo}
-          imageListOption="single"
         />
       </div>
     </ProjectCard>

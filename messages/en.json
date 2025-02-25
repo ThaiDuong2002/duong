@@ -64,18 +64,41 @@
   "chat-app": {
     "description": "Introducing a powerful real-time chat application that empowers users to effortlessly create chat rooms and communicate with one another. Developed using cutting-edge technologies such as React, Node.js, and Firebase Cloud, this application not only facilitates seamless messaging but also allows users to join dynamic chat rooms and easily access their chat history. Experience a new level of connectivity and interaction with our innovative platform!",
     "overview": {
-      "overview-01": "Effortlessly locate any user by entering their name in the search bar. Take advantage of this simple feature to connect with the people you need!",
-      "overview-02": "Effortlessly create a new chat room by simply initiating a conversation with a user you wish to chat with.",
-      "overview-03": "You have the ability to effortlessly send text messages, captivating images, and expressive emojis."
+      "frontend": {
+        "overview-01": "Effortlessly locate any user by entering their name in the search bar. Take advantage of this simple feature to connect with the people you need!",
+        "overview-02": "Effortlessly create a new chat room by simply initiating a conversation with a user you wish to chat with.",
+        "overview-03": "You have the ability to effortlessly send text messages, captivating images, and expressive emojis."
+      }
     },
     "technologies": {
-      "tech-01": "Engineered with Node.js to deliver highly efficient and robust server-side operations, ensuring optimal performance and reliability.",
-      "tech-02": "Leverages the power of React.js to deliver an engaging and highly responsive user interface that enhances the overall user experience.",
-      "tech-03": "Leverages Firebase to enable seamless real-time chat and robust data storage solutions."
+      "frontend": {
+        "tech-01": "Engineered with Node.js to deliver highly efficient and robust server-side operations, ensuring optimal performance and reliability.",
+        "tech-02": "Leverages the power of React.js to deliver an engaging and highly responsive user interface that enhances the overall user experience.",
+        "tech-03": "Leverages Firebase to enable seamless real-time chat and robust data storage solutions."
+      }
     }
   },
   "video-sharing": {
-    "description": "Introducing a cutting-edge video-sharing platform developed with the latest technologies, including React, Node.js, Express.js, and MongoDB. Users can effortlessly upload their videos, engage with content through likes and shares, and subscribe to their favorite channels. This innovative application is a powerful clone of YouTube, designed to enhance your video-sharing experience and foster a vibrant online community. Join us and be a part of this dynamic platform!"
+    "description": "Introducing a cutting-edge video-sharing platform developed with the latest technologies, including React, Node.js, Express.js, and MongoDB. Users can effortlessly upload their videos, engage with content through likes and shares, and subscribe to their favorite channels. This innovative application is a powerful clone of YouTube, designed to enhance your video-sharing experience and foster a vibrant online community. Join us and be a part of this dynamic platform!",
+    "overview": {
+      "frontend": {
+        "overview-01": "",
+        "overview-02": "",
+        "overview-03": ""
+      }
+    },
+    "technologies": {
+      "frontend": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      },
+      "backend": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      }
+    }
   },
   "online-academy": {
     "description": "Introducing an innovative online learning platform, expertly crafted with Handlebars, Express, and MongoDB. This application empowers learners by offering a diverse range of courses across multiple subjects. Users can easily enroll in courses, access a wealth of engaging course materials, and enhance their knowledge through interactive quizzes and assignments. Transform your learning experience and achieve your educational goals with us!"

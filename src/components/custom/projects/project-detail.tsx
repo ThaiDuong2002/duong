@@ -8,13 +8,15 @@ import Image from "next/legacy/image";
 const ProjectDetail = ({
   id,
   detailInfo,
-  imageListOption = "single",
+  overviewOption = "single",
+  technologiesOption = "single",
+  architecturesOption = "single",
 }: ProjectDetailProps) => {
   const t = useTranslations(id);
 
   return (
     <div className="flex flex-col">
-      {imageListOption === "single" && detailInfo.imageList && (
+      {overviewOption === "single" && detailInfo.imageList && (
         <ImageCarousel list={detailInfo.imageList} className="my-10" />
       )}
       <div className="flex flex-col gap-4 my-10">
@@ -24,7 +26,7 @@ const ProjectDetail = ({
         {detailInfo.overview.applications.map((application, index) => (
           <div className="flex flex-col" key={index}>
             {detailInfo.overview.applications.length > 1 &&
-              imageListOption == "multiple" && (
+              overviewOption == "multiple" && (
                 <div className="mx-10 max-sm:mx-0 lg:mx-32 font-semibold text-gray-900 dark:text-white max-sm:text-lg max-md:text-xl text-2xl italic">
                   {application.application}
                 </div>
@@ -32,11 +34,11 @@ const ProjectDetail = ({
             <ul className="mx-10 max-sm:mx-0 lg:mx-32 text-muted-foreground max-sm:text-sm max-md:text-lg text-xl list-disc list-inside">
               {application.overviewList.map((overview, index) => (
                 <li key={index}>
-                  {t(`${detailInfo.overview.id}.${overview}`)}
+                  {t(`${detailInfo.overview.id}.${application.id}.${overview}`)}
                 </li>
               ))}
             </ul>
-            {imageListOption === "multiple" && application.imageList && (
+            {overviewOption === "multiple" && application.imageList && (
               <ImageCarousel
                 list={application.imageList}
                 className="mt-5 mb-10"
@@ -50,7 +52,7 @@ const ProjectDetail = ({
         {detailInfo.technologies.techs.map((tech, index) => (
           <div className="flex flex-col" key={index}>
             {detailInfo.technologies.techs.length > 1 &&
-              imageListOption == "multiple" && (
+              technologiesOption == "multiple" && (
                 <div className="mx-10 max-sm:mx-0 lg:mx-32 font-semibold text-gray-900 dark:text-white max-sm:text-lg max-md:text-xl text-2xl italic">
                   {tech.application}
                 </div>
@@ -61,7 +63,7 @@ const ProjectDetail = ({
                   <p>
                     <span className="font-bold">{technologies.name}: </span>
                     {t(
-                      `${detailInfo.technologies.id}.${technologies.description}`
+                      `${detailInfo.technologies.id}.${tech.id}.${technologies.description}`
                     )}
                   </p>
                 </li>
@@ -72,7 +74,6 @@ const ProjectDetail = ({
                 {tech.techImages.map((image, index) => (
                   <div className="relative w-1/4 h-auto" key={index}>
                     <Image
-                      key={index}
                       src={image}
                       alt=""
                       width={16}
@@ -98,7 +99,7 @@ const ProjectDetail = ({
             (architecture, index) => (
               <div className="flex flex-col" key={index}>
                 {detailInfo.architectures.architectureList!.length > 1 &&
-                  imageListOption == "multiple" && (
+                  architecturesOption == "multiple" && (
                     <div className="mx-10 max-sm:mx-0 lg:mx-32 font-semibold text-gray-900 dark:text-white max-sm:text-lg max-md:text-xl text-2xl italic">
                       {architecture.application}
                     </div>

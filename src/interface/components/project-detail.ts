@@ -1,12 +1,15 @@
 interface ProjectDetailProps {
   id: string;
-  imageListOption?: "multiple" | "single";
+  overviewOption?: "multiple" | "single";
+  technologiesOption?: "multiple" | "single";
+  architecturesOption?: "multiple" | "single";
   detailInfo: {
     imageList: string[] | null;
     overview: {
       id: string;
       name: string;
       applications: {
+        id: string;
         application: string;
         overviewList: string[];
         imageList: string[] | null;
@@ -16,6 +19,7 @@ interface ProjectDetailProps {
       id: string;
       name: string;
       techs: {
+        id: string;
         application: string;
         techList: { name: string; description: string }[];
         techImages: string[] | null;
