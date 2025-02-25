@@ -68,9 +68,9 @@ const ProjectDetail = ({
               ))}
             </ul>
             {tech.techImages && (
-              <div className="flex justify-center gap-4 mx-10 max-sm:mx-0 lg:mx-32 mt-5">
+              <div className="flex flex-wrap justify-center items-center gap-4 mx-10 max-sm:mx-0 lg:mx-32 mt-5">
                 {tech.techImages.map((image, index) => (
-                  <div className="relative w-full h-auto" key={index}>
+                  <div className="relative w-1/4 h-auto" key={index}>
                     <Image
                       key={index}
                       src={image}
