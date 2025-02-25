@@ -63,10 +63,10 @@
   },
   "chat-app": {
     "description": "Giới thiệu một ứng dụng trò chuyện thời gian thực mạnh mẽ cho phép người dùng dễ dàng tạo phòng trò chuyện và giao tiếp với nhau. Được phát triển bằng các công nghệ tiên tiến như React, Node.js và Firebase Cloud, ứng dụng này không chỉ tạo điều kiện nhắn tin liền mạch mà còn cho phép người dùng tham gia các phòng trò chuyện động và dễ dàng truy cập lịch sử trò chuyện của họ. Trải nghiệm một mức độ kết nối và tương tác mới với nền tảng sáng tạo của chúng tôi!",
-    "features": {
-      "feature-01": "Dễ dàng tìm bất kỳ người dùng nào bằng cách nhập tên của họ vào thanh tìm kiếm. Tận dụng tính năng đơn giản này để kết nối với những người bạn cần!",
-      "feature-02": "Dễ dàng tạo phòng trò chuyện mới chỉ bằng cách bắt đầu cuộc trò chuyện với người dùng bạn muốn trò chuyện.",
-      "feature-03": "Bạn có thể dễ dàng gửi tin nhắn văn bản, hình ảnh hấp dẫn và biểu tượng cảm xúc sinh động."
+    "overview": {
+      "overview-01": "Dễ dàng tìm bất kỳ người dùng nào bằng cách nhập tên của họ vào thanh tìm kiếm. Tận dụng tính năng đơn giản này để kết nối với những người bạn cần!",
+      "overview-02": "Dễ dàng tạo phòng trò chuyện mới chỉ bằng cách bắt đầu cuộc trò chuyện với người dùng bạn muốn trò chuyện.",
+      "overview-03": "Bạn có thể dễ dàng gửi tin nhắn văn bản, hình ảnh hấp dẫn và biểu tượng cảm xúc sinh động."
     },
     "technologies": {
       "tech-01": "Được xây dựng với Node.js để cung cấp các hoạt động phía máy chủ hiệu quả và mạnh mẽ, đảm bảo hiệu suất và độ tin cậy tối ưu.",
