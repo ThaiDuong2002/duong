@@ -18,7 +18,7 @@ const ProjectDetail = ({
         <ImageCarousel list={detailInfo.imageList} className="my-10" />
       )}
       <div className="flex flex-col gap-4 my-10">
-        <div className="mx-10 max-sm:mx-0 lg:mx-32 border-b-2 border-black font-bold text-gray-900 dark:text-white max-sm:text-lg max-md:text-2xl text-3xl">
+        <div className="mx-10 max-sm:mx-0 lg:mx-32 dark:border-white border-b-2 border-black font-bold text-gray-900 dark:text-white max-sm:text-lg max-md:text-2xl text-3xl">
           {detailInfo.overview.name}
         </div>
         {detailInfo.overview.applications.map((application, index) => (
@@ -29,7 +29,7 @@ const ProjectDetail = ({
                   {application.application}
                 </div>
               )}
-            <ul className="mx-10 max-sm:mx-0 lg:mx-32 text-gray-600 max-sm:text-sm max-md:text-lg text-xl list-disc list-inside">
+            <ul className="mx-10 max-sm:mx-0 lg:mx-32 text-muted-foreground max-sm:text-sm max-md:text-lg text-xl list-disc list-inside">
               {application.overviewList.map((overview, index) => (
                 <li key={index}>
                   {t(`${detailInfo.overview.id}.${overview}`)}
@@ -44,7 +44,7 @@ const ProjectDetail = ({
             )}
           </div>
         ))}
-        <div className="mx-10 max-sm:mx-0 lg:mx-32 border-b-2 border-black font-bold text-gray-900 dark:text-white max-sm:text-lg max-md:text-2xl text-3xl">
+        <div className="mx-10 max-sm:mx-0 lg:mx-32 dark:border-white border-b-2 border-black font-bold text-gray-900 dark:text-white max-sm:text-lg max-md:text-2xl text-3xl">
           {detailInfo.technologies.name}
         </div>
         {detailInfo.technologies.techs.map((tech, index) => (
@@ -55,7 +55,7 @@ const ProjectDetail = ({
                   {tech.application}
                 </div>
               )}
-            <ul className="mx-10 max-sm:mx-0 lg:mx-32 text-gray-600 max-sm:text-sm max-md:text-lg text-xl">
+            <ul className="mx-10 max-sm:mx-0 lg:mx-32 text-muted-foreground max-sm:text-sm max-md:text-lg text-xl">
               {tech.techList.map((technologies, index) => (
                 <li key={index}>
                   <p>
@@ -89,10 +89,45 @@ const ProjectDetail = ({
           </div>
         ))}
         {detailInfo.architectures.architectureList && (
-          <div className="mx-10 max-sm:mx-0 lg:mx-32 border-b-2 border-black font-bold text-gray-900 dark:text-white max-sm:text-lg max-md:text-2xl text-3xl">
+          <div className="mx-10 max-sm:mx-0 lg:mx-32 dark:border-white border-b-2 border-black font-bold text-gray-900 dark:text-white max-sm:text-lg max-md:text-2xl text-3xl">
             {detailInfo.architectures.name}
           </div>
         )}
+        {detailInfo.architectures.architectureList &&
+          detailInfo.architectures.architectureList.map(
+            (architecture, index) => (
+              <div className="flex flex-col" key={index}>
+                {detailInfo.architectures.architectureList!.length > 1 &&
+                  imageListOption == "multiple" && (
+                    <div className="mx-10 max-sm:mx-0 lg:mx-32 font-semibold text-gray-900 dark:text-white max-sm:text-lg max-md:text-xl text-2xl italic">
+                      {architecture.application}
+                    </div>
+                  )}
+                <div className="mx-10 max-sm:mx-0 lg:mx-32 text-muted-foreground max-sm:text-sm max-md:text-lg text-xl">
+                  {architecture.architectureList &&
+                    architecture.architectureList.map((technologies, index) => (
+                      <p key={index}>
+                        {t(`${detailInfo.technologies.id}.${technologies}`)}
+                      </p>
+                    ))}
+                </div>
+                {architecture.image && (
+                  <div className="relative pb-[56.25%] w-full h-0">
+                    <Image
+                      alt=""
+                      src={architecture.image}
+                      width={16}
+                      height={9}
+                      quality={100}
+                      objectFit="cover"
+                      layout="responsive"
+                      className="border-muted-foreground rounded-md"
+                    />
+                  </div>
+                )}
+              </div>
+            )
+          )}
       </div>
     </div>
   );

@@ -27,7 +27,8 @@ interface ProjectDetailProps {
       architectureList:
         | {
             image: string;
-            architectureList: string[];
+            application: string;
+            architectureList: string[] | null;
           }[]
         | null;
     };
