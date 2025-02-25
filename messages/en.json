@@ -63,10 +63,10 @@
   },
   "chat-app": {
     "description": "Introducing a powerful real-time chat application that empowers users to effortlessly create chat rooms and communicate with one another. Developed using cutting-edge technologies such as React, Node.js, and Firebase Cloud, this application not only facilitates seamless messaging but also allows users to join dynamic chat rooms and easily access their chat history. Experience a new level of connectivity and interaction with our innovative platform!",
-    "features": {
-      "feature-01": "Effortlessly locate any user by entering their name in the search bar. Take advantage of this simple feature to connect with the people you need!",
-      "feature-02": "Effortlessly create a new chat room by simply initiating a conversation with a user you wish to chat with.",
-      "feature-03": "You have the ability to effortlessly send text messages, captivating images, and expressive emojis."
+    "overview": {
+      "overview-01": "Effortlessly locate any user by entering their name in the search bar. Take advantage of this simple feature to connect with the people you need!",
+      "overview-02": "Effortlessly create a new chat room by simply initiating a conversation with a user you wish to chat with.",
+      "overview-03": "You have the ability to effortlessly send text messages, captivating images, and expressive emojis."
     },
     "technologies": {
       "tech-01": "Engineered with Node.js to deliver highly efficient and robust server-side operations, ensuring optimal performance and reliability.",
