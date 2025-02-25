@@ -22,6 +22,11 @@ const ProjectDetail = ({
         </div>
         {detailInfo.overview.applications.map((application, index) => (
           <div className="flex flex-col" key={index}>
+            {detailInfo.overview.applications.length > 1 && (
+              <div className="mx-10 max-sm:mx-0 lg:mx-32 font-semibold text-gray-900 dark:text-white max-sm:text-lg max-md:text-xl text-2xl italic">
+                {application.application}
+              </div>
+            )}
             <div>
               <ul className="mx-10 max-sm:mx-0 lg:mx-32 text-gray-600 max-sm:text-sm max-md:text-lg text-xl list-disc list-inside">
                 {application.overviewList.map((overview, index) => (
@@ -32,7 +37,10 @@ const ProjectDetail = ({
               </ul>
             </div>
             {imageListOption === "multiple" && application.imageList && (
-              <ImageCarousel list={application.imageList} className="my-10" />
+              <ImageCarousel
+                list={application.imageList}
+                className="mt-5 mb-10"
+              />
             )}
           </div>
         ))}

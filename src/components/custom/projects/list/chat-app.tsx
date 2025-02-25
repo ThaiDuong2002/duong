@@ -77,7 +77,11 @@ const ChatApp = () => {
             <ContributorList contributors={contributors} />
           </div>
         </div>
-        <ProjectDetail id={projects.id} detailInfo={projects.detailInfo} />
+        <ProjectDetail
+          id={projects.id}
+          detailInfo={projects.detailInfo}
+          imageListOption="single"
+        />
       </div>
     </ProjectCard>
   );
