@@ -101,7 +101,21 @@
     }
   },
   "online-academy": {
-    "description": "Introducing an innovative online learning platform, expertly crafted with Handlebars, Express, and MongoDB. This application empowers learners by offering a diverse range of courses across multiple subjects. Users can easily enroll in courses, access a wealth of engaging course materials, and enhance their knowledge through interactive quizzes and assignments. Transform your learning experience and achieve your educational goals with us!"
+    "description": "Introducing an innovative online learning platform, expertly crafted with Handlebars, Express, and MongoDB. This application empowers learners by offering a diverse range of courses across multiple subjects. Users can easily enroll in courses, access a wealth of engaging course materials, and enhance their knowledge through interactive quizzes and assignments. Transform your learning experience and achieve your educational goals with us!",
+    "overview": {
+      "frontend": {
+        "overview-01": "",
+        "overview-02": "",
+        "overview-03": ""
+      }
+    },
+    "technologies": {
+      "frontend": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      }
+    }
   },
   "coffee-order": {
     "description": "Introducing a powerful application crafted with Kotlin in Android Studio, JavaScript, and MySQL. This innovative platform not only enables users to effortlessly order their favorite coffee and customize their selections with a variety of toppings but also includes a robust administration panel for streamlined management. Experience convenience and control like never before!"

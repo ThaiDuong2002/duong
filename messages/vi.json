@@ -101,7 +101,21 @@
     }
   },
   "online-academy": {
-    "description": "Giới thiệu một nền tảng học trực tuyến sáng tạo, được chế tác chuyên nghiệp bằng Handlebars, Express và MongoDB. Ứng dụng này cung cấp cho người học một loạt các khóa học đa dạng trên nhiều chủ đề. Người dùng có thể dễ dàng đăng ký các khóa học, truy cập một kho tài liệu khóa học phong phú và nâng cao kiến thức của họ thông qua các bài kiểm tra và bài tập tương tác. Biến đổi trải nghiệm học tập của bạn và đạt được mục tiêu giáo dục của bạn với chúng tôi!"
+    "description": "Giới thiệu một nền tảng học trực tuyến sáng tạo, được chế tác chuyên nghiệp bằng Handlebars, Express và MongoDB. Ứng dụng này cung cấp cho người học một loạt các khóa học đa dạng trên nhiều chủ đề. Người dùng có thể dễ dàng đăng ký các khóa học, truy cập một kho tài liệu khóa học phong phú và nâng cao kiến thức của họ thông qua các bài kiểm tra và bài tập tương tác. Biến đổi trải nghiệm học tập của bạn và đạt được mục tiêu giáo dục của bạn với chúng tôi!",
+    "overview": {
+      "frontend": {
+        "overview-01": "",
+        "overview-02": "",
+        "overview-03": ""
+      }
+    },
+    "technologies": {
+      "frontend": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      }
+    }
   },
   "coffee-order": {
     "description": "Giới thiệu một ứng dụng mạnh mẽ được chế tác bằng Kotlin trong Android Studio, JavaScript và MySQL. Nền tảng sáng tạo này không chỉ cho phép người dùng dễ dàng đặt hàng cà phê yêu thích của họ và tùy chỉnh lựa chọn của họ với nhiều loại topping mà còn bao gồm một bảng điều khiển quản trị mạnh mẽ để quản lý hợp lý. Trải nghiệm sự tiện lợi và kiểm soát chưa từng có!"

@@ -12,6 +12,7 @@ import { buttonVariants } from "@/ui/button";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import ProjectDetail from "@/components/custom/projects/project-detail";
 
 const OnlineAcademy = () => {
   const projects = OnlineAcademyConstants;
@@ -78,7 +79,7 @@ const OnlineAcademy = () => {
             <ContributorList contributors={contributors} />
           </div>
         </div>
-        <ImageCarousel list={projects.imageList} className="my-10" />
+        <ProjectDetail id={projects.id} detailInfo={projects.detailInfo}/>
       </div>
     </ProjectCard>
   );
