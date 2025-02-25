@@ -62,9 +62,9 @@ const ChatAppConstants = {
             },
           ],
           techImages: [
-            "/technologies/firebase.png",
             "/technologies/node-js.png",
             "/technologies/react-js.png",
+            "/technologies/firebase.png",
           ],
         },
       ],
