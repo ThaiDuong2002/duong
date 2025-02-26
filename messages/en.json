@@ -252,9 +252,7 @@
     },
     "technologies": {
       "frontend": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": ""
+        "tech-01": ""
       }
     }
   },

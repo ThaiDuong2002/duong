@@ -2,8 +2,8 @@
 
 import BadgeList from "@/components/custom/projects/badge-list";
 import ContributorList from "@/components/custom/projects/contributor-list";
-import ImageCarousel from "@/components/custom/projects/image-carousel";
 import ProjectCard from "@/components/custom/projects/project-card";
+import ProjectDetail from "@/components/custom/projects/project-detail";
 import { MyShopConstants } from "@/constants";
 import ContributorController from "@/data-fetching/controllers/contributor-controller";
 import ContributorInfoDto from "@/data-fetching/dto/contributor-info-dto";
@@ -78,7 +78,7 @@ const MyShop = () => {
             <ContributorList contributors={contributors} />
           </div>
         </div>
-        <ImageCarousel list={projects.imageList} className="my-10" />
+        <ProjectDetail id={projects.id} detailInfo={projects.detailInfo} />
       </div>
     </ProjectCard>
   );
