@@ -1,65 +1,11 @@
 {
-  "metadata": {
-    "title": "Dương Phạm",
-    "description": "Trang web cá nhân của Dương Phạm"
-  },
-  "navbar": {
-    "title": "Dương Phạm"
-  },
-  "footer": {
-    "title": "Dương Phạm",
-    "design": "Thiết kế và phát triển bởi Dương Phạm",
-    "copyright": "Bản quyền © 2025 Dương Phạm. Tất cả các quyền được bảo lưu"
-  },
-  "list": {
-    "home": "Trang chủ",
-    "about": "Giới thiệu",
-    "education": "Học vấn",
-    "experience": "Kinh nghiệm",
-    "projects": "Dự án",
-    "contact": "Liên hệ"
-  },
-  "contact": {
-    "title": "Liên hệ",
-    "description": "Hãy liên hệ với tôi qua số điện thoại hoặc email",
-    "email": "Địa chỉ Email",
-    "phone": "Số điện thoại"
-  },
-  "home": {
-    "greeting": "Xin chào!",
-    "pronouns": "Tôi là",
-    "job": "một Kỹ sư Phần mềm",
-    "description": "Tôi là một kỹ sư phần mềm với niềm đam mê xây dựng ứng dụng web và giải quyết vấn đề. Tôi có kinh nghiệm làm việc với JavaScript, TypeScript, React, Node.js, và nhiều công nghệ khác.",
-    "projects": "Dự án",
-    "contact": "Liên hệ"
-  },
   "about": {
-    "title": "Về tôi",
     "paragraph1": "Tên tôi là Phạm Giang Thái Dương, tôi hiện là sinh viên năm cuối và đang chờ tốt nghiệp tại Đại học Khoa học Tự nhiên, ĐHQG-HCM. Trong suốt hành trình học tập của mình, tôi đã rèn luyện kỹ năng với TypeScript, React, Node.js, và Express.js, trang bị cho mình nền tảng vững chắc cho phát triển web hiện đại. Tôi đặc biệt quan tâm đến Java, Spring Boot, và Microservices, và tôi mong muốn xây dựng một sự nghiệp thành công với vai trò là một lập trình viên backend.",
-    "paragraph2": "Hoài bão của tôi là đóng góp ý nghĩa vào các dự án lớn, phức tạp giải quyết các thách thức quan trọng về bảo mật, quản lý dữ liệu, và hơn thế nữa. Tôi rất háo hức sử dụng kiến thức và kinh nghiệm của mình để tạo ra những giải pháp sáng tạo nhằm thúc đẩy tiến bộ và nâng cao trải nghiệm người dùng."
+    "paragraph2": "Hoài bão của tôi là đóng góp ý nghĩa vào các dự án lớn, phức tạp giải quyết các thách thức quan trọng về bảo mật, quản lý dữ liệu, và hơn thế nữa. Tôi rất háo hức sử dụng kiến thức và kinh nghiệm của mình để tạo ra những giải pháp sáng tạo nhằm thúc đẩy tiến bộ và nâng cao trải nghiệm người dùng.",
+    "title": "Về tôi"
   },
-  "education": {
-    "title": "Học vấn",
-    "degree": "Cử nhân Kỹ thuật Phần mềm",
-    "university": "Đại học Khoa học Tự nhiên, ĐHQG-HCM",
-    "gpa": "Điểm trung bình: 3.48/4.0",
-    "award1": "Được trao Học bổng Khuyến khích Học tập của trường đại học cho năm học 2021-2022.",
-    "certificates": "Chứng chỉ",
-    "certificate1": "Chứng chỉ Microsoft Office Specialist (MOS) (2019)",
-    "certificate2": "IELTS 6.0 (2025)"
-  },
-  "projects": {
-    "title": "Dự án",
-    "description": "Dưới đây là danh sách chi tiết các dự án cá nhân và dự án nhóm mà tôi đã đóng góp."
-  },
-  "paint-app": {
-    "description": "Giới thiệu một ứng dụng vẽ mạnh mẽ lấy cảm hứng từ Windows Paint yêu thích. Công cụ trực quan này cho phép người dùng thỏa sức sáng tạo, cung cấp các tính năng vẽ, xóa, thay đổi màu sắc và lưu tác phẩm nghệ thuật của họ một cách liền mạch. Được xây dựng bằng công nghệ tiên tiến sử dụng C#, WPF và XAML, ứng dụng này được thiết kế để nâng cao trải nghiệm nghệ thuật của bạn và biến tầm nhìn của bạn thành hiện thực."
-  },
-  "my-shop": {
-    "description": "Giới thiệu một ứng dụng Windows mạnh mẽ được phát triển chuyên nghiệp bằng C#, WPF và MSSQL Server, được thiết kế để tối ưu hóa việc quản lý sản phẩm và đơn hàng máy tính và PC của bạn. Với công cụ sáng tạo này, người dùng có thể dễ dàng áp dụng giảm giá và có được thông tin chi tiết có giá trị thông qua thống kê bán hàng toàn diện, giúp bạn tối ưu hóa hoạt động kinh doanh và thúc đẩy thành công."
-  },
-  "hotel-booking": {
-    "description": "Ứng dụng web sáng tạo này cách mạng hóa cách người dùng đặt phòng khách sạn với sự dễ dàng và hiệu quả vượt trội. Được phát triển bằng các công nghệ tiên tiến như React, Node.js, Express.js và MongoDB, nó mang lại trải nghiệm người dùng liền mạch. Khách hàng có thể dễ dàng khám phá một loạt các phòng có sẵn, đặt chỗ ngay lập tức và theo dõi lịch sử đặt phòng của họ - tất cả trong một nơi. Hơn nữa, bảng điều khiển quản trị mạnh mẽ cho phép quản trị viên quản lý hiệu quả kho phòng và đặt phòng, đảm bảo hoạt động suôn sẻ. Trải nghiệm tương lai của việc đặt phòng khách sạn với ứng dụng xuất sắc này!",
+  "ads-management": {
+    "description": "Ứng dụng sáng tạo này được chế tác để cách mạng hóa việc quản lý các bảng quảng cáo trên toàn Thành phố X. Bằng cách đáp ứng nhu cầu của cư dân, các quan chức địa phương ở cả cấp phường và quận, và Sở Văn hóa và Thể thao, nó cung cấp một giải pháp mạnh mẽ, minh bạch và hiệu quả để giám sát cảnh quan quảng cáo của thành phố. Nắm bắt cơ hội này để nâng cao giao tiếp và sự tham gia trong cộng đồng của chúng ta.",
     "overview": {
       "frontend": {
         "overview-01": "",
@@ -68,11 +14,49 @@
       }
     },
     "technologies": {
+      "backend": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      },
       "frontend": {
         "tech-01": "",
-        "tech-02": ""
+        "tech-02": "",
+        "tech-03": ""
+      }
+    }
+  },
+  "car-booking": {
+    "description": "Ứng dụng cách mạng này, tương tự như Uber và Grab, được chế tác đặc biệt để biến đổi trải nghiệm đặt xe cho cư dân Thành phố X. Sử dụng các khả năng mạnh mẽ của Flutter và React, nó có các ứng dụng di động trực quan cho cả khách hàng và tài xế, cùng với một nền tảng web thân thiện với người dùng cho các đại lý trung tâm cuộc gọi. Khách hàng có thể dễ dàng đặt xe thông qua ứng dụng di động hoặc bằng cách kết nối với các đại lý trung tâm cuộc gọi tận tâm của chúng tôi, đảm bảo một dịch vụ liền mạch và đáng chú ý, định nghĩa lại sự tiện lợi và hiệu quả.",
+    "overview": {
+      "call-center": {
+        "overview-01": "",
+        "overview-02": "",
+        "overview-03": ""
       },
+      "custom": {
+        "overview-01": "",
+        "overview-02": "",
+        "overview-03": ""
+      },
+      "driver": {
+        "overview-01": "",
+        "overview-02": "",
+        "overview-03": ""
+      }
+    },
+    "technologies": {
       "backend": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      },
+      "mobile": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      },
+      "web": {
         "tech-01": "",
         "tech-02": "",
         "tech-03": ""
@@ -96,8 +80,95 @@
       }
     }
   },
-  "video-sharing": {
-    "description": "Giới thiệu một nền tảng chia sẻ video tiên tiến được phát triển bằng các công nghệ mới nhất, bao gồm React, Node.js, Express.js và MongoDB. Người dùng có thể dễ dàng tải lên video của họ, tương tác với nội dung thông qua lượt thích và chia sẻ, và đăng ký các kênh yêu thích của họ. Ứng dụng sáng tạo này là một bản sao mạnh mẽ của YouTube, được thiết kế để nâng cao trải nghiệm chia sẻ video của bạn và tạo ra một cộng đồng trực tuyến sôi động. Tham gia với chúng tôi và trở thành một phần của nền tảng năng động này!",
+  "coffee-order": {
+    "description": "Giới thiệu một ứng dụng mạnh mẽ được chế tác bằng Kotlin trong Android Studio, JavaScript và MySQL. Nền tảng sáng tạo này không chỉ cho phép người dùng dễ dàng đặt hàng cà phê yêu thích của họ và tùy chỉnh lựa chọn của họ với nhiều loại topping mà còn bao gồm một bảng điều khiển quản trị mạnh mẽ để quản lý hợp lý. Trải nghiệm sự tiện lợi và kiểm soát chưa từng có!",
+    "overview": {
+      "frontend": {
+        "overview-01": "",
+        "overview-02": "",
+        "overview-03": ""
+      }
+    },
+    "technologies": {
+      "backend": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      },
+      "frontend": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      }
+    }
+  },
+  "contact": {
+    "description": "Hãy liên hệ với tôi qua số điện thoại hoặc email",
+    "email": "Địa chỉ Email",
+    "phone": "Số điện thoại",
+    "title": "Liên hệ"
+  },
+  "education": {
+    "award1": "Được trao Học bổng Khuyến khích Học tập của trường đại học cho năm học 2021-2022.",
+    "certificate1": "Chứng chỉ Microsoft Office Specialist (MOS) (2019)",
+    "certificate2": "IELTS 6.0 (2025)",
+    "certificates": "Chứng chỉ",
+    "degree": "Cử nhân Kỹ thuật Phần mềm",
+    "gpa": "Điểm trung bình: 3.48/4.0",
+    "title": "Học vấn",
+    "university": "Đại học Khoa học Tự nhiên, ĐHQG-HCM"
+  },
+  "fam-fund": {
+    "description": "Giới thiệu một ứng dụng quản lý tài chính mạnh mẽ được thiết kế để giúp các gia đình theo dõi chi tiêu, lập ngân sách và đạt được các mục tiêu tài chính của họ. Công cụ trực quan này cho phép người dùng quản lý tài chính hiệu quả, hình dung thói quen chi tiêu và đưa ra các quyết định tài chính thông minh. Với các tính năng theo dõi chi tiêu, lập ngân sách và đặt mục tiêu, ứng dụng này là người bạn đồng hành đáng tin cậy của bạn để đạt được thành công tài chính. Ngoài ra, nó còn bao gồm các tính năng lập lịch, quản lý giáo dục cho trẻ em, cập nhật tin tức, chức năng trò chuyện để giữ cho gia đình luôn kết nối và thông tin, v.v."
+  },
+  "footer": {
+    "copyright": "Bản quyền © 2025 Dương Phạm. Tất cả các quyền được bảo lưu",
+    "design": "Thiết kế và phát triển bởi Dương Phạm",
+    "title": "Dương Phạm"
+  },
+  "home": {
+    "contact": "Liên hệ",
+    "description": "Tôi là một kỹ sư phần mềm với niềm đam mê xây dựng ứng dụng web và giải quyết vấn đề. Tôi có kinh nghiệm làm việc với JavaScript, TypeScript, React, Node.js, và nhiều công nghệ khác.",
+    "greeting": "Xin chào!",
+    "job": "một Kỹ sư Phần mềm",
+    "projects": "Dự án",
+    "pronouns": "Tôi là"
+  },
+  "hotel-booking": {
+    "description": "Ứng dụng web sáng tạo này cách mạng hóa cách người dùng đặt phòng khách sạn với sự dễ dàng và hiệu quả vượt trội. Được phát triển bằng các công nghệ tiên tiến như React, Node.js, Express.js và MongoDB, nó mang lại trải nghiệm người dùng liền mạch. Khách hàng có thể dễ dàng khám phá một loạt các phòng có sẵn, đặt chỗ ngay lập tức và theo dõi lịch sử đặt phòng của họ - tất cả trong một nơi. Hơn nữa, bảng điều khiển quản trị mạnh mẽ cho phép quản trị viên quản lý hiệu quả kho phòng và đặt phòng, đảm bảo hoạt động suôn sẻ. Trải nghiệm tương lai của việc đặt phòng khách sạn với ứng dụng xuất sắc này!",
+    "overview": {
+      "frontend": {
+        "overview-01": "",
+        "overview-02": "",
+        "overview-03": ""
+      }
+    },
+    "technologies": {
+      "backend": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      },
+      "frontend": {
+        "tech-01": "",
+        "tech-02": ""
+      }
+    }
+  },
+  "list": {
+    "about": "Giới thiệu",
+    "contact": "Liên hệ",
+    "education": "Học vấn",
+    "experience": "Kinh nghiệm",
+    "home": "Trang chủ",
+    "projects": "Dự án"
+  },
+  "metadata": {
+    "description": "Trang web cá nhân của Dương Phạm",
+    "title": "Dương Phạm"
+  },
+  "my-shop": {
+    "description": "Giới thiệu một ứng dụng Windows mạnh mẽ được phát triển chuyên nghiệp bằng C#, WPF và MSSQL Server, được thiết kế để tối ưu hóa việc quản lý sản phẩm và đơn hàng máy tính và PC của bạn. Với công cụ sáng tạo này, người dùng có thể dễ dàng áp dụng giảm giá và có được thông tin chi tiết có giá trị thông qua thống kê bán hàng toàn diện, giúp bạn tối ưu hóa hoạt động kinh doanh và thúc đẩy thành công.",
     "overview": {
       "frontend": {
         "overview-01": "",
@@ -110,13 +181,11 @@
         "tech-01": "",
         "tech-02": "",
         "tech-03": ""
-      },
-      "backend": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": ""
       }
     }
+  },
+  "navbar": {
+    "title": "Dương Phạm"
   },
   "online-academy": {
     "description": "Giới thiệu một nền tảng học trực tuyến sáng tạo, được chế tác chuyên nghiệp bằng Handlebars, Express và MongoDB. Ứng dụng này cung cấp cho người học một loạt các khóa học đa dạng trên nhiều chủ đề. Người dùng có thể dễ dàng đăng ký các khóa học, truy cập một kho tài liệu khóa học phong phú và nâng cao kiến thức của họ thông qua các bài kiểm tra và bài tập tương tác. Biến đổi trải nghiệm học tập của bạn và đạt được mục tiêu giáo dục của bạn với chúng tôi!",
@@ -135,16 +204,47 @@
       }
     }
   },
-  "coffee-order": {
-    "description": "Giới thiệu một ứng dụng mạnh mẽ được chế tác bằng Kotlin trong Android Studio, JavaScript và MySQL. Nền tảng sáng tạo này không chỉ cho phép người dùng dễ dàng đặt hàng cà phê yêu thích của họ và tùy chỉnh lựa chọn của họ với nhiều loại topping mà còn bao gồm một bảng điều khiển quản trị mạnh mẽ để quản lý hợp lý. Trải nghiệm sự tiện lợi và kiểm soát chưa từng có!"
+  "paint-app": {
+    "description": "Giới thiệu một ứng dụng vẽ mạnh mẽ lấy cảm hứng từ Windows Paint yêu thích. Công cụ trực quan này cho phép người dùng thỏa sức sáng tạo, cung cấp các tính năng vẽ, xóa, thay đổi màu sắc và lưu tác phẩm nghệ thuật của họ một cách liền mạch. Được xây dựng bằng công nghệ tiên tiến sử dụng C#, WPF và XAML, ứng dụng này được thiết kế để nâng cao trải nghiệm nghệ thuật của bạn và biến tầm nhìn của bạn thành hiện thực.",
+    "overview": {
+      "frontend": {
+        "overview-01": "",
+        "overview-02": "",
+        "overview-03": ""
+      }
+    },
+    "technologies": {
+      "frontend": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      }
+    }
   },
-  "ads-management": {
-    "description": "Ứng dụng sáng tạo này được chế tác để cách mạng hóa việc quản lý các bảng quảng cáo trên toàn Thành phố X. Bằng cách đáp ứng nhu cầu của cư dân, các quan chức địa phương ở cả cấp phường và quận, và Sở Văn hóa và Thể thao, nó cung cấp một giải pháp mạnh mẽ, minh bạch và hiệu quả để giám sát cảnh quan quảng cáo của thành phố. Nắm bắt cơ hội này để nâng cao giao tiếp và sự tham gia trong cộng đồng của chúng ta."
+  "projects": {
+    "description": "Dưới đây là danh sách chi tiết các dự án cá nhân và dự án nhóm mà tôi đã đóng góp.",
+    "title": "Dự án"
   },
-  "car-booking": {
-    "description": "Ứng dụng cách mạng này, tương tự như Uber và Grab, được chế tác đặc biệt để biến đổi trải nghiệm đặt xe cho cư dân Thành phố X. Sử dụng các khả năng mạnh mẽ của Flutter và React, nó có các ứng dụng di động trực quan cho cả khách hàng và tài xế, cùng với một nền tảng web thân thiện với người dùng cho các đại lý trung tâm cuộc gọi. Khách hàng có thể dễ dàng đặt xe thông qua ứng dụng di động hoặc bằng cách kết nối với các đại lý trung tâm cuộc gọi tận tâm của chúng tôi, đảm bảo một dịch vụ liền mạch và đáng chú ý, định nghĩa lại sự tiện lợi và hiệu quả."
-  },
-  "fam-fund": {
-    "description": "Giới thiệu một ứng dụng quản lý tài chính mạnh mẽ được thiết kế để giúp các gia đình theo dõi chi tiêu, lập ngân sách và đạt được các mục tiêu tài chính của họ. Công cụ trực quan này cho phép người dùng quản lý tài chính hiệu quả, hình dung thói quen chi tiêu và đưa ra các quyết định tài chính thông minh. Với các tính năng theo dõi chi tiêu, lập ngân sách và đặt mục tiêu, ứng dụng này là người bạn đồng hành đáng tin cậy của bạn để đạt được thành công tài chính. Ngoài ra, nó còn bao gồm các tính năng lập lịch, quản lý giáo dục cho trẻ em, cập nhật tin tức, chức năng trò chuyện để giữ cho gia đình luôn kết nối và thông tin, v.v."
+  "video-sharing": {
+    "description": "Giới thiệu một nền tảng chia sẻ video tiên tiến được phát triển bằng các công nghệ mới nhất, bao gồm React, Node.js, Express.js và MongoDB. Người dùng có thể dễ dàng tải lên video của họ, tương tác với nội dung thông qua lượt thích và chia sẻ, và đăng ký các kênh yêu thích của họ. Ứng dụng sáng tạo này là một bản sao mạnh mẽ của YouTube, được thiết kế để nâng cao trải nghiệm chia sẻ video của bạn và tạo ra một cộng đồng trực tuyến sôi động. Tham gia với chúng tôi và trở thành một phần của nền tảng năng động này!",
+    "overview": {
+      "frontend": {
+        "overview-01": "",
+        "overview-02": "",
+        "overview-03": ""
+      }
+    },
+    "technologies": {
+      "backend": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      },
+      "frontend": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      }
+    }
   }
 }

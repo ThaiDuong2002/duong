@@ -1,65 +1,11 @@
 {
-  "metadata": {
-    "title": "Duong Pham",
-    "description": "Duong Pham's personal website"
-  },
-  "navbar": {
-    "title": "Duong Pham"
-  },
-  "footer": {
-    "title": "Duong Pham",
-    "design": "Designed and developed by Duong Pham",
-    "copyright": "Copyright © 2025 Duong Pham. All rights reserved"
-  },
-  "list": {
-    "home": "Home",
-    "about": "About",
-    "education": "Education",
-    "experience": "Experience",
-    "projects": "Projects",
-    "contact": "Contact"
-  },
-  "contact": {
-    "title": "Contact",
-    "description": "Contact me via phone number or email",
-    "email": "Email Address",
-    "phone": "Phone Number"
-  },
-  "home": {
-    "greeting": "Hi there!",
-    "pronouns": "I'm",
-    "job": "a Software Engineer",
-    "description": "I am a software engineer with a passion for building web applications and solving problems. I have experience working with JavaScript, TypeScript, React, Node.js, and more.",
-    "projects": "My Projects",
-    "contact": "Contact Me"
-  },
   "about": {
-    "title": "About Me",
     "paragraph1": "My name is Pham Giang Thai Duong, i am in my final year and waiting for graduation at the University of Science, VNU-HCM. Throughout my academic journey, I have honed my skills in TypeScript, React, Node.js, and Express.js, equipping me with a solid foundation for modern web development. I am particularly interested in Java, Spring Boot, and Microservices, and I am dedicated to building a successful career as a backend developer.",
-    "paragraph2": "My ambition is to make meaningful contributions to large-scale, complex projects that tackle critical challenges in security, data management, and beyond. I am eager to leverage my knowledge and experience to create innovative solutions that drive progress and enhance user experiences."
+    "paragraph2": "My ambition is to make meaningful contributions to large-scale, complex projects that tackle critical challenges in security, data management, and beyond. I am eager to leverage my knowledge and experience to create innovative solutions that drive progress and enhance user experiences.",
+    "title": "About Me"
   },
-  "education": {
-    "title": "Education",
-    "degree": "Bachelor of Software Engineering",
-    "university": "University of Science, VNU-HCM",
-    "gpa": "GPA: 3.48/4.0",
-    "award1": "Awarded the university's Academic Encouragement Scholarship for the 2021-2022 academic year.",
-    "certificates": "Certificates",
-    "certificate1": "Microsoft Office Specialist (MOS) certification (2019)",
-    "certificate2": "IELTS 6.0 (2025)"
-  },
-  "projects": {
-    "title": "Projects",
-    "description": "Here is a detailed list of personal and team projects that I have successfully contributed to."
-  },
-  "paint-app": {
-    "description": "Introducing a powerful drawing application inspired by the beloved Windows Paint. This intuitive tool empowers users to unleash their creativity, offering features for drawing, erasing, changing colors, and seamlessly saving their artwork. Built with cutting-edge technology using C#, WPF, and XAML, this application is designed to enhance your artistic experience and bring your visions to life."
-  },
-  "my-shop": {
-    "description": "Introducing a powerful Windows application expertly developed using C#, WPF, and MSSQL Server, designed to streamline your management of computer and PC products and orders. With this innovative tool, users can effortlessly apply discounts and gain valuable insights through comprehensive sales statistics, empowering you to optimize your business operations and drive success."
-  },
-  "hotel-booking": {
-    "description": "This innovative web application revolutionizes the way users book hotel rooms with unmatched ease and efficiency. Developed with cutting-edge technologies like React, Node.js, Express.js, and MongoDB, it offers a seamless user experience. Guests can effortlessly explore a wide selection of available rooms, secure their reservations instantly, and conveniently track their booking history—all in one place. Furthermore, the powerful admin panel empowers administrators to effectively manage room inventory and bookings, ensuring a smooth operation. Experience the future of hotel booking with this exceptional application!",
+  "ads-management": {
+    "description": "This innovative application is crafted to revolutionize the management of advertising boards across City X. By addressing the needs of residents, local officials at both ward and district levels, and the Department of Culture and Sports, it offers a powerful, transparent, and efficient solution for overseeing the city's advertising landscape. Embrace this opportunity to enhance communication and engagement within our community.",
     "overview": {
       "frontend": {
         "overview-01": "",
@@ -68,11 +14,49 @@
       }
     },
     "technologies": {
+      "backend": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      },
       "frontend": {
         "tech-01": "",
-        "tech-02": ""
+        "tech-02": "",
+        "tech-03": ""
+      }
+    }
+  },
+  "car-booking": {
+    "description": "This revolutionary application, comparable to Uber and Grab, is purposefully crafted to transform the car booking experience for residents of City X. Utilizing the powerful capabilities of Flutter and React, it boasts intuitive mobile applications for both customers and drivers, alongside a user-friendly web platform for call center agents. Customers can effortlessly secure rides through the mobile app or by connecting with our attentive call center agents, ensuring a seamless and remarkable service that redefines convenience and efficiency.",
+    "overview": {
+      "call-center": {
+        "overview-01": "",
+        "overview-02": "",
+        "overview-03": ""
       },
+      "custom": {
+        "overview-01": "",
+        "overview-02": "",
+        "overview-03": ""
+      },
+      "driver": {
+        "overview-01": "",
+        "overview-02": "",
+        "overview-03": ""
+      }
+    },
+    "technologies": {
       "backend": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      },
+      "mobile": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      },
+      "web": {
         "tech-01": "",
         "tech-02": "",
         "tech-03": ""
@@ -96,8 +80,129 @@
       }
     }
   },
-  "video-sharing": {
-    "description": "Introducing a cutting-edge video-sharing platform developed with the latest technologies, including React, Node.js, Express.js, and MongoDB. Users can effortlessly upload their videos, engage with content through likes and shares, and subscribe to their favorite channels. This innovative application is a powerful clone of YouTube, designed to enhance your video-sharing experience and foster a vibrant online community. Join us and be a part of this dynamic platform!",
+  "coffee-order": {
+    "description": "Introducing a powerful application crafted with Kotlin in Android Studio, JavaScript, and MySQL. This innovative platform not only enables users to effortlessly order their favorite coffee and customize their selections with a variety of toppings but also includes a robust administration panel for streamlined management. Experience convenience and control like never before!",
+    "overview": {
+      "frontend": {
+        "overview-01": "",
+        "overview-02": "",
+        "overview-03": ""
+      }
+    },
+    "technologies": {
+      "backend": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      },
+      "frontend": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      }
+    }
+  },
+  "contact": {
+    "description": "Contact me via phone number or email",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "title": "Contact"
+  },
+  "education": {
+    "award1": "Awarded the university's Academic Encouragement Scholarship for the 2021-2022 academic year.",
+    "certificate1": "Microsoft Office Specialist (MOS) certification (2019)",
+    "certificate2": "IELTS 6.0 (2025)",
+    "certificates": "Certificates",
+    "degree": "Bachelor of Software Engineering",
+    "gpa": "GPA: 3.48/4.0",
+    "title": "Education",
+    "university": "University of Science, VNU-HCM"
+  },
+  "fam-fund": {
+    "description": "Introducing a powerful financial management application designed to help families track their expenses, set budgets, and achieve their financial goals. This intuitive tool empowers users to manage their finances effectively, visualize their spending habits, and make informed financial decisions. With features for expense tracking, budgeting, and goal setting, this application is your trusted companion for financial success. Additionally, it includes features for scheduling, education management for kids, news updates, a chat function to keep the family connected and informed, etc.",
+    "overview": {
+      "admin": {
+        "overview-01": "",
+        "overview-02": "",
+        "overview-03": ""
+      },
+      "mobile": {
+        "overview-01": "",
+        "overview-02": "",
+        "overview-03": ""
+      },
+      "web": {
+        "overview-01": "",
+        "overview-02": "",
+        "overview-03": ""
+      }
+    },
+    "technologies": {
+      "backend": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      },
+      "mobile": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      },
+      "web": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      }
+    }
+  },
+  "footer": {
+    "copyright": "Copyright © 2025 Duong Pham. All rights reserved",
+    "design": "Designed and developed by Duong Pham",
+    "title": "Duong Pham"
+  },
+  "home": {
+    "contact": "Contact Me",
+    "description": "I am a software engineer with a passion for building web applications and solving problems. I have experience working with JavaScript, TypeScript, React, Node.js, and more.",
+    "greeting": "Hi there!",
+    "job": "a Software Engineer",
+    "projects": "My Projects",
+    "pronouns": "I'm"
+  },
+  "hotel-booking": {
+    "description": "This innovative web application revolutionizes the way users book hotel rooms with unmatched ease and efficiency. Developed with cutting-edge technologies like React, Node.js, Express.js, and MongoDB, it offers a seamless user experience. Guests can effortlessly explore a wide selection of available rooms, secure their reservations instantly, and conveniently track their booking history—all in one place. Furthermore, the powerful admin panel empowers administrators to effectively manage room inventory and bookings, ensuring a smooth operation. Experience the future of hotel booking with this exceptional application!",
+    "overview": {
+      "frontend": {
+        "overview-01": "",
+        "overview-02": "",
+        "overview-03": ""
+      }
+    },
+    "technologies": {
+      "backend": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      },
+      "frontend": {
+        "tech-01": "",
+        "tech-02": ""
+      }
+    }
+  },
+  "list": {
+    "about": "About",
+    "contact": "Contact",
+    "education": "Education",
+    "experience": "Experience",
+    "home": "Home",
+    "projects": "Projects"
+  },
+  "metadata": {
+    "description": "Duong Pham's personal website",
+    "title": "Duong Pham"
+  },
+  "my-shop": {
+    "description": "Introducing a powerful Windows application expertly developed using C#, WPF, and MSSQL Server, designed to streamline your management of computer and PC products and orders. With this innovative tool, users can effortlessly apply discounts and gain valuable insights through comprehensive sales statistics, empowering you to optimize your business operations and drive success.",
     "overview": {
       "frontend": {
         "overview-01": "",
@@ -110,13 +215,11 @@
         "tech-01": "",
         "tech-02": "",
         "tech-03": ""
-      },
-      "backend": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": ""
       }
     }
+  },
+  "navbar": {
+    "title": "Duong Pham"
   },
   "online-academy": {
     "description": "Introducing an innovative online learning platform, expertly crafted with Handlebars, Express, and MongoDB. This application empowers learners by offering a diverse range of courses across multiple subjects. Users can easily enroll in courses, access a wealth of engaging course materials, and enhance their knowledge through interactive quizzes and assignments. Transform your learning experience and achieve your educational goals with us!",
@@ -135,16 +238,47 @@
       }
     }
   },
-  "coffee-order": {
-    "description": "Introducing a powerful application crafted with Kotlin in Android Studio, JavaScript, and MySQL. This innovative platform not only enables users to effortlessly order their favorite coffee and customize their selections with a variety of toppings but also includes a robust administration panel for streamlined management. Experience convenience and control like never before!"
+  "paint-app": {
+    "description": "Introducing a powerful drawing application inspired by the beloved Windows Paint. This intuitive tool empowers users to unleash their creativity, offering features for drawing, erasing, changing colors, and seamlessly saving their artwork. Built with cutting-edge technology using C#, WPF, and XAML, this application is designed to enhance your artistic experience and bring your visions to life.",
+    "overview": {
+      "frontend": {
+        "overview-01": "",
+        "overview-02": "",
+        "overview-03": ""
+      }
+    },
+    "technologies": {
+      "frontend": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      }
+    }
   },
-  "ads-management": {
-    "description": "This innovative application is crafted to revolutionize the management of advertising boards across City X. By addressing the needs of residents, local officials at both ward and district levels, and the Department of Culture and Sports, it offers a powerful, transparent, and efficient solution for overseeing the city's advertising landscape. Embrace this opportunity to enhance communication and engagement within our community."
+  "projects": {
+    "description": "Here is a detailed list of personal and team projects that I have successfully contributed to.",
+    "title": "Projects"
   },
-  "car-booking": {
-    "description": "This revolutionary application, comparable to Uber and Grab, is purposefully crafted to transform the car booking experience for residents of City X. Utilizing the powerful capabilities of Flutter and React, it boasts intuitive mobile applications for both customers and drivers, alongside a user-friendly web platform for call center agents. Customers can effortlessly secure rides through the mobile app or by connecting with our attentive call center agents, ensuring a seamless and remarkable service that redefines convenience and efficiency."
-  },
-  "fam-fund": {
-    "description": "Introducing a powerful financial management application designed to help families track their expenses, set budgets, and achieve their financial goals. This intuitive tool empowers users to manage their finances effectively, visualize their spending habits, and make informed financial decisions. With features for expense tracking, budgeting, and goal setting, this application is your trusted companion for financial success. Additionally, it includes features for scheduling, education management for kids, news updates, a chat function to keep the family connected and informed, etc."
+  "video-sharing": {
+    "description": "Introducing a cutting-edge video-sharing platform developed with the latest technologies, including React, Node.js, Express.js, and MongoDB. Users can effortlessly upload their videos, engage with content through likes and shares, and subscribe to their favorite channels. This innovative application is a powerful clone of YouTube, designed to enhance your video-sharing experience and foster a vibrant online community. Join us and be a part of this dynamic platform!",
+    "overview": {
+      "frontend": {
+        "overview-01": "",
+        "overview-02": "",
+        "overview-03": ""
+      }
+    },
+    "technologies": {
+      "backend": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      },
+      "frontend": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      }
+    }
   }
 }
