@@ -82,6 +82,7 @@ const CarBooking = () => {
           detailInfo={projects.detailInfo}
           overviewOption="multiple"
           technologiesOption="multiple"
+          architecturesOption="multiple"
         />
       </div>
     </ProjectCard>

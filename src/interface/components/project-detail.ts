@@ -30,6 +30,7 @@ interface ProjectDetailProps {
       name: string;
       architectureList:
         | {
+            id: string;
             image: string;
             application: string;
             architectureList: string[] | null;

@@ -166,7 +166,26 @@ const CarBookingConstants = {
     architectures: {
       id: "architectures",
       name: "Architectures",
-      architectureList: null,
+      architectureList: [
+        {
+          id: "system",
+          image: "/architectures/car-booking/system.png",
+          application: "System",
+          architectureList: null,
+        },
+        {
+          id: "broker-topology",
+          image: "/architectures/car-booking/broker-topology.png",
+          application: "Broker Topology",
+          architectureList: null,
+        },
+        {
+          id: "microservices",
+          image: "/architectures/car-booking/microservices.png",
+          application: "Microservices",
+          architectureList: null,
+        },
+      ],
     },
   },
 };
