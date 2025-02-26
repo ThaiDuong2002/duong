@@ -113,18 +113,7 @@ const ProjectDetail = ({
                     ))}
                 </div>
                 {architecture.image && (
-                  <div className="relative pb-[56.25%] w-full h-0">
-                    <Image
-                      alt=""
-                      src={architecture.image}
-                      width={16}
-                      height={9}
-                      quality={100}
-                      objectFit="cover"
-                      layout="responsive"
-                      className="border-muted-foreground rounded-md"
-                    />
-                  </div>
+                  <ImageCarousel list={[architecture.image]} className="mt-5" />
                 )}
               </div>
             )

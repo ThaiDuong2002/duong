@@ -94,7 +94,7 @@ const CoffeeOrderConstants = {
             {
               name: "Socket.IO",
               description: "tech-04",
-            }
+            },
           ],
           techImages: [
             "/technologies/express-js.png",
@@ -108,7 +108,14 @@ const CoffeeOrderConstants = {
     architectures: {
       id: "architectures",
       name: "Architectures",
-      architectureList: null,
+      architectureList: [
+        {
+          id: "system",
+          image: "/architectures/coffee-order/system.png",
+          application: "System",
+          architectureList: null,
+        },
+      ],
     },
   },
 };
