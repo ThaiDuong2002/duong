@@ -65,13 +65,13 @@ const OnlineAcademy = () => {
           </div>
           <div className="flex flex-col flex-1 gap-2">
             <div>
-              <h1 className="font-bold text-gray-900 max-md:text-md dark:text-white max-sm:text-sm max-lg:text-lg text-xl">
+              <h1 className="font-bold text-gray-900 max-md:text-md dark:text-white max-sm:text-lg max-lg:text-2xl text-3xl">
                 {projects.technologies}
               </h1>
             </div>
             <BadgeList badges={projects.techs} />
             <div>
-              <h1 className="font-bold text-gray-900 max-md:text-md dark:text-white max-sm:text-sm max-lg:text-lg text-xl">
+              <h1 className="font-bold text-gray-900 max-md:text-md dark:text-white max-sm:text-lg max-lg:text-2xl text-3xl">
                 {projects.contributors}
               </h1>
             </div>

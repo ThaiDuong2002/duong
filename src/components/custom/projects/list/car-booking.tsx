@@ -2,8 +2,8 @@
 
 import BadgeList from "@/components/custom/projects/badge-list";
 import ContributorList from "@/components/custom/projects/contributor-list";
-import ImageCarousel from "@/components/custom/projects/image-carousel";
 import ProjectCard from "@/components/custom/projects/project-card";
+import ProjectDetail from "@/components/custom/projects/project-detail";
 import { CarBookingConstants } from "@/constants";
 import ContributorController from "@/data-fetching/controllers/contributor-controller";
 import ContributorInfoDto from "@/data-fetching/dto/contributor-info-dto";
@@ -64,45 +64,24 @@ const CarBooking = () => {
           </div>
           <div className="flex flex-col flex-1 gap-2">
             <div>
-              <h1 className="font-bold text-gray-900 max-md:text-md dark:text-white max-sm:text-sm max-lg:text-lg text-xl">
+              <h1 className="font-bold text-gray-900 max-md:text-md dark:text-white max-sm:text-lg max-lg:text-2xl text-3xl">
                 {projects.technologies}
               </h1>
             </div>
             <BadgeList badges={projects.techs} />
             <div>
-              <h1 className="font-bold text-gray-900 max-md:text-md dark:text-white max-sm:text-sm max-lg:text-lg text-xl">
+              <h1 className="font-bold text-gray-900 max-md:text-md dark:text-white max-sm:text-lg max-lg:text-2xl text-3xl">
                 {projects.contributors}
               </h1>
             </div>
             <ContributorList contributors={contributors} />
           </div>
         </div>
-        <ImageCarousel
-          list={projects.imageListCustomer}
-          className="flex-col my-5"
-          header={
-            <h1 className="mb-4 font-bold text-gray-900 max-md:text-md dark:text-white max-sm:text-sm max-lg:text-lg text-xl">
-              {projects.customer}
-            </h1>
-          }
-        />
-        <ImageCarousel
-          list={projects.imageListDriver}
-          className="flex-col my-5"
-          header={
-            <h1 className="mb-4 font-bold text-gray-900 max-md:text-md dark:text-white max-sm:text-sm max-lg:text-lg text-xl">
-              {projects.driver}
-            </h1>
-          }
-        />
-        <ImageCarousel
-          list={projects.imageListCallCenter}
-          className="flex-col my-5"
-          header={
-            <h1 className="mb-4 font-bold text-gray-900 max-md:text-md dark:text-white max-sm:text-sm max-lg:text-lg text-xl">
-              {projects.callCenter}
-            </h1>
-          }
+        <ProjectDetail
+          id={projects.id}
+          detailInfo={projects.detailInfo}
+          overviewOption="multiple"
+          technologiesOption="multiple"
         />
       </div>
     </ProjectCard>

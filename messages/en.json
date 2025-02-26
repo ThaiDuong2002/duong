@@ -37,7 +37,7 @@
         "overview-02": "",
         "overview-03": ""
       },
-      "custom": {
+      "customer": {
         "overview-01": "",
         "overview-02": "",
         "overview-03": ""
@@ -52,12 +52,13 @@
       "backend": {
         "tech-01": "",
         "tech-02": "",
-        "tech-03": ""
+        "tech-03": "",
+        "tech-04": "",
+        "tech-05": ""
       },
       "mobile": {
         "tech-01": "",
-        "tech-02": "",
-        "tech-03": ""
+        "tech-02": ""
       },
       "web": {
         "tech-01": "",
