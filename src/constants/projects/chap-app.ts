@@ -36,7 +36,7 @@ const ChatAppConstants = {
       applications: [
         {
           id: "frontend",
-          application: "User",
+          application: "Frontend",
           overviewList: ["overview-01", "overview-02", "overview-03"],
           imageList: null,
         },

@@ -17,7 +17,10 @@
       "backend": {
         "tech-01": "",
         "tech-02": "",
-        "tech-03": ""
+        "tech-03": "",
+        "tech-04": "",
+        "tech-05": "",
+        "tech-06": ""
       },
       "frontend": {
         "tech-01": "",
@@ -93,12 +96,12 @@
       "backend": {
         "tech-01": "",
         "tech-02": "",
-        "tech-03": ""
+        "tech-03": "",
+        "tech-04": ""
       },
       "frontend": {
         "tech-01": "",
-        "tech-02": "",
-        "tech-03": ""
+        "tech-02": ""
       }
     }
   },

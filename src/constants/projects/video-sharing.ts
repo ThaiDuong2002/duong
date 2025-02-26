@@ -78,7 +78,7 @@ const VideoSharingConstants = {
           application: "Backend",
           techList: [
             {
-              name: "Express",
+              name: "Express.Js",
               description: "tech-01",
             },
             {

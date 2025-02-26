@@ -42,7 +42,7 @@ const HotelBookingConstants = {
       applications: [
         {
           id: "frontend",
-          application: "Client",
+          application: "Frontend",
           overviewList: ["overview-01", "overview-02", "overview-03"],
           imageList: null,
         },
@@ -75,7 +75,7 @@ const HotelBookingConstants = {
           application: "Backend",
           techList: [
             {
-              name: "Express",
+              name: "Express.Js",
               description: "tech-01",
             },
             {

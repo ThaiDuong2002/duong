@@ -38,7 +38,7 @@ const OnlineAcademyConstants = {
       applications: [
         {
           id: "frontend",
-          application: "Client",
+          application: "Frontend",
           overviewList: ["overview-01", "overview-02", "overview-03"],
           imageList: null,
         },
