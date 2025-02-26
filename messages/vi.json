@@ -59,7 +59,25 @@
     "description": "Giới thiệu một ứng dụng Windows mạnh mẽ được phát triển chuyên nghiệp bằng C#, WPF và MSSQL Server, được thiết kế để tối ưu hóa việc quản lý sản phẩm và đơn hàng máy tính và PC của bạn. Với công cụ sáng tạo này, người dùng có thể dễ dàng áp dụng giảm giá và có được thông tin chi tiết có giá trị thông qua thống kê bán hàng toàn diện, giúp bạn tối ưu hóa hoạt động kinh doanh và thúc đẩy thành công."
   },
   "hotel-booking": {
-    "description": "Ứng dụng web sáng tạo này cách mạng hóa cách người dùng đặt phòng khách sạn với sự dễ dàng và hiệu quả vượt trội. Được phát triển bằng các công nghệ tiên tiến như React, Node.js, Express.js và MongoDB, nó mang lại trải nghiệm người dùng liền mạch. Khách hàng có thể dễ dàng khám phá một loạt các phòng có sẵn, đặt chỗ ngay lập tức và theo dõi lịch sử đặt phòng của họ - tất cả trong một nơi. Hơn nữa, bảng điều khiển quản trị mạnh mẽ cho phép quản trị viên quản lý hiệu quả kho phòng và đặt phòng, đảm bảo hoạt động suôn sẻ. Trải nghiệm tương lai của việc đặt phòng khách sạn với ứng dụng xuất sắc này!"
+    "description": "Ứng dụng web sáng tạo này cách mạng hóa cách người dùng đặt phòng khách sạn với sự dễ dàng và hiệu quả vượt trội. Được phát triển bằng các công nghệ tiên tiến như React, Node.js, Express.js và MongoDB, nó mang lại trải nghiệm người dùng liền mạch. Khách hàng có thể dễ dàng khám phá một loạt các phòng có sẵn, đặt chỗ ngay lập tức và theo dõi lịch sử đặt phòng của họ - tất cả trong một nơi. Hơn nữa, bảng điều khiển quản trị mạnh mẽ cho phép quản trị viên quản lý hiệu quả kho phòng và đặt phòng, đảm bảo hoạt động suôn sẻ. Trải nghiệm tương lai của việc đặt phòng khách sạn với ứng dụng xuất sắc này!",
+    "overview": {
+      "frontend": {
+        "overview-01": "",
+        "overview-02": "",
+        "overview-03": ""
+      }
+    },
+    "technologies": {
+      "frontend": {
+        "tech-01": "",
+        "tech-02": ""
+      },
+      "backend": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      }
+    }
   },
   "chat-app": {
     "description": "Giới thiệu một ứng dụng trò chuyện thời gian thực mạnh mẽ cho phép người dùng dễ dàng tạo phòng trò chuyện và giao tiếp với nhau. Được phát triển bằng các công nghệ tiên tiến như React, Node.js và Firebase Cloud, ứng dụng này không chỉ tạo điều kiện nhắn tin liền mạch mà còn cho phép người dùng tham gia các phòng trò chuyện động và dễ dàng truy cập lịch sử trò chuyện của họ. Trải nghiệm một mức độ kết nối và tương tác mới với nền tảng sáng tạo của chúng tôi!",

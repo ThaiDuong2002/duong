@@ -59,7 +59,25 @@
     "description": "Introducing a powerful Windows application expertly developed using C#, WPF, and MSSQL Server, designed to streamline your management of computer and PC products and orders. With this innovative tool, users can effortlessly apply discounts and gain valuable insights through comprehensive sales statistics, empowering you to optimize your business operations and drive success."
   },
   "hotel-booking": {
-    "description": "This innovative web application revolutionizes the way users book hotel rooms with unmatched ease and efficiency. Developed with cutting-edge technologies like React, Node.js, Express.js, and MongoDB, it offers a seamless user experience. Guests can effortlessly explore a wide selection of available rooms, secure their reservations instantly, and conveniently track their booking history—all in one place. Furthermore, the powerful admin panel empowers administrators to effectively manage room inventory and bookings, ensuring a smooth operation. Experience the future of hotel booking with this exceptional application!"
+    "description": "This innovative web application revolutionizes the way users book hotel rooms with unmatched ease and efficiency. Developed with cutting-edge technologies like React, Node.js, Express.js, and MongoDB, it offers a seamless user experience. Guests can effortlessly explore a wide selection of available rooms, secure their reservations instantly, and conveniently track their booking history—all in one place. Furthermore, the powerful admin panel empowers administrators to effectively manage room inventory and bookings, ensuring a smooth operation. Experience the future of hotel booking with this exceptional application!",
+    "overview": {
+      "frontend": {
+        "overview-01": "",
+        "overview-02": "",
+        "overview-03": ""
+      }
+    },
+    "technologies": {
+      "frontend": {
+        "tech-01": "",
+        "tech-02": ""
+      },
+      "backend": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      }
+    }
   },
   "chat-app": {
     "description": "Introducing a powerful real-time chat application that empowers users to effortlessly create chat rooms and communicate with one another. Developed using cutting-edge technologies such as React, Node.js, and Firebase Cloud, this application not only facilitates seamless messaging but also allows users to join dynamic chat rooms and easily access their chat history. Experience a new level of connectivity and interaction with our innovative platform!",

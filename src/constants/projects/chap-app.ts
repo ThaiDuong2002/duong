@@ -48,7 +48,7 @@ const ChatAppConstants = {
       techs: [
         {
           id: "frontend",
-          application: "User",
+          application: "Frontend",
           techList: [
             {
               name: "Node.Js",
