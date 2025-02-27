@@ -5,7 +5,7 @@ import { I18nConstants } from "@/constants";
 import { scrollToSection } from "@/functions";
 import { Button } from "@/ui/button";
 import { useTranslations } from "next-intl";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Home = ({ id }: { id?: string }) => {
   const home = I18nConstants.home;
@@ -16,9 +16,10 @@ const Home = ({ id }: { id?: string }) => {
       <div className="-z-50 absolute inset-0 min-h-screen">
         <Image
           src="/profile-background.jpg"
-          fill
+          layout="fill"
           alt=""
           className="object-cover"
+          loading="lazy"
         />
         <div className="absolute inset-0 bg-black bg-opacity-50 backdrop-blur-0"></div>
       </div>

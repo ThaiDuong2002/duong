@@ -2,7 +2,7 @@
 
 import { I18nConstants } from "@/constants";
 import { useTranslations } from "next-intl";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Introduction = () => {
   const introduction = I18nConstants.about;
@@ -18,6 +18,7 @@ const Introduction = () => {
           height={400}
           quality={100}
           className="bg-white shadow-2xl p-2 rounded-md ring-1 ring-gray-900/10"
+          loading="lazy"
         />
       </div>
       <div className="flex flex-col justify-center items-start max-w-lg">

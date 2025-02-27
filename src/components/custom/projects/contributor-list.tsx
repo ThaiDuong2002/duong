@@ -20,7 +20,11 @@ const ContributorList = ({
             <Tooltip>
               <TooltipTrigger asChild>
                 <Avatar>
-                  <AvatarImage src={contributor.getAvatarUrl()} alt="" />
+                  <AvatarImage
+                    src={contributor.getAvatarUrl()}
+                    alt=""
+                    loading="lazy"
+                  />
                   <AvatarFallback>
                     {contributor.getLogin().substring(0, 2).toUpperCase()}
                   </AvatarFallback>

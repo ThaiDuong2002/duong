@@ -82,6 +82,7 @@ const ProjectDetail = ({
                       objectFit="cover"
                       layout="responsive"
                       className="border-muted-foreground rounded-md"
+                      loading="lazy"
                     />
                   </div>
                 ))}

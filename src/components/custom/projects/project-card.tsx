@@ -1,7 +1,13 @@
 "use client";
 
 import { buttonVariants } from "@/ui/button";
-import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "@/ui/dialog";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogTitle,
+  DialogTrigger,
+} from "@/ui/dialog";
 import Image from "next/legacy/image";
 import Link from "next/link";
 import { ReactNode } from "react";
@@ -37,6 +43,7 @@ const ProjectCard = ({
               objectFit="cover"
               className="rounded-t-lg"
               quality={100}
+              loading="lazy"
             />
           </div>
           <div className="space-y-3 px-10 py-5">
@@ -66,6 +73,7 @@ const ProjectCard = ({
       </DialogTrigger>
       <DialogContent className="[&>button]:hidden max-w-screen-lg max-sm:max-w-[90vw] max-md:max-w-[90vw] max-h-[80vh] overflow-y-auto scrollbar-hide">
         <DialogTitle></DialogTitle>
+        <DialogDescription></DialogDescription>
         {children}
       </DialogContent>
     </Dialog>

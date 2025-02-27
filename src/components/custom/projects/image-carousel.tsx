@@ -38,6 +38,7 @@ const ImageCarousel = ({
                   objectFit="cover"
                   layout="responsive"
                   className="border-muted-foreground rounded-md"
+                  loading="lazy"
                 />
               </div>
             </CarouselItem>
