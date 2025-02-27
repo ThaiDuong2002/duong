@@ -4,8 +4,9 @@ import {
   owner,
   repositories,
 } from "@/constants/contributors";
+import { ProjectInterface } from "@/interface";
 
-const MyShopConstants = {
+const MyShopConstants: ProjectInterface = {
   id: "my-shop",
   title: "My Shop - Shop Management System",
   description: "description",

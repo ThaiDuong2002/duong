@@ -4,8 +4,9 @@ import {
   owner,
   repositories,
 } from "@/constants/contributors";
+import { ProjectInterface } from "@/interface";
 
-const OnlineAcademyConstants = {
+const OnlineAcademyConstants: ProjectInterface = {
   id: "online-academy",
   title: "Online Academy - Education Courses Platform",
   description: "description",

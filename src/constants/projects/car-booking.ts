@@ -4,8 +4,9 @@ import {
   owner,
   repositories,
 } from "@/constants/contributors";
+import { ProjectInterface } from "@/interface";
 
-const CarBookingConstants = {
+const CarBookingConstants: ProjectInterface = {
   id: "car-booking",
   title: "RideNow - Car Booking System",
   description: "description",
@@ -36,11 +37,7 @@ const CarBookingConstants = {
   technologies: "Technologies",
   contributors: "Contributors",
   detailInfo: {
-    imageList: [
-      "/projects/hotel-booking/hotel-booking-search.png",
-      "/projects/hotel-booking/hotel-booking-detail.png",
-      "/projects/hotel-booking/hotel-booking-list.png",
-    ],
+    imageList: null,
     overview: {
       id: "overview",
       name: "Overview",

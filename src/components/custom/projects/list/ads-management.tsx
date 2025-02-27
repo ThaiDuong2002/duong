@@ -4,8 +4,8 @@ import BadgeList from "@/components/custom/projects/badge-list";
 import ContributorList from "@/components/custom/projects/contributor-list";
 import ProjectCard from "@/components/custom/projects/project-card";
 import ProjectDetail from "@/components/custom/projects/project-detail";
-import { AdsManagementConstantsType } from "@/constants";
 import ContributorInfoDto from "@/data-fetching/dto/contributor-info-dto";
+import { ProjectInterface } from "@/interface";
 import { buttonVariants } from "@/ui/button";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
@@ -15,7 +15,7 @@ const AdsManagement = ({
   projects,
 }: {
   contributors?: ContributorInfoDto[];
-  projects: AdsManagementConstantsType;
+  projects: ProjectInterface;
 }) => {
   const t = useTranslations(projects.id);
 

@@ -4,8 +4,9 @@ import {
   owner,
   repositories,
 } from "@/constants/contributors";
+import { ProjectInterface } from "@/interface";
 
-const AdsManagementConstants = {
+const AdsManagementConstants: ProjectInterface = {
   id: "ads-management",
   title: "Advertisement Management System",
   description: "description",

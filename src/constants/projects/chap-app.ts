@@ -4,8 +4,9 @@ import {
   owner,
   repositories,
 } from "@/constants/contributors";
+import { ProjectInterface } from "@/interface";
 
-const ChatAppConstants = {
+const ChatAppConstants: ProjectInterface = {
   id: "chat-app",
   title: "Chat Application - Messaging System",
   description: "description",

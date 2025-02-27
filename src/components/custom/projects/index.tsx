@@ -65,7 +65,7 @@ const Projects = ({ id }: { id?: string }) => {
                   <Component
                     key={index}
                     contributors={contributors[constant.id]!}
-                    projects={constant as any}
+                    projects={constant}
                   />
                 )
               )}
@@ -79,7 +79,7 @@ const Projects = ({ id }: { id?: string }) => {
                     <Component
                       key={index}
                       contributors={contributors[constant.id]!}
-                      projects={constant as any}
+                      projects={constant}
                     />
                   )
               )}
@@ -93,7 +93,7 @@ const Projects = ({ id }: { id?: string }) => {
                     <Component
                       key={index}
                       contributors={contributors[constant.id]!}
-                      projects={constant as any}
+                      projects={constant}
                     />
                   )
               )}

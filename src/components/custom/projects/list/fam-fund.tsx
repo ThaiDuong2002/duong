@@ -2,10 +2,10 @@
 
 import BadgeList from "@/components/custom/projects/badge-list";
 import ContributorList from "@/components/custom/projects/contributor-list";
-import ImageCarousel from "@/components/custom/projects/image-carousel";
 import ProjectCard from "@/components/custom/projects/project-card";
-import { FamFundConstantsType } from "@/constants";
+import ProjectDetail from "@/components/custom/projects/project-detail";
 import ContributorInfoDto from "@/data-fetching/dto/contributor-info-dto";
+import { ProjectInterface } from "@/interface";
 import { buttonVariants } from "@/ui/button";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
@@ -15,7 +15,7 @@ const FamFund = ({
   projects,
 }: {
   contributors?: ContributorInfoDto[];
-  projects: FamFundConstantsType;
+  projects: ProjectInterface;
 }) => {
   const t = useTranslations(projects.id);
 
@@ -65,7 +65,13 @@ const FamFund = ({
             {contributors && <ContributorList contributors={contributors} />}
           </div>
         </div>
-        <ImageCarousel list={projects.imageList} className="my-10" />
+        <ProjectDetail
+          id={projects.id}
+          detailInfo={projects.detailInfo}
+          technologiesOption="multiple"
+          architecturesOption="multiple"
+          overviewOption="multiple"
+        />
       </div>
     </ProjectCard>
   );
