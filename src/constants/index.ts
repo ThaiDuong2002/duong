@@ -52,6 +52,7 @@ import PaintAppConstants, {
 import VideoSharingConstants, {
   VideoSharingConstantsType,
 } from "@/constants/projects/video-sharing";
+import projectConstants from "./components/project-constants";
 
 export {
   AdsManagementConstants,
@@ -80,6 +81,7 @@ export {
   owner,
   PaintAppConstants,
   PHONE_NUMBER,
+  projectConstants,
   repositories,
   SOURCE_CODE_TOOLTIP,
   SOURCE_CODE_URL,
