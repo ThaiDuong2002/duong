@@ -265,21 +265,21 @@
     "description": "Introducing a cutting-edge video-sharing platform developed with the latest technologies, including React, Node.js, Express.js, and MongoDB. Users can effortlessly upload their videos, engage with content through likes and shares, and subscribe to their favorite channels. This innovative application is a powerful clone of YouTube, designed to enhance your video-sharing experience and foster a vibrant online community. Join us and be a part of this dynamic platform!",
     "overview": {
       "frontend": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "Seamlessly upload your videos and instantly connect with the community by sharing your creativity!",
+        "overview-02": "Amplify your experience by actively engaging with the content through likes, shares, and comments. Your participation makes a difference!",
+        "overview-03": "Enhance your experience and never miss out on fresh content by subscribing to your favorite channels."
       }
     },
     "technologies": {
       "backend": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": ""
+        "tech-01": "Designed with Express.js, this framework guarantees exceptional efficiency and robust server-side operations, delivering unparalleled performance and unwavering reliability.",
+        "tech-02": "Developed with Node.js, this application delivers a robust and high-performance backend infrastructure, ensuring scalability and speed to meet the demands of modern applications.",
+        "tech-03": "Leverages MongoDB to provide highly flexible and scalable data storage solutions, ensuring your data management needs are met with efficiency and reliability."
       },
       "frontend": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": ""
+        "tech-01": "Harnesses the power of Material UI to craft an engaging and highly responsive user interface that captivates users and enhances their experience.",
+        "tech-02": "Harnessing the power of React.js, we deliver an engaging and interactive user experience that captivates and retains users.",
+        "tech-03": "Leverages Firebase to deliver effortless real-time data synchronization and powerful backend services, ensuring an exceptional user experience and reliability."
       }
     }
   }

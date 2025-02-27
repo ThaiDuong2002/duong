@@ -231,21 +231,21 @@
     "description": "Giới thiệu một nền tảng chia sẻ video tiên tiến được phát triển bằng các công nghệ mới nhất, bao gồm React, Node.js, Express.js và MongoDB. Người dùng có thể dễ dàng tải lên video của họ, tương tác với nội dung thông qua lượt thích và chia sẻ, và đăng ký các kênh yêu thích của họ. Ứng dụng sáng tạo này là một bản sao mạnh mẽ của YouTube, được thiết kế để nâng cao trải nghiệm chia sẻ video của bạn và tạo ra một cộng đồng trực tuyến sôi động. Tham gia với chúng tôi và trở thành một phần của nền tảng năng động này!",
     "overview": {
       "frontend": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "Dễ dàng tải lên video của bạn và kết nối ngay lập tức với cộng đồng bằng cách chia sẻ sự sáng tạo của bạn!",
+        "overview-02": "Tăng cường trải nghiệm của bạn bằng cách tích cực tương tác với nội dung thông qua lượt thích, chia sẻ và bình luận. Sự tham gia của bạn tạo nên sự khác biệt!",
+        "overview-03": "Nâng cao trải nghiệm của bạn và không bỏ lỡ nội dung mới bằng cách đăng ký các kênh yêu thích của bạn."
       }
     },
     "technologies": {
       "backend": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": ""
+        "tech-01": "Được thiết kế với Express.js, framework này đảm bảo hiệu quả vượt trội và các hoạt động phía máy chủ mạnh mẽ, mang lại hiệu suất không thể so sánh và độ tin cậy không ngừng.",
+        "tech-02": "Được phát triển với Node.js, ứng dụng này cung cấp cơ sở hạ tầng backend mạnh mẽ và hiệu suất cao, đảm bảo khả năng mở rộng và tốc độ để đáp ứng nhu cầu của các ứng dụng hiện đại.",
+        "tech-03": "Sử dụng MongoDB để cung cấp các giải pháp lưu trữ dữ liệu linh hoạt và có khả năng mở rộng cao, đảm bảo nhu cầu quản lý dữ liệu của bạn được đáp ứng một cách hiệu quả và đáng tin cậy."
       },
       "frontend": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": ""
+        "tech-01": "Tận dụng sức mạnh của Material UI để tạo ra giao diện người dùng hấp dẫn và phản hồi nhanh, nâng cao trải nghiệm của người dùng.",
+        "tech-02": "Tận dụng sức mạnh của React.js, chúng tôi cung cấp trải nghiệm người dùng tương tác và hấp dẫn, thu hút và giữ chân người dùng.",
+        "tech-03": "Sử dụng Firebase để cung cấp đồng bộ hóa dữ liệu thời gian thực dễ dàng và các dịch vụ backend mạnh mẽ, đảm bảo trải nghiệm người dùng tuyệt vời và độ tin cậy."
       }
     }
   }
