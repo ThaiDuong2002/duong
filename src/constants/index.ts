@@ -9,6 +9,7 @@ import {
   SOURCE_CODE_URL,
 } from "@/constants/components/contact";
 import { COPY } from "@/constants/components/copy-button";
+import projectConstants from "@/constants/components/project-constants";
 import {
   apiContributors,
   githubUrl,
@@ -52,7 +53,6 @@ import PaintAppConstants, {
 import VideoSharingConstants, {
   VideoSharingConstantsType,
 } from "@/constants/projects/video-sharing";
-import projectConstants from "./components/project-constants";
 
 export {
   AdsManagementConstants,
@@ -87,7 +87,7 @@ export {
   SOURCE_CODE_URL,
   TOAST_LIMIT,
   TOAST_REMOVE_DELAY,
-  VideoSharingConstants,
+  VideoSharingConstants
 };
 export type {
   AdsManagementConstantsType,
@@ -99,5 +99,5 @@ export type {
   MyShopConstantsType,
   OnlineAcademyConstantsType,
   PaintAppConstantsType,
-  VideoSharingConstantsType,
+  VideoSharingConstantsType
 };
