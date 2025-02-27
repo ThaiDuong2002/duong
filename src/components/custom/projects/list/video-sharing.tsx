@@ -4,33 +4,20 @@ import BadgeList from "@/components/custom/projects/badge-list";
 import ContributorList from "@/components/custom/projects/contributor-list";
 import ProjectCard from "@/components/custom/projects/project-card";
 import ProjectDetail from "@/components/custom/projects/project-detail";
-import { VideoSharingConstants } from "@/constants";
-import ContributorController from "@/data-fetching/controllers/contributor-controller";
+import { VideoSharingConstantsType } from "@/constants";
 import ContributorInfoDto from "@/data-fetching/dto/contributor-info-dto";
-import ErrorResponseDto from "@/data-fetching/dto/error-response-dto";
 import { buttonVariants } from "@/ui/button";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
-import { useEffect, useState } from "react";
 
-const VideoSharing = () => {
-  const projects = VideoSharingConstants;
+const VideoSharing = ({
+  contributors,
+  projects,
+}: {
+  contributors?: ContributorInfoDto[];
+  projects: VideoSharingConstantsType;
+}) => {
   const t = useTranslations(projects.id);
-
-  const [contributors, setContributors] = useState<ContributorInfoDto[]>([]);
-
-  useEffect(() => {
-    ContributorController.getContributorsInfo(
-      projects.owner,
-      projects.repository
-    ).then((response) => {
-      if (response instanceof ErrorResponseDto) {
-        console.error(response);
-      } else {
-        setContributors(response.getData());
-      }
-    });
-  }, [projects.owner, projects.repository]);
 
   return (
     <ProjectCard
@@ -75,7 +62,7 @@ const VideoSharing = () => {
                 {projects.contributors}
               </h1>
             </div>
-            <ContributorList contributors={contributors} />
+            {contributors && <ContributorList contributors={contributors} />}
           </div>
         </div>
         <ProjectDetail

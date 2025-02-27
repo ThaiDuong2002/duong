@@ -4,33 +4,21 @@ import BadgeList from "@/components/custom/projects/badge-list";
 import ContributorList from "@/components/custom/projects/contributor-list";
 import ImageCarousel from "@/components/custom/projects/image-carousel";
 import ProjectCard from "@/components/custom/projects/project-card";
-import { FamFundConstants } from "@/constants";
-import ContributorController from "@/data-fetching/controllers/contributor-controller";
+import { FamFundConstantsType } from "@/constants";
 import ContributorInfoDto from "@/data-fetching/dto/contributor-info-dto";
-import ErrorResponseDto from "@/data-fetching/dto/error-response-dto";
 import { buttonVariants } from "@/ui/button";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
-import { useEffect, useState } from "react";
 
-const FamFund = () => {
-  const projects = FamFundConstants;
+const FamFund = ({
+  contributors,
+  projects,
+}: {
+  contributors?: ContributorInfoDto[];
+  projects: FamFundConstantsType;
+}) => {
   const t = useTranslations(projects.id);
 
-  const [contributors, setContributors] = useState<ContributorInfoDto[]>([]);
-
-  useEffect(() => {
-    ContributorController.getContributorsInfo(
-      projects.owner,
-      projects.repository
-    ).then((response) => {
-      if (response instanceof ErrorResponseDto) {
-        console.error(response);
-      } else {
-        setContributors(response.getData());
-      }
-    });
-  }, [projects.owner, projects.repository]);
   return (
     <ProjectCard
       title={projects.title}
@@ -74,7 +62,7 @@ const FamFund = () => {
                 {projects.contributors}
               </h1>
             </div>
-            <ContributorList contributors={contributors} />
+            {contributors && <ContributorList contributors={contributors} />}
           </div>
         </div>
         <ImageCarousel list={projects.imageList} className="my-10" />

@@ -82,3 +82,4 @@ const OnlineAcademyConstants = {
 };
 
 export default OnlineAcademyConstants;
+export type OnlineAcademyConstantsType = typeof OnlineAcademyConstants;

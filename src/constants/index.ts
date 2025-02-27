@@ -22,16 +22,36 @@ import HttpMessage from "@/constants/http/message";
 import HttpMethod from "@/constants/http/method";
 import HttpStatus from "@/constants/http/status";
 import { I18nConstants, localeConstants } from "@/constants/i18n";
-import AdsManagementConstants from "@/constants/projects/ads-management";
-import CarBookingConstants from "@/constants/projects/car-booking";
-import ChatAppConstants from "@/constants/projects/chap-app";
-import CoffeeOrderConstants from "@/constants/projects/coffee-order";
-import FamFundConstants from "@/constants/projects/fam-fund";
-import HotelBookingConstants from "@/constants/projects/hotel-booking";
-import MyShopConstants from "@/constants/projects/my-shop";
-import OnlineAcademyConstants from "@/constants/projects/online-academy";
-import PaintAppConstants from "@/constants/projects/paint-app";
-import VideoSharingConstants from "@/constants/projects/video-sharing";
+import AdsManagementConstants, {
+  AdsManagementConstantsType,
+} from "@/constants/projects/ads-management";
+import CarBookingConstants, {
+  CarBookingConstantsType,
+} from "@/constants/projects/car-booking";
+import ChatAppConstants, {
+  ChatAppConstantsType,
+} from "@/constants/projects/chap-app";
+import CoffeeOrderConstants, {
+  CoffeeOrderConstantsType,
+} from "@/constants/projects/coffee-order";
+import FamFundConstants, {
+  FamFundConstantsType,
+} from "@/constants/projects/fam-fund";
+import HotelBookingConstants, {
+  HotelBookingConstantsType,
+} from "@/constants/projects/hotel-booking";
+import MyShopConstants, {
+  MyShopConstantsType,
+} from "@/constants/projects/my-shop";
+import OnlineAcademyConstants, {
+  OnlineAcademyConstantsType,
+} from "@/constants/projects/online-academy";
+import PaintAppConstants, {
+  PaintAppConstantsType,
+} from "@/constants/projects/paint-app";
+import VideoSharingConstants, {
+  VideoSharingConstantsType,
+} from "@/constants/projects/video-sharing";
 
 export {
   AdsManagementConstants,
@@ -66,4 +86,16 @@ export {
   TOAST_LIMIT,
   TOAST_REMOVE_DELAY,
   VideoSharingConstants,
+};
+export type {
+  AdsManagementConstantsType,
+  CarBookingConstantsType,
+  ChatAppConstantsType,
+  CoffeeOrderConstantsType,
+  FamFundConstantsType,
+  HotelBookingConstantsType,
+  MyShopConstantsType,
+  OnlineAcademyConstantsType,
+  PaintAppConstantsType,
+  VideoSharingConstantsType,
 };

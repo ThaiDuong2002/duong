@@ -191,3 +191,4 @@ const CarBookingConstants = {
 };
 
 export default CarBookingConstants;
+export type CarBookingConstantsType = typeof CarBookingConstants;

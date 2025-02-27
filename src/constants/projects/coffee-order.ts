@@ -121,3 +121,4 @@ const CoffeeOrderConstants = {
 };
 
 export default CoffeeOrderConstants;
+export type CoffeeOrderConstantsType = typeof CoffeeOrderConstants;

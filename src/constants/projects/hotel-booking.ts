@@ -104,3 +104,4 @@ const HotelBookingConstants = {
 };
 
 export default HotelBookingConstants;
+export type HotelBookingConstantsType = typeof HotelBookingConstants;

@@ -69,3 +69,4 @@ const PaintAppConstants = {
 };
 
 export default PaintAppConstants;
+export type PaintAppConstantsType = typeof PaintAppConstants;

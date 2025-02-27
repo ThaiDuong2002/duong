@@ -83,3 +83,4 @@ const MyShopConstants = {
 };
 
 export default MyShopConstants;
+export type MyShopConstantsType = typeof MyShopConstants;

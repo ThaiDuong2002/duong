@@ -45,3 +45,4 @@ const FamFundConstants = {
 };
 
 export default FamFundConstants;
+export type FamFundConstantsType = typeof FamFundConstants;

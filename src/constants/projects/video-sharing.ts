@@ -107,3 +107,4 @@ const VideoSharingConstants = {
 };
 
 export default VideoSharingConstants;
+export type VideoSharingConstantsType = typeof VideoSharingConstants;

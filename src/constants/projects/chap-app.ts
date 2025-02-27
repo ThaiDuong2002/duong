@@ -80,3 +80,4 @@ const ChatAppConstants = {
 };
 
 export default ChatAppConstants;
+export type ChatAppConstantsType = typeof ChatAppConstants;

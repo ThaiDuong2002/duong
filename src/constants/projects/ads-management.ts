@@ -128,3 +128,4 @@ const AdsManagementConstants = {
 };
 
 export default AdsManagementConstants;
+export type AdsManagementConstantsType = typeof AdsManagementConstants;
