@@ -252,14 +252,16 @@
     "description": "Introducing a powerful drawing application inspired by the beloved Windows Paint. This intuitive tool empowers users to unleash their creativity, offering features for drawing, erasing, changing colors, and seamlessly saving their artwork. Built with cutting-edge technology using C#, WPF, and XAML, this application is designed to enhance your artistic experience and bring your visions to life.",
     "overview": {
       "frontend": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "Users can effortlessly draw various shapes such as rectangles, circles, and lines, utilizing a plugin architecture that enhances flexibility and functionality.",
+        "overview-02": "Users have the ability to rotate shapes, change their size, and modify the color of lines, providing a highly customizable drawing experience.",
+        "overview-03": "The application allows users to change the type of outline, choose outline thickness, and apply different styles to their drawings.",
+        "overview-04": "Users can easily undo, redo, duplicate, copy, and paste elements, ensuring a seamless and efficient drawing process.",
+        "overview-05": "The intuitive interface and robust features make it easy for users to create and manage their artwork, enhancing their overall creative experience."
       }
     },
     "technologies": {
       "frontend": {
-        "tech-01": ""
+        "tech-01": "Harnesses the power of WPF to deliver a highly responsive and visually appealing user interface, enhancing the overall user experience."
       }
     }
   },

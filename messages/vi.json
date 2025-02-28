@@ -218,14 +218,16 @@
     "description": "Giới thiệu một ứng dụng vẽ mạnh mẽ lấy cảm hứng từ Windows Paint yêu thích. Công cụ trực quan này cho phép người dùng thỏa sức sáng tạo, cung cấp các tính năng vẽ, xóa, thay đổi màu sắc và lưu tác phẩm nghệ thuật của họ một cách liền mạch. Được xây dựng bằng công nghệ tiên tiến sử dụng C#, WPF và XAML, ứng dụng này được thiết kế để nâng cao trải nghiệm nghệ thuật của bạn và biến tầm nhìn của bạn thành hiện thực.",
     "overview": {
       "frontend": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "Người dùng có thể dễ dàng vẽ các hình dạng khác nhau như hình chữ nhật, hình tròn và đường thẳng, sử dụng kiến trúc plugin để tăng cường tính linh hoạt và chức năng.",
+        "overview-02": "Người dùng có khả năng xoay hình dạng, thay đổi kích thước và thay đổi màu sắc của các đường, cung cấp trải nghiệm vẽ tùy chỉnh cao.",
+        "overview-03": "Ứng dụng cho phép người dùng thay đổi loại viền, chọn độ dày viền và áp dụng các kiểu khác nhau cho bản vẽ của họ.",
+        "overview-04": "Người dùng có thể dễ dàng hoàn tác, làm lại, sao chép, sao chép và dán các yếu tố, đảm bảo quá trình vẽ liền mạch và hiệu quả.",
+        "overview-05": "Giao diện trực quan và các tính năng mạnh mẽ giúp người dùng dễ dàng tạo và quản lý tác phẩm nghệ thuật của họ, nâng cao trải nghiệm sáng tạo tổng thể của họ."
       }
     },
     "technologies": {
       "frontend": {
-        "tech-01": ""
+        "tech-01": "Tận dụng sức mạnh của WPF để cung cấp giao diện người dùng hấp dẫn và phản hồi nhanh, nâng cao trải nghiệm người dùng tổng thể."
       }
     }
   },
