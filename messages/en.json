@@ -8,24 +8,25 @@
     "description": "This innovative application is crafted to revolutionize the management of advertising boards across City X. By addressing the needs of residents, local officials at both ward and district levels, and the Department of Culture and Sports, it offers a powerful, transparent, and efficient solution for overseeing the city's advertising landscape. Embrace this opportunity to enhance communication and engagement within our community.",
     "overview": {
       "frontend": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "There are two essential web applications designed to enhance engagement and streamline communication: one tailored specifically for citizens and residents, and the other dedicated to supporting ward and district officers, as well as officials from the Department of Culture and Sports. These platforms aim to empower users and facilitate efficient collaboration within the community.",
+        "overview-02": "Citizens have the opportunity to explore locations featuring hiring contracts for advertisements, gaining access to essential details such as the location, timing, and the companies that are hiring. Additionally, they are encouraged to report any issues they encounter with these advertisements, helping to maintain a transparent and efficient hiring process. Your participation makes a difference!",
+        "overview-03": "Officers can reach out to companies and businesses to facilitate the hiring of advertising spaces. They are responsible for managing these locations, addressing any issues reported, and consulting with officials from the Department of Culture and Sports to confirm whether the company is permitted to hire these spaces.",
+        "overview-04": "Officials from the Department of Culture and Sports have complete control over the entire system, which includes managing lists of districts, wards, types of advertisements, and advertisement locations. They have access to statistics related to reports and their processing status from lower levels. Additionally, account creation and area assignment for management purposes are easily managed."
       }
     },
     "technologies": {
       "backend": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": "",
-        "tech-04": "",
-        "tech-05": "",
-        "tech-06": ""
+        "tech-01": "Built with Express.js to ensure efficient and robust server-side operations, delivering optimal performance and reliability.",
+        "tech-02": "Developed with Node.js to provide a high-performance backend infrastructure, ensuring scalability and speed.",
+        "tech-03": "Utilizes MongoDB for reliable and efficient data storage solutions, ensuring data integrity and accessibility.",
+        "tech-04": "Incorporates Socket.IO to deliver real-time notifications, keeping users informed about updates.",
+        "tech-05": "Uses Jenkins for continuous integration and continuous deployment, ensuring smooth and automated workflows.",
+        "tech-06": "Docker is used for containerization, ensuring consistent environments across development, testing, and production."
       },
       "frontend": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": ""
+        "tech-01": "Leverages the power of React.js to deliver an engaging and highly responsive user interface that enhances the overall user experience.",
+        "tech-02": "Harnesses the power of Material UI to craft an engaging and highly responsive user interface that captivates users and enhances their experience.",
+        "tech-03": "Utilizes Leaflet.js for interactive maps, allowing users to view and interact with advertising locations."
       }
     }
   },

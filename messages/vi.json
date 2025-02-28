@@ -8,24 +8,25 @@
     "description": "Ứng dụng sáng tạo này được chế tác để cách mạng hóa việc quản lý các bảng quảng cáo trên toàn Thành phố X. Bằng cách đáp ứng nhu cầu của cư dân, các quan chức địa phương ở cả cấp phường và quận, và Sở Văn hóa và Thể thao, nó cung cấp một giải pháp mạnh mẽ, minh bạch và hiệu quả để giám sát cảnh quan quảng cáo của thành phố. Nắm bắt cơ hội này để nâng cao giao tiếp và sự tham gia trong cộng đồng của chúng ta.",
     "overview": {
       "frontend": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "Có hai ứng dụng web thiết yếu được thiết kế để tăng cường sự tham gia và tối ưu hóa giao tiếp: một ứng dụng dành riêng cho công dân và cư dân, và ứng dụng còn lại hỗ trợ các cán bộ phường và quận, cũng như các quan chức từ Sở Văn hóa và Thể thao. Những nền tảng này nhằm mục đích trao quyền cho người dùng và tạo điều kiện hợp tác hiệu quả trong cộng đồng.",
+        "overview-02": "Công dân có cơ hội khám phá các địa điểm có hợp đồng thuê quảng cáo, truy cập các thông tin chi tiết như vị trí, thời gian và các công ty đang thuê. Ngoài ra, họ được khuyến khích báo cáo bất kỳ vấn đề nào gặp phải với các quảng cáo này, giúp duy trì một quy trình thuê minh bạch và hiệu quả. Sự tham gia của bạn tạo nên sự khác biệt!",
+        "overview-03": "Cán bộ có thể liên hệ với các công ty và doanh nghiệp để tạo điều kiện thuê không gian quảng cáo. Họ chịu trách nhiệm quản lý các địa điểm này, giải quyết bất kỳ vấn đề nào được báo cáo và tham vấn với các quan chức từ Sở Văn hóa và Thể thao để xác nhận liệu công ty có được phép thuê các không gian này hay không.",
+        "overview-04": "Các quan chức từ Sở Văn hóa và Thể thao có quyền kiểm soát toàn bộ hệ thống, bao gồm quản lý danh sách các quận, phường, loại quảng cáo và địa điểm quảng cáo. Họ có quyền truy cập vào các thống kê liên quan đến các báo cáo và tình trạng xử lý từ các cấp thấp hơn. Ngoài ra, việc tạo tài khoản và phân công khu vực để quản lý cũng được quản lý dễ dàng."
       }
     },
     "technologies": {
       "backend": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": "",
-        "tech-04": "",
-        "tech-05": "",
-        "tech-06": ""
+        "tech-01": "Được xây dựng với Express.js để đảm bảo các hoạt động phía máy chủ hiệu quả và mạnh mẽ, mang lại hiệu suất và độ tin cậy tối ưu.",
+        "tech-02": "Được phát triển với Node.js để cung cấp cơ sở hạ tầng backend hiệu suất cao, đảm bảo khả năng mở rộng và tốc độ.",
+        "tech-03": "Sử dụng MongoDB để cung cấp các giải pháp lưu trữ dữ liệu đáng tin cậy và hiệu quả, đảm bảo tính toàn vẹn và khả năng truy cập dữ liệu.",
+        "tech-04": "Tích hợp Socket.IO để cung cấp thông báo thời gian thực, giữ cho người dùng luôn được thông báo về các cập nhật.",
+        "tech-05": "Sử dụng Jenkins cho tích hợp liên tục và triển khai liên tục, đảm bảo quy trình làm việc mượt mà và tự động.",
+        "tech-06": "Docker được sử dụng để container hóa, đảm bảo môi trường nhất quán trên các giai đoạn phát triển, kiểm thử và sản xuất."
       },
       "frontend": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": ""
+        "tech-01": "Tận dụng sức mạnh của React.js để cung cấp giao diện người dùng hấp dẫn và phản hồi nhanh, nâng cao trải nghiệm người dùng tổng thể.",
+        "tech-02": "Tận dụng sức mạnh của Material UI để tạo ra giao diện người dùng hấp dẫn và phản hồi nhanh, thu hút người dùng và nâng cao trải nghiệm của họ.",
+        "tech-03": "Sử dụng Leaflet.js cho các bản đồ tương tác, cho phép người dùng xem và tương tác với các địa điểm quảng cáo."
       }
     }
   },
