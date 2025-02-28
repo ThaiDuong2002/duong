@@ -229,16 +229,18 @@
     "description": "Introducing an innovative online learning platform, expertly crafted with Handlebars, Express, and MongoDB. This application empowers learners by offering a diverse range of courses across multiple subjects. Users can easily enroll in courses, access a wealth of engaging course materials, and enhance their knowledge through interactive quizzes and assignments. Transform your learning experience and achieve your educational goals with us!",
     "overview": {
       "frontend": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "Students can effortlessly enroll in courses and unlock a treasure trove of engaging and enriching course materials.",
+        "overview-02": "By actively engaging in assignments and quizzes, students can significantly enhance their learning experience and deepen their understanding of the material.",
+        "overview-03": "Educators can effortlessly upload and update courses, guaranteeing that the content is not only current but also highly relevant to students' needs. This empowers teachers to enhance the learning experience and ensure their materials are always impactful.",
+        "overview-04": "Teachers can engage students by asking thought-provoking questions and providing constructive feedback, thereby cultivating a dynamic and collaborative learning environment.",
+        "overview-05": "Administrators play a pivotal role in enhancing the learning experience by effectively managing courses, users, and content. Their oversight ensures a seamless and engaging educational environment for everyone involved."
       }
     },
     "technologies": {
       "frontend": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": ""
+        "tech-01": "Harnesses the power of Handlebars to craft dynamic and highly efficient templates that elevate the user interface experience.",
+        "tech-02": "The design leverages Bootstrap to create a dynamic and visually stunning experience, ensuring that it is both responsive and engaging for users.",
+        "tech-03": "Harnesses the power of MongoDB to deliver highly flexible and scalable data storage solutions that adapt to your evolving needs."
       }
     }
   },

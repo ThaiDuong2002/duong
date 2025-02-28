@@ -195,16 +195,18 @@
     "description": "Giới thiệu một nền tảng học trực tuyến sáng tạo, được chế tác chuyên nghiệp bằng Handlebars, Express và MongoDB. Ứng dụng này cung cấp cho người học một loạt các khóa học đa dạng trên nhiều chủ đề. Người dùng có thể dễ dàng đăng ký các khóa học, truy cập một kho tài liệu khóa học phong phú và nâng cao kiến thức của họ thông qua các bài kiểm tra và bài tập tương tác. Biến đổi trải nghiệm học tập của bạn và đạt được mục tiêu giáo dục của bạn với chúng tôi!",
     "overview": {
       "frontend": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "Học viên có thể dễ dàng đăng ký các khóa học và mở khóa kho tài liệu khóa học phong phú và hấp dẫn.",
+        "overview-02": "Bằng cách tích cực tham gia vào các bài tập và bài kiểm tra, học viên có thể nâng cao đáng kể trải nghiệm học tập và hiểu sâu hơn về tài liệu.",
+        "overview-03": "Giáo viên có thể dễ dàng tải lên và cập nhật các khóa học, đảm bảo rằng nội dung không chỉ hiện tại mà còn rất phù hợp với nhu cầu của học viên. Điều này giúp giáo viên nâng cao trải nghiệm học tập và đảm bảo tài liệu của họ luôn có tác động.",
+        "overview-04": "Giáo viên có thể tương tác với học viên bằng cách đặt câu hỏi gợi mở và cung cấp phản hồi mang tính xây dựng, từ đó tạo ra một môi trường học tập năng động và hợp tác.",
+        "overview-05": "Quản trị viên đóng vai trò quan trọng trong việc nâng cao trải nghiệm học tập bằng cách quản lý hiệu quả các khóa học, người dùng và nội dung. Sự giám sát của họ đảm bảo một môi trường giáo dục liền mạch và hấp dẫn cho tất cả mọi người."
       }
     },
     "technologies": {
       "frontend": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": ""
+        "tech-01": "Tận dụng sức mạnh của Handlebars để tạo ra các mẫu động và hiệu quả cao, nâng cao trải nghiệm giao diện người dùng.",
+        "tech-02": "Thiết kế sử dụng Bootstrap để tạo ra trải nghiệm động và hấp dẫn về mặt hình ảnh, đảm bảo rằng nó vừa phản hồi vừa thu hút người dùng.",
+        "tech-03": "Tận dụng sức mạnh của MongoDB để cung cấp các giải pháp lưu trữ dữ liệu linh hoạt và có khả năng mở rộng cao, đáp ứng nhu cầu phát triển của bạn."
       }
     }
   },
