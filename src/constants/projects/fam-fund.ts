@@ -24,6 +24,7 @@ const FamFundConstants: ProjectInterface = {
     "NextJs",
     "NodeJs",
     "NestJs",
+    "Tailwind CSS",
     "PostgreSQL",
     "Amqplib",
     "Redis",
@@ -33,6 +34,7 @@ const FamFundConstants: ProjectInterface = {
     "Open Telemetry",
     "GraphQL",
     "CI/CD",
+    "Socket.IO",
     "Microservices",
     "Syncfusion",
     "Font Awesome",
@@ -99,17 +101,27 @@ const FamFundConstants: ProjectInterface = {
           application: "Mobile",
           techList: [
             {
-              name: "Flutter",
+              name: "React Native",
               description: "tech-01",
             },
             {
-              name: "Google Maps",
+              name: "Expo",
               description: "tech-02",
+            },
+            {
+              name: "Font Awesome",
+              description: "tech-03",
+            },
+            {
+              name: "Socket.IO",
+              description: "tech-04",
             },
           ],
           techImages: [
-            "/technologies/flutter.png",
-            "/technologies/google-maps.png",
+            "/technologies/react-native.png",
+            "/technologies/expo.png",
+            "/technologies/font-awesome.png",
+            "/technologies/socket-io.png",
           ],
         },
         {
@@ -121,17 +133,27 @@ const FamFundConstants: ProjectInterface = {
               description: "tech-01",
             },
             {
-              name: "Materail UI",
+              name: "Next.Js",
               description: "tech-02",
             },
             {
-              name: "Socket.IO",
+              name: "Syncfusion",
               description: "tech-03",
+            },
+            {
+              name: "Ant Design",
+              description: "tech-04",
+            },
+            {
+              name: "Socket.IO",
+              description: "tech-05",
             },
           ],
           techImages: [
             "/technologies/react-js.png",
-            "/technologies/material-ui.png",
+            "/technologies/next-js.png",
+            "/technologies/syncfusion.png",
+            "/technologies/ant-design.png",
             "/technologies/socket-io.png",
           ],
         },
@@ -140,7 +162,7 @@ const FamFundConstants: ProjectInterface = {
           application: "Backend",
           techList: [
             {
-              name: "Express.Js",
+              name: "Nest.Js",
               description: "tech-01",
             },
             {
@@ -148,16 +170,44 @@ const FamFundConstants: ProjectInterface = {
               description: "tech-02",
             },
             {
-              name: "MongoDB",
+              name: "PostgreSQL",
               description: "tech-03",
+            },
+            {
+              name: "Redis",
+              description: "tech-04",
+            },
+            {
+              name: "Docker",
+              description: "tech-05",
+            },
+            {
+              name: "Kubernetes",
+              description: "tech-06",
+            },
+            {
+              name: "Jenkins",
+              description: "tech-07",
+            },
+            {
+              name: "Open Telemetry",
+              description: "tech-08",
+            },
+            {
+              name: "GraphQL",
+              description: "tech-09",
             },
           ],
           techImages: [
-            "/technologies/express-js.png",
+            "/technologies/nest-js.png",
             "/technologies/socket-io.png",
-            "/technologies/mongo-db.png",
-            "/technologies/rabbitmq.png",
+            "/technologies/postgresql.png",
+            "/technologies/redis.png",
             "/technologies/docker.png",
+            "/technologies/kubernetes.png",
+            "/technologies/jenkins.png",
+            "/technologies/opentelemetry.png",
+            "/technologies/graph-ql.png",
           ],
         },
       ],
