@@ -88,21 +88,23 @@
     "description": "Giới thiệu một ứng dụng mạnh mẽ được chế tác bằng Kotlin trong Android Studio, JavaScript và MySQL. Nền tảng sáng tạo này không chỉ cho phép người dùng dễ dàng đặt hàng cà phê yêu thích của họ và tùy chỉnh lựa chọn của họ với nhiều loại topping mà còn bao gồm một bảng điều khiển quản trị mạnh mẽ để quản lý hợp lý. Trải nghiệm sự tiện lợi và kiểm soát chưa từng có!",
     "overview": {
       "frontend": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "Khách hàng có thể dễ dàng khám phá và chọn cà phê lý tưởng của mình từ một loạt các tùy chọn, đảm bảo một trải nghiệm cá nhân hóa và thực sự thú vị sẽ nâng cao hành trình cà phê của họ.",
+        "overview-02": "Người dùng có thể tùy chỉnh đơn hàng cà phê của mình với nhiều loại topping, cho phép họ tạo ra đồ uống hoàn hảo phù hợp với sở thích của mình.",
+        "overview-03": "Ứng dụng hỗ trợ thanh toán trực tuyến liền mạch thông qua ZaloPay, cung cấp một phương thức thanh toán tiện lợi và an toàn cho khách hàng.",
+        "overview-04": "Khách hàng có thể dễ dàng truy cập lịch sử đơn hàng của mình và nhanh chóng đặt lại cà phê yêu thích của họ, làm cho toàn bộ quá trình đặt hàng không chỉ liền mạch mà còn vô cùng tiện lợi.",
+        "overview-05": "Khách hàng nhận được thông báo thời gian thực về trạng thái đơn hàng của họ, đảm bảo họ luôn được thông báo và cập nhật."
       }
     },
     "technologies": {
       "backend": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": "",
-        "tech-04": ""
+        "tech-01": "Được xây dựng với Express.js để đảm bảo các hoạt động phía máy chủ hiệu quả và mạnh mẽ, mang lại hiệu suất và độ tin cậy tối ưu.",
+        "tech-02": "Được phát triển với Node.js để cung cấp cơ sở hạ tầng backend hiệu suất cao, đảm bảo khả năng mở rộng và tốc độ.",
+        "tech-03": "Sử dụng MySQL để cung cấp các giải pháp lưu trữ dữ liệu đáng tin cậy và hiệu quả, đảm bảo tính toàn vẹn và khả năng truy cập dữ liệu.",
+        "tech-04": "Tích hợp Socket.IO để cung cấp thông báo thời gian thực, giữ cho khách hàng luôn được thông báo về trạng thái đơn hàng của họ."
       },
       "frontend": {
-        "tech-01": "",
-        "tech-02": ""
+        "tech-01": "Được phát triển bằng Android Studio để tạo ra trải nghiệm ứng dụng di động liền mạch và trực quan.",
+        "tech-02": "Tích hợp ZaloPay để cung cấp giải pháp thanh toán trực tuyến an toàn và tiện lợi cho khách hàng."
       }
     }
   },

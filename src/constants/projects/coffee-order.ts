@@ -49,7 +49,13 @@ const CoffeeOrderConstants: ProjectInterface = {
         {
           id: "frontend",
           application: "Frontend",
-          overviewList: ["overview-01", "overview-02", "overview-03"],
+          overviewList: [
+            "overview-01",
+            "overview-02",
+            "overview-03",
+            "overview-04",
+            "overview-05",
+          ],
           imageList: null,
         },
       ],

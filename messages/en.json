@@ -88,21 +88,23 @@
     "description": "Introducing a powerful application crafted with Kotlin in Android Studio, JavaScript, and MySQL. This innovative platform not only enables users to effortlessly order their favorite coffee and customize their selections with a variety of toppings but also includes a robust administration panel for streamlined management. Experience convenience and control like never before!",
     "overview": {
       "frontend": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "Customers can effortlessly explore and select their ideal coffee from an extensive array of options, guaranteeing a personalized and truly delightful experience that will elevate their coffee journey.",
+        "overview-02": "Users have the flexibility to customize their coffee order with a variety of toppings, allowing them to create the perfect beverage tailored to their preferences.",
+        "overview-03": "The application supports seamless online payments through ZaloPay, providing a convenient and secure payment method for customers.",
+        "overview-04": "Customers can effortlessly access their order history and quickly reorder their favorite coffee, making the entire ordering process not just seamless, but also incredibly convenient.",
+        "overview-05": "Customers receive real-time notifications about their order status, ensuring they are always informed and updated."
       }
     },
     "technologies": {
       "backend": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": "",
-        "tech-04": ""
+        "tech-01": "Built with Express.js to ensure efficient and robust server-side operations, delivering optimal performance and reliability.",
+        "tech-02": "Developed with Node.js to provide a high-performance backend infrastructure, ensuring scalability and speed.",
+        "tech-03": "Utilizes MySQL for reliable and efficient data storage solutions, ensuring data integrity and accessibility.",
+        "tech-04": "Incorporates Socket.IO to deliver real-time notifications, keeping customers informed about their order status."
       },
       "frontend": {
-        "tech-01": "",
-        "tech-02": ""
+        "tech-01": "Developed using Android Studio to create a seamless and intuitive mobile application experience.",
+        "tech-02": "Integrates ZaloPay to provide a secure and convenient online payment solution for customers."
       }
     }
   },
