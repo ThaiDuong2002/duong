@@ -176,20 +176,22 @@
     "description": "This innovative web application revolutionizes the way users book hotel rooms with unmatched ease and efficiency. Developed with cutting-edge technologies like React, Node.js, Express.js, and MongoDB, it offers a seamless user experience. Guests can effortlessly explore a wide selection of available rooms, secure their reservations instantly, and conveniently track their booking history—all in one place. Furthermore, the powerful admin panel empowers administrators to effectively manage room inventory and bookings, ensuring a smooth operation. Experience the future of hotel booking with this exceptional application!",
     "overview": {
       "frontend": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "Discover the convenience of exploring hotel apartments without the need to log in. However, to secure your booking and enjoy a seamless experience, simply log in when you're ready to reserve your room.",
+        "overview-02": "Guests have the opportunity to rate the hotel apartments using a star system and share insightful comments about their stay, helping future visitors make informed choices. Your valuable feedback can significantly enhance the experience for everyone!",
+        "overview-03": "Hotel managers and owners have the opportunity to enhance their visibility and attract more guests by requesting access to list their business on our website. With this access, they can easily add rooms, apartments, and additional offerings, maximizing their potential for bookings and ensuring a seamless guest experience. ",
+        "overview-04": "Hotel managers and owners have the valuable capability to access and review the comprehensive list of customer bookings, empowering them to enhance service and optimize operations.",
+        "overview-05": "Administrators play a crucial role in effectively managing accounts and decisively approving business requests, ensuring seamless operations and fostering growth."
       }
     },
     "technologies": {
       "backend": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": ""
+        "tech-01": "Designed with Express.js, this framework guarantees exceptional efficiency and robust server-side operations, delivering unparalleled performance and unwavering reliability.",
+        "tech-02": "Developed with Node.js, this application delivers a robust and high-performance backend infrastructure, ensuring scalability and speed to meet the demands of modern applications.",
+        "tech-03": "Leverages MongoDB to provide highly flexible and scalable data storage solutions, ensuring your data management needs are met with efficiency and reliability."
       },
       "frontend": {
-        "tech-01": "",
-        "tech-02": ""
+        "tech-01": "Harnesses the power of Material UI to craft an engaging and highly responsive user interface that captivates users and enhances their experience.",
+        "tech-02": "Leverages the power of React.js to deliver an engaging and highly responsive user interface that enhances the overall user experience."
       }
     }
   },

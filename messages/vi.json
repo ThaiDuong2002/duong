@@ -142,20 +142,22 @@
     "description": "Ứng dụng web sáng tạo này cách mạng hóa cách người dùng đặt phòng khách sạn với sự dễ dàng và hiệu quả vượt trội. Được phát triển bằng các công nghệ tiên tiến như React, Node.js, Express.js và MongoDB, nó mang lại trải nghiệm người dùng liền mạch. Khách hàng có thể dễ dàng khám phá một loạt các phòng có sẵn, đặt chỗ ngay lập tức và theo dõi lịch sử đặt phòng của họ - tất cả trong một nơi. Hơn nữa, bảng điều khiển quản trị mạnh mẽ cho phép quản trị viên quản lý hiệu quả kho phòng và đặt phòng, đảm bảo hoạt động suôn sẻ. Trải nghiệm tương lai của việc đặt phòng khách sạn với ứng dụng xuất sắc này!",
     "overview": {
       "frontend": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "Khám phá sự tiện lợi của việc khám phá các căn hộ khách sạn mà không cần đăng nhập. Tuy nhiên, để đảm bảo đặt phòng của bạn và tận hưởng trải nghiệm liền mạch, chỉ cần đăng nhập khi bạn sẵn sàng đặt phòng.",
+        "overview-02": "Khách có thể đánh giá các căn hộ khách sạn bằng hệ thống sao và chia sẻ nhận xét chi tiết về kỳ nghỉ của họ, giúp những khách hàng tương lai đưa ra quyết định sáng suốt. Phản hồi quý giá của bạn có thể cải thiện trải nghiệm cho mọi người!",
+        "overview-03": "Quản lý và chủ khách sạn có cơ hội nâng cao khả năng hiển thị và thu hút nhiều khách hàng hơn bằng cách yêu cầu quyền truy cập để liệt kê doanh nghiệp của họ trên trang web của chúng tôi. Với quyền truy cập này, họ có thể dễ dàng thêm phòng, căn hộ và các dịch vụ bổ sung, tối đa hóa tiềm năng đặt phòng và đảm bảo trải nghiệm khách hàng liền mạch.",
+        "overview-04": "Quản lý và chủ khách sạn có khả năng truy cập và xem danh sách đầy đủ các đặt phòng của khách hàng, giúp họ cải thiện dịch vụ và tối ưu hóa hoạt động.",
+        "overview-05": "Quản trị viên đóng vai trò quan trọng trong việc quản lý tài khoản và phê duyệt các yêu cầu kinh doanh một cách quyết đoán, đảm bảo hoạt động suôn sẻ và thúc đẩy sự phát triển."
       }
     },
     "technologies": {
       "backend": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": ""
+        "tech-01": "Được thiết kế với Express.js, framework này đảm bảo hiệu quả vượt trội và các hoạt động phía máy chủ mạnh mẽ, mang lại hiệu suất không thể so sánh và độ tin cậy không ngừng.",
+        "tech-02": "Được phát triển với Node.js, ứng dụng này cung cấp cơ sở hạ tầng backend mạnh mẽ và hiệu suất cao, đảm bảo khả năng mở rộng và tốc độ để đáp ứng nhu cầu của các ứng dụng hiện đại.",
+        "tech-03": "Sử dụng MongoDB để cung cấp các giải pháp lưu trữ dữ liệu linh hoạt và có khả năng mở rộng cao, đảm bảo nhu cầu quản lý dữ liệu của bạn được đáp ứng một cách hiệu quả và đáng tin cậy."
       },
       "frontend": {
-        "tech-01": "",
-        "tech-02": ""
+        "tech-01": "Tận dụng sức mạnh của Material UI để tạo ra giao diện người dùng hấp dẫn và phản hồi nhanh, nâng cao trải nghiệm của người dùng.",
+        "tech-02": "Tận dụng sức mạnh của React.js để cung cấp giao diện người dùng hấp dẫn và phản hồi nhanh, nâng cao trải nghiệm người dùng tổng thể."
       }
     }
   },
@@ -196,16 +198,16 @@
     "overview": {
       "frontend": {
         "overview-01": "Học viên có thể dễ dàng đăng ký các khóa học và mở khóa kho tài liệu khóa học phong phú và hấp dẫn.",
-        "overview-02": "Bằng cách tích cực tham gia vào các bài tập và bài kiểm tra, học viên có thể nâng cao đáng kể trải nghiệm học tập và hiểu sâu hơn về tài liệu.",
+        "overview-02": "Bằng cách tích cực tham gia vào các bài tập và bài kiểm tra, học viên có thể nâng cao trải nghiệm học tập của mình và hiểu sâu hơn về tài liệu.",
         "overview-03": "Giáo viên có thể dễ dàng tải lên và cập nhật các khóa học, đảm bảo rằng nội dung không chỉ hiện tại mà còn rất phù hợp với nhu cầu của học viên. Điều này giúp giáo viên nâng cao trải nghiệm học tập và đảm bảo tài liệu của họ luôn có tác động.",
         "overview-04": "Giáo viên có thể tương tác với học viên bằng cách đặt câu hỏi gợi mở và cung cấp phản hồi mang tính xây dựng, từ đó tạo ra một môi trường học tập năng động và hợp tác.",
-        "overview-05": "Quản trị viên đóng vai trò quan trọng trong việc nâng cao trải nghiệm học tập bằng cách quản lý hiệu quả các khóa học, người dùng và nội dung. Sự giám sát của họ đảm bảo một môi trường giáo dục liền mạch và hấp dẫn cho tất cả mọi người."
+        "overview-05": "Quản trị viên đóng vai trò then chốt trong việc nâng cao trải nghiệm học tập bằng cách quản lý hiệu quả các khóa học, người dùng và nội dung. Sự giám sát của họ đảm bảo một môi trường giáo dục liền mạch và hấp dẫn cho tất cả mọi người tham gia."
       }
     },
     "technologies": {
       "frontend": {
         "tech-01": "Tận dụng sức mạnh của Handlebars để tạo ra các mẫu động và hiệu quả cao, nâng cao trải nghiệm giao diện người dùng.",
-        "tech-02": "Thiết kế sử dụng Bootstrap để tạo ra trải nghiệm động và hấp dẫn về mặt hình ảnh, đảm bảo rằng nó vừa phản hồi vừa thu hút người dùng.",
+        "tech-02": "Thiết kế tận dụng Bootstrap để tạo ra trải nghiệm động và trực quan, đảm bảo rằng nó vừa phản hồi vừa hấp dẫn đối với người dùng.",
         "tech-03": "Tận dụng sức mạnh của MongoDB để cung cấp các giải pháp lưu trữ dữ liệu linh hoạt và có khả năng mở rộng cao, đáp ứng nhu cầu phát triển của bạn."
       }
     }
