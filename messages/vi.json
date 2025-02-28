@@ -34,37 +34,48 @@
     "description": "Ứng dụng cách mạng này, tương tự như Uber và Grab, được chế tác đặc biệt để biến đổi trải nghiệm đặt xe cho cư dân Thành phố X. Sử dụng các khả năng mạnh mẽ của Flutter và React, nó có các ứng dụng di động trực quan cho cả khách hàng và tài xế, cùng với một nền tảng web thân thiện với người dùng cho các đại lý trung tâm cuộc gọi. Khách hàng có thể dễ dàng đặt xe thông qua ứng dụng di động hoặc bằng cách kết nối với các đại lý trung tâm cuộc gọi tận tâm của chúng tôi, đảm bảo một dịch vụ liền mạch và đáng chú ý, định nghĩa lại sự tiện lợi và hiệu quả.",
     "overview": {
       "call-center": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "Trung tâm cuộc gọi là giải pháp lý tưởng cho khách hàng không có ứng dụng. Chỉ cần một cuộc gọi điện thoại đơn giản, bạn có thể dễ dàng đặt xe, đảm bảo trải nghiệm mượt mà và tiện lợi.",
+        "overview-02": "Khi bạn gọi đến trung tâm của chúng tôi, một nhân viên tận tâm sẽ nhanh chóng hỗ trợ bạn. Họ sẽ thu thập thông tin cần thiết, bao gồm tên của bạn, địa điểm đón, địa điểm trả khách và loại xe ưa thích, đảm bảo quy trình đặt xe liền mạch và hiệu quả cho sự tiện lợi của bạn.",
+        "overview-03": "Hệ thống sẽ chọn tài xế như thường lệ, đảm bảo trải nghiệm mượt mà và hiệu quả cho khách hàng. Họ sẽ nhanh chóng nhận được thông báo trên điện thoại, rõ ràng cho biết liệu đặt xe của họ đã được chấp nhận hay bị từ chối."
       },
       "customer": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "Để sử dụng dịch vụ của chúng tôi, người dùng cần tạo tài khoản bằng số điện thoại của họ. Bạn có thể dễ dàng đặt xe thông qua ứng dụng di động thân thiện với người dùng của chúng tôi hoặc bằng cách liên hệ với trung tâm cuộc gọi tận tâm của chúng tôi.",
+        "overview-02": "Người dùng có thể dễ dàng đặt xe với các tùy chọn cho 4 hoặc 7 chỗ ngồi để phù hợp hoàn hảo với nhu cầu của họ. Giá cả của chúng tôi minh bạch và cạnh tranh, điều chỉnh dựa trên khoảng cách, thời gian trong ngày và nhu cầu giờ cao điểm, đảm bảo bạn nhận được giá trị tốt nhất cho hành trình của mình.",
+        "overview-03": "Người dùng có thể dễ dàng theo dõi vị trí của tài xế theo thời gian thực, đảm bảo sự an tâm và tăng cường sự tin tưởng trong hành trình.",
+        "overview-04": "Người dùng phải chọn thanh toán bằng tiền mặt hoặc qua ZaloPay. Quy trình thanh toán của chúng tôi an toàn và hiệu quả, đảm bảo trải nghiệm giao dịch liền mạch.",
+        "overview-05": "Khách hàng có thể tận dụng các ưu đãi độc quyền để nâng cao trải nghiệm đặt xe của họ.",
+        "overview-06": "Người dùng có cơ hội dễ dàng xem lịch sử đặt xe của họ và chia sẻ phản hồi bằng cách đánh giá tài xế của họ, đảm bảo trải nghiệm được tùy chỉnh và hài lòng hơn."
       },
       "driver": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "Tài xế có tùy chọn thuận tiện để dễ dàng cập nhật tên, thông tin xe và chi tiết giấy phép lái xe trực tiếp qua ứng dụng, đảm bảo hồ sơ của họ luôn chính xác và cập nhật.",
+        "overview-02": "Tài xế ngay lập tức nhận được thông báo trong ứng dụng của họ bất cứ khi nào có người đặt dịch vụ của họ, cho phép họ dễ dàng chấp nhận hoặc từ chối đặt xe. Tính năng này đảm bảo họ có toàn quyền kiểm soát lịch trình của mình và có thể ưu tiên các chuyến đi phù hợp nhất với nhu cầu của họ.",
+        "overview-03": "Tài xế có thể dễ dàng nhận đặt xe qua trung tâm cuộc gọi, cho phép họ truy cập thuận tiện vào lịch sử đặt xe và đánh giá của mình. Quy trình hợp lý này đảm bảo rằng họ luôn được thông báo và tham gia vào hiệu suất của mình.",
+        "overview-04": "Ứng dụng theo dõi vị trí của tài xế trong suốt hành trình, đảm bảo họ đi đúng hướng và mang lại sự an tâm. Với tính năng sáng tạo này, tài xế có thể tự tin điều hướng mà không lo bị lạc.",
+        "overview-05": "Tài xế có thể dễ dàng xem thu nhập của mình qua ví điện tử, đảm bảo tính minh bạch và cung cấp cái nhìn tổng quan rõ ràng về hiệu suất tài chính của họ."
+      },
+      "s2-geometry": {
+        "overview-01": "Thuật toán S2-geometry được sử dụng để chọn tài xế tốt nhất cho khách hàng dựa trên vị trí của họ. Thuật toán này chia bề mặt Trái Đất thành một hệ thống các ô phân cấp, cho phép lập chỉ mục không gian chính xác và có thể mở rộng.",
+        "overview-02": "Khi khách hàng yêu cầu một chuyến đi, thuật toán sẽ xác định ô tương ứng với vị trí của khách hàng và tìm kiếm các tài xế có sẵn trong các ô lân cận. Điều này đảm bảo rằng việc tìm kiếm vừa hiệu quả vừa chính xác, giảm thiểu thời gian tìm kiếm tài xế phù hợp.",
+        "overview-03": "Bằng cách tận dụng thuật toán S2-geometry, hệ thống có thể nhanh chóng kết nối khách hàng với các tài xế gần nhất, tối ưu hóa trải nghiệm đặt xe tổng thể và giảm thời gian chờ đợi."
       }
     },
     "technologies": {
       "backend": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": "",
-        "tech-04": "",
-        "tech-05": ""
+        "tech-01": "Được xây dựng với Express.js để đảm bảo các hoạt động phía máy chủ hiệu quả và mạnh mẽ, mang lại hiệu suất và độ tin cậy tối ưu.",
+        "tech-02": "Tích hợp Socket.IO để cung cấp thông báo thời gian thực, giữ cho người dùng luôn được thông báo về trạng thái chuyến đi của họ.",
+        "tech-03": "Sử dụng MongoDB để cung cấp các giải pháp lưu trữ dữ liệu đáng tin cậy và hiệu quả, đảm bảo tính toàn vẹn và khả năng truy cập dữ liệu.",
+        "tech-04": "Tích hợp RabbitMQ để cung cấp hàng đợi tin nhắn mạnh mẽ, đảm bảo giao tiếp mượt mà giữa các dịch vụ.",
+        "tech-05": "Docker được sử dụng để container hóa, đảm bảo môi trường nhất quán trên các giai đoạn phát triển, kiểm thử và sản xuất."
       },
       "mobile": {
-        "tech-01": "",
-        "tech-02": ""
+        "tech-01": "Được phát triển bằng Flutter để tạo ra trải nghiệm ứng dụng di động liền mạch và trực quan.",
+        "tech-02": "Tích hợp Google Maps để cung cấp theo dõi vị trí và điều hướng chính xác.",
+        "tech-03": "Tích hợp ZaloPay để cung cấp giải pháp thanh toán trực tuyến an toàn và tiện lợi cho khách hàng."
       },
       "web": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": ""
+        "tech-01": "Tận dụng sức mạnh của React.js để cung cấp giao diện người dùng hấp dẫn và phản hồi nhanh, nâng cao trải nghiệm người dùng tổng thể.",
+        "tech-02": "Tận dụng sức mạnh của Material UI để tạo ra giao diện người dùng hấp dẫn và phản hồi nhanh, thu hút người dùng và nâng cao trải nghiệm của họ.",
+        "tech-03": "Tích hợp Socket.IO để cung cấp thông báo thời gian thực, giữ cho người dùng luôn được thông báo về trạng thái chuyến đi của họ."
       }
     }
   },
@@ -126,7 +137,41 @@
     "university": "Đại học Khoa học Tự nhiên, ĐHQG-HCM"
   },
   "fam-fund": {
-    "description": "Giới thiệu một ứng dụng quản lý tài chính mạnh mẽ được thiết kế để giúp các gia đình theo dõi chi tiêu, lập ngân sách và đạt được các mục tiêu tài chính của họ. Công cụ trực quan này cho phép người dùng quản lý tài chính hiệu quả, hình dung thói quen chi tiêu và đưa ra các quyết định tài chính thông minh. Với các tính năng theo dõi chi tiêu, lập ngân sách và đặt mục tiêu, ứng dụng này là người bạn đồng hành đáng tin cậy của bạn để đạt được thành công tài chính. Ngoài ra, nó còn bao gồm các tính năng lập lịch, quản lý giáo dục cho trẻ em, cập nhật tin tức, chức năng trò chuyện để giữ cho gia đình luôn kết nối và thông tin, v.v."
+    "description": "Giới thiệu một ứng dụng quản lý tài chính mạnh mẽ được thiết kế để giúp các gia đình theo dõi chi tiêu, lập ngân sách và đạt được các mục tiêu tài chính của họ. Công cụ trực quan này cho phép người dùng quản lý tài chính hiệu quả, hình dung thói quen chi tiêu và đưa ra các quyết định tài chính thông minh. Với các tính năng theo dõi chi tiêu, lập ngân sách và đặt mục tiêu, ứng dụng này là người bạn đồng hành đáng tin cậy của bạn để đạt được thành công tài chính. Ngoài ra, nó còn bao gồm các tính năng lập lịch, quản lý giáo dục cho trẻ em, cập nhật tin tức, chức năng trò chuyện để giữ cho gia đình luôn kết nối và thông tin, v.v.",
+    "overview": {
+      "admin": {
+        "overview-01": "",
+        "overview-02": "",
+        "overview-03": ""
+      },
+      "mobile": {
+        "overview-01": "",
+        "overview-02": "",
+        "overview-03": ""
+      },
+      "web": {
+        "overview-01": "",
+        "overview-02": "",
+        "overview-03": ""
+      }
+    },
+    "technologies": {
+      "backend": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      },
+      "mobile": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      },
+      "web": {
+        "tech-01": "",
+        "tech-02": "",
+        "tech-03": ""
+      }
+    }
   },
   "footer": {
     "copyright": "Bản quyền © 2025 Dương Phạm. Tất cả các quyền được bảo lưu",

@@ -22,6 +22,7 @@ const CarBookingConstants: ProjectInterface = {
     "ExpressJS",
     "Flutter",
     "Dart",
+    "ZaloPay API",
     "MongoDB",
     "Mongoose",
     "Material UI",
@@ -45,7 +46,13 @@ const CarBookingConstants: ProjectInterface = {
         {
           id: "customer",
           application: "Customer",
-          overviewList: ["overview-01", "overview-02", "overview-03"],
+          overviewList: [
+            "overview-01",
+            "overview-02",
+            "overview-03",
+            "overview-04",
+            "overview-05",
+          ],
           imageList: [
             "/projects/car-booking/customer/car-booking-customer-1.png",
             "/projects/car-booking/customer/car-booking-customer-2.png",
@@ -59,7 +66,13 @@ const CarBookingConstants: ProjectInterface = {
         {
           id: "driver",
           application: "Driver",
-          overviewList: ["overview-01", "overview-02", "overview-03"],
+          overviewList: [
+            "overview-01",
+            "overview-02",
+            "overview-03",
+            "overview-04",
+            "overview-05",
+          ],
           imageList: [
             "/projects/car-booking/driver/car-booking-driver-1.png",
             "/projects/car-booking/driver/car-booking-driver-2.png",
@@ -77,6 +90,12 @@ const CarBookingConstants: ProjectInterface = {
             "/projects/car-booking/call-center/car-booking-callcenter-4.png",
             "/projects/car-booking/call-center/car-booking-callcenter-5.png",
           ],
+        },
+        {
+          id: "s2-geometry",
+          application: "S2 Geometry Algorithm",
+          overviewList: ["overview-01", "overview-02", "overview-03"],
+          imageList: ["/projects/car-booking/s2-geometry/s2-geometry.png"],
         },
       ],
     },
@@ -96,10 +115,15 @@ const CarBookingConstants: ProjectInterface = {
               name: "Google Maps",
               description: "tech-02",
             },
+            {
+              name: "ZaloPay",
+              description: "tech-03",
+            },
           ],
           techImages: [
             "/technologies/flutter.png",
             "/technologies/google-maps.png",
+            "/technologies/zalo-pay.png",
           ],
         },
         {

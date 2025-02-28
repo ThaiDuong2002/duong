@@ -34,37 +34,48 @@
     "description": "This revolutionary application, comparable to Uber and Grab, is purposefully crafted to transform the car booking experience for residents of City X. Utilizing the powerful capabilities of Flutter and React, it boasts intuitive mobile applications for both customers and drivers, alongside a user-friendly web platform for call center agents. Customers can effortlessly secure rides through the mobile app or by connecting with our attentive call center agents, ensuring a seamless and remarkable service that redefines convenience and efficiency.",
     "overview": {
       "call-center": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "The call center is your go-to solution for customers who don’t have the app. With just a simple phone call, you can easily book a car, ensuring a smooth and convenient experience.",
+        "overview-02": "When you call our center, a dedicated agent will promptly assist you. They will gather essential information, including your name, pick-up location, drop-off location, and preferred vehicle type, ensuring a seamless and efficient booking process for your convenience.",
+        "overview-03": "The system will expertly select a driver as usual, ensuring a smooth and efficient experience for the customer. They will promptly receive a notification on their phone, clearly indicating whether their booking was accepted or declined."
       },
       "customer": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "To enjoy our services, users are required to set up an account using their phone number. You can effortlessly book a car either through our user-friendly mobile app or by reaching out to our dedicated call center. ",
+        "overview-02": "Users can effortlessly book cars with options for 4 or 7 seats to perfectly suit their needs. Our pricing is transparent and competitive, adjusting based on distance, time of day, and peak hour demands, ensuring you get the best value for your journey. ",
+        "overview-03": "Users can effortlessly track the driver's location in real time, ensuring peace of mind and enhancing trust in the journey.",
+        "overview-04": "Users must choose to pay either with cash or through ZaloPay. Our payment process is secure and efficient, ensuring a seamless transaction experience.",
+        "overview-05": "Customers can take advantage of exclusive discounts to enhance their booking experience.",
+        "overview-06": "Users have the opportunity to effortlessly view their booking history and share their feedback by rating their drivers, ensuring a more tailored and satisfying experience."
       },
       "driver": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "Drivers have the convenient option to effortlessly update their name, vehicle information, and driver's license details directly through the app, ensuring that their records are always accurate and up to date.",
+        "overview-02": "Drivers instantly receive notifications in their app whenever someone books their services, giving them the power to easily accept or decline the booking. This feature ensures they have full control over their schedule and can prioritize the rides that best suit their needs.",
+        "overview-03": "Drivers can effortlessly receive bookings through the call center, allowing them to conveniently access their booking history and ratings. This streamlined process ensures that they stay informed and engaged with their performance.",
+        "overview-04": "The app actively tracks the driver's location throughout the journey, ensuring they stay on course and offering reassuring peace of mind. With this innovative feature, drivers can navigate confidently without the fear of getting lost.",
+        "overview-05": "Drivers can effortlessly view their earnings through their digital wallet, ensuring transparency and providing a clear overview of their financial performance."
+      },
+      "s2-geometry": {
+        "overview-01": "The S2-geometry algorithm is utilized to efficiently select the best driver for a customer based on their location. This algorithm divides the Earth's surface into a hierarchy of cells, allowing for precise and scalable spatial indexing.",
+        "overview-02": "When a customer requests a ride, the algorithm identifies the cell corresponding to the customer's location and searches for available drivers within nearby cells. This ensures that the search is both efficient and accurate, minimizing the time it takes to find a suitable driver.",
+        "overview-03": "By leveraging the S2-geometry algorithm, the system can quickly match customers with the closest drivers, optimizing the overall ride-hailing experience and reducing wait times."
       }
     },
     "technologies": {
       "backend": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": "",
-        "tech-04": "",
-        "tech-05": ""
+        "tech-01": "Built with Express.js to ensure efficient and robust server-side operations, delivering optimal performance and reliability.",
+        "tech-02": "Incorporates Socket.IO to deliver real-time notifications, keeping users informed about their ride status.",
+        "tech-03": "Utilizes MongoDB for reliable and efficient data storage solutions, ensuring data integrity and accessibility.",
+        "tech-04": "Integrates RabbitMQ for robust message queuing, ensuring smooth communication between services.",
+        "tech-05": "Docker is used for containerization, ensuring consistent environments across development, testing, and production."
       },
       "mobile": {
-        "tech-01": "",
-        "tech-02": ""
+        "tech-01": "Developed using Flutter to create a seamless and intuitive mobile application experience.",
+        "tech-02": "Integrates Google Maps to provide accurate location tracking and navigation.",
+        "tech-03": "Integrates ZaloPay to provide a secure and convenient online payment solution for customers."
       },
       "web": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": ""
+        "tech-01": "Leverages the power of React.js to deliver an engaging and highly responsive user interface that enhances the overall user experience.",
+        "tech-02": "Harnesses the power of Material UI to craft an engaging and highly responsive user interface that captivates users and enhances their experience.",
+        "tech-03": "Incorporates Socket.IO to deliver real-time notifications, keeping users informed about their ride status."
       }
     }
   },
