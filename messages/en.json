@@ -213,16 +213,21 @@
     "description": "Introducing a powerful Windows application expertly developed using C#, WPF, and MSSQL Server, designed to streamline your management of computer and PC products and orders. With this innovative tool, users can effortlessly apply discounts and gain valuable insights through comprehensive sales statistics, empowering you to optimize your business operations and drive success.",
     "overview": {
       "frontend": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "Dashboard to see total products, total sell in week and month, top 5 products with the least items.",
+        "overview-02": "Manage customers efficiently and keep track of their details.",
+        "overview-03": "Manage product categories to organize your inventory effectively.",
+        "overview-04": "Manage products, including adding, updating, and deleting items.",
+        "overview-05": "Manage orders, ensuring smooth processing and tracking.",
+        "overview-06": "Manage discounts to offer promotions and special deals.",
+        "overview-07": "Statistics (chart): revenue and profit by day, week, month, and year, total products sold by day, week, month, and year.",
+        "overview-08": "Store and backup database to ensure data integrity and security."
       }
     },
     "technologies": {
       "frontend": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": ""
+        "tech-01": "Harnesses the power of WPF to deliver a highly responsive and visually appealing user interface, enhancing the overall user experience.",
+        "tech-02": "Utilizes Entity Framework to provide a robust and efficient data access layer, ensuring seamless interaction with the database.",
+        "tech-03": "Leverages MSSQL Server to deliver reliable and scalable data storage solutions, ensuring data integrity and accessibility."
       }
     }
   },

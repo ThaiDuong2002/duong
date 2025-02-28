@@ -179,16 +179,21 @@
     "description": "Giới thiệu một ứng dụng Windows mạnh mẽ được phát triển chuyên nghiệp bằng C#, WPF và MSSQL Server, được thiết kế để tối ưu hóa việc quản lý sản phẩm và đơn hàng máy tính và PC của bạn. Với công cụ sáng tạo này, người dùng có thể dễ dàng áp dụng giảm giá và có được thông tin chi tiết có giá trị thông qua thống kê bán hàng toàn diện, giúp bạn tối ưu hóa hoạt động kinh doanh và thúc đẩy thành công.",
     "overview": {
       "frontend": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "Bảng điều khiển để xem tổng số sản phẩm, tổng số bán trong tuần và tháng, top 5 sản phẩm có số lượng ít nhất.",
+        "overview-02": "Quản lý khách hàng hiệu quả và theo dõi chi tiết của họ.",
+        "overview-03": "Quản lý danh mục sản phẩm để tổ chức kho hàng của bạn một cách hiệu quả.",
+        "overview-04": "Quản lý sản phẩm, bao gồm thêm, cập nhật và xóa các mặt hàng.",
+        "overview-05": "Quản lý đơn hàng, đảm bảo xử lý và theo dõi suôn sẻ.",
+        "overview-06": "Quản lý giảm giá để cung cấp các chương trình khuyến mãi và ưu đãi đặc biệt.",
+        "overview-07": "Thống kê (biểu đồ): doanh thu và lợi nhuận theo ngày, tuần, tháng và năm, tổng số sản phẩm bán ra theo ngày, tuần, tháng và năm.",
+        "overview-08": "Lưu trữ và sao lưu cơ sở dữ liệu để đảm bảo tính toàn vẹn và bảo mật dữ liệu."
       }
     },
     "technologies": {
       "frontend": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": ""
+        "tech-01": "Tận dụng sức mạnh của WPF để cung cấp giao diện người dùng hấp dẫn và phản hồi nhanh, nâng cao trải nghiệm người dùng tổng thể.",
+        "tech-02": "Sử dụng Entity Framework để cung cấp một lớp truy cập dữ liệu mạnh mẽ và hiệu quả, đảm bảo tương tác liền mạch với cơ sở dữ liệu.",
+        "tech-03": "Tận dụng MSSQL Server để cung cấp các giải pháp lưu trữ dữ liệu đáng tin cậy và có khả năng mở rộng, đảm bảo tính toàn vẹn và khả năng truy cập dữ liệu."
       }
     }
   },
