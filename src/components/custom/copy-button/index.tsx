@@ -20,7 +20,7 @@ const CopyButton = ({
   useEffect(() => {
     setTimeout(() => {
       setHasCopied(false);
-    }, 2000);
+    }, 1000);
   }, [hasCopied]);
 
   return (
