@@ -9,7 +9,6 @@ import {
   SOURCE_CODE_URL,
 } from "@/constants/components/contact";
 import { COPY } from "@/constants/components/copy-button";
-import projectConstants from "@/constants/components/project-constants";
 import {
   apiContributors,
   githubUrl,
@@ -81,13 +80,12 @@ export {
   owner,
   PaintAppConstants,
   PHONE_NUMBER,
-  projectConstants,
   repositories,
   SOURCE_CODE_TOOLTIP,
   SOURCE_CODE_URL,
   TOAST_LIMIT,
   TOAST_REMOVE_DELAY,
-  VideoSharingConstants
+  VideoSharingConstants,
 };
 export type {
   AdsManagementConstantsType,
@@ -99,5 +97,5 @@ export type {
   MyShopConstantsType,
   OnlineAcademyConstantsType,
   PaintAppConstantsType,
-  VideoSharingConstantsType
+  VideoSharingConstantsType,
 };
