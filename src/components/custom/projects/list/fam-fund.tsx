@@ -37,18 +37,24 @@ const FamFund = ({
             <p className="my-4 text-muted-foreground max-md:text-sm text-lg">
               {t(projects.description)}
             </p>
-            <Link
-              href={projects.githubUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={buttonVariants({
-                variant: "default",
-                size: "sm",
-              })}
-              onClick={(e) => e.stopPropagation()}
-            >
-              View on GitHub
-            </Link>
+            <div className="flex flex-wrap gap-2">
+              {Array.isArray(projects.githubUrl) &&
+                projects.githubUrl.map((url, index) => (
+                  <Link
+                    key={index}
+                    href={url.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={buttonVariants({
+                      variant: "default",
+                      size: "sm",
+                    })}
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    {url.name}
+                  </Link>
+                ))}
+            </div>
           </div>
           <div className="flex flex-col flex-1 gap-2">
             <div>

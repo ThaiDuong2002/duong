@@ -12,9 +12,26 @@ const FamFundConstants: ProjectInterface = {
   description: "description",
   type: "Web & Mobile Application",
   imageSrc: "/projects/fam-fund/fam-fund.png",
-  githubUrl: githubUrl(owner[1].name, repositories[3].name),
+  githubUrl: [
+    {
+      name: "Mobile Github",
+      url: githubUrl(owner[1].name, repositories[3].name),
+    },
+    {
+      name: "Web Github",
+      url: githubUrl(owner[0].name, repositories[1].name),
+    },
+    {
+      name: "Backend Github",
+      url: githubUrl(owner[1].name, repositories[2].name),
+    },
+    {
+      name: "Admin Github",
+      url: githubUrl(owner[1].name, repositories[4].name),
+    },
+  ],
   apiContributors: apiContributors(owner[1].name, repositories[3].name),
-  multipleGit: false,
+  multipleGit: true,
   owner: owner[1].name,
   repository: repositories[3].name,
   techs: [

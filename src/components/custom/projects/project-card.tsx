@@ -25,7 +25,7 @@ const ProjectCard = ({
   projectType: string;
   title: string;
   description: string;
-  githubUrl?: string;
+  githubUrl?: string | { name: string; url: string }[];
   multipleGit: boolean;
   children?: ReactNode;
 }) => {
@@ -55,7 +55,7 @@ const ProjectCard = ({
             {!multipleGit && (
               <div className="flex justify-center mt-4">
                 <Link
-                  href={githubUrl || "#"}
+                  href={(githubUrl as string) || "#"}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={buttonVariants({

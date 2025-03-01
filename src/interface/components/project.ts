@@ -4,7 +4,12 @@ interface ProjectInterface {
   description: string;
   type: string;
   imageSrc: string;
-  githubUrl: string;
+  githubUrl:
+    | string
+    | {
+        name: string;
+        url: string;
+      }[];
   apiContributors: string;
   multipleGit: boolean;
   owner: string;
