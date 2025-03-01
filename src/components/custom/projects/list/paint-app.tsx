@@ -33,6 +33,7 @@ const PaintApp = ({
           <div className="flex-1">
             <h1 className="m-0 p-0 font-bold text-gray-900 dark:text-white max-sm:text-xl max-md:text-3xl text-4xl">
               {projects.title}
+              
             </h1>
             <p className="my-4 text-muted-foreground max-md:text-sm text-lg">
               {t(projects.description)}
