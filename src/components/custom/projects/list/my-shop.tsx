@@ -38,7 +38,7 @@ const MyShop = ({
               {t(projects.description)}
             </p>
             <Link
-              href={projects.githubUrl}
+              href={projects.githubUrl as string}
               target="_blank"
               rel="noopener noreferrer"
               className={buttonVariants({
