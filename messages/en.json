@@ -140,45 +140,52 @@
     "description": "Introducing a powerful financial management application designed to help families track their expenses, set budgets, and achieve their financial goals. This intuitive tool empowers users to manage their finances effectively, visualize their spending habits, and make informed financial decisions. With features for expense tracking, budgeting, and goal setting, this application is your trusted companion for financial success. Additionally, it includes features for scheduling, education management for kids, news updates, a chat function to keep the family connected and informed, etc.",
     "overview": {
       "admin": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "Manage user accounts and feedback, ensuring a smooth and efficient user experience.",
+        "overview-02": "Manage payment packages that users can purchase to access additional features.",
+        "overview-03": "Track proxy data, including the number of users visiting the app, requests by country, and requests by browser.",
+        "overview-04": "View logs to monitor application activities and troubleshoot issues.",
+        "overview-05": "View database queries to track how many times the database is queried, ensuring optimal performance."
       },
       "mobile": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "This application is purposefully crafted for families, empowering every member to easily join their family group and unlock a variety of engaging features. Experience the benefits of togetherness as you connect, share, and make the most of what the app has to offer!",
+        "overview-02": "Family members can effectively manage their finances by tracking income and expenses from diverse sources, including salary, rent, shopping, bills, and more. This comprehensive approach not only promotes financial awareness but also empowers families to make informed spending decisions.",
+        "overview-03": "The app offers a dynamic family calendar, akin to Google Calendar, that is accessible to all family members. With timely notifications about upcoming events, it ensures that everyone stays informed and organized, making family coordination effortless and effective.",
+        "overview-04": "Parents have the power to actively engage with and monitor their children's educational journey, keeping a close eye on subjects, semesters, and grades to ensure their success.",
+        "overview-05": "The app delivers timely news updates, ensuring that families stay well-informed about important developments and relevant information.",
+        "overview-06": "A family chat feature empowers members to engage and connect with one another, significantly enhancing communication and strengthening family bonds."
       },
       "web": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "The web application offers similar features to the mobile app, providing a seamless experience for managing family finances, scheduling, education, news updates, and family communication.",
+        "overview-02": "Users can access and manage their financial data, track expenses and incomes, and set budgets from the convenience of their web browser.",
+        "overview-03": "The web platform includes a family calendar, allowing members to view and manage events, with notifications to keep everyone informed.",
+        "overview-04": "Parents can monitor their children's educational progress, including subjects, semesters, and grades, directly from the web interface.",
+        "overview-05": "The web application also provides news updates and a family chat feature, ensuring that all family members stay connected and informed."
       }
     },
     "technologies": {
       "backend": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": "",
-        "tech-04": "",
-        "tech-05": "",
-        "tech-06": "",
-        "tech-07": "",
-        "tech-08": "",
-        "tech-09": ""
+        "tech-01": "Built with Nest.Js to ensure efficient and robust server-side operations, delivering optimal performance and reliability.",
+        "tech-02": "Incorporates Socket.IO to deliver real-time notifications, keeping users informed about updates.",
+        "tech-03": "Utilizes PostgreSQL for reliable and efficient data storage solutions, ensuring data integrity and accessibility.",
+        "tech-04": "Integrates Redis for caching and message brokering, enhancing performance and scalability.",
+        "tech-05": "Docker is used for containerization, ensuring consistent environments across development, testing, and production.",
+        "tech-06": "Kubernetes is used for container orchestration, ensuring efficient management of containerized applications.",
+        "tech-07": "Uses Jenkins for continuous integration and continuous deployment, ensuring smooth and automated workflows.",
+        "tech-08": "Integrates Open Telemetry for observability, providing insights into system performance and behavior.",
+        "tech-09": "Utilizes GraphQL for efficient and flexible data querying, enhancing the API experience."
       },
       "mobile": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": "",
-        "tech-04": ""
+        "tech-01": "Developed using React Native to create a seamless and intuitive mobile application experience.",
+        "tech-02": "Utilizes Expo for streamlined development and deployment of mobile applications.",
+        "tech-03": "Incorporates Font Awesome for a wide range of icons, enhancing the visual appeal of the application.",
+        "tech-04": "Incorporates Socket.IO to deliver real-time notifications, keeping users informed about updates."
       },
       "web": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": "",
-        "tech-04": "",
-        "tech-05": ""
+        "tech-01": "Leverages the power of React.Js to deliver an engaging and highly responsive user interface that enhances the overall user experience.",
+        "tech-02": "Utilizes Next.Js for server-side rendering and static site generation, improving performance and SEO.",
+        "tech-03": "Integrates Syncfusion for a comprehensive suite of UI components, enhancing the functionality and appearance of the application.",
+        "tech-04": "Harnesses the power of Ant Design to craft an engaging and highly responsive user interface that captivates users and enhances their experience.",
+        "tech-05": "Incorporates Socket.IO to deliver real-time notifications, keeping users informed about updates."
       }
     }
   },

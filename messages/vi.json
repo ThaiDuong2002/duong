@@ -140,44 +140,52 @@
     "description": "Giới thiệu một ứng dụng quản lý tài chính mạnh mẽ được thiết kế để giúp các gia đình theo dõi chi tiêu, lập ngân sách và đạt được các mục tiêu tài chính của họ. Công cụ trực quan này cho phép người dùng quản lý tài chính hiệu quả, hình dung thói quen chi tiêu và đưa ra các quyết định tài chính thông minh. Với các tính năng theo dõi chi tiêu, lập ngân sách và đặt mục tiêu, ứng dụng này là người bạn đồng hành đáng tin cậy của bạn để đạt được thành công tài chính. Ngoài ra, nó còn bao gồm các tính năng lập lịch, quản lý giáo dục cho trẻ em, cập nhật tin tức, chức năng trò chuyện để giữ cho gia đình luôn kết nối và thông tin, v.v.",
     "overview": {
       "admin": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "Quản lý tài khoản người dùng và phản hồi, đảm bảo trải nghiệm người dùng mượt mà và hiệu quả.",
+        "overview-02": "Quản lý các gói thanh toán mà người dùng có thể mua để truy cập các tính năng bổ sung.",
+        "overview-03": "Theo dõi dữ liệu proxy, bao gồm số lượng người dùng truy cập ứng dụng, yêu cầu theo quốc gia và yêu cầu theo trình duyệt.",
+        "overview-04": "Xem nhật ký để giám sát các hoạt động của ứng dụng và khắc phục sự cố.",
+        "overview-05": "Xem các truy vấn cơ sở dữ liệu để theo dõi số lần cơ sở dữ liệu được truy vấn, đảm bảo hiệu suất tối ưu."
       },
       "mobile": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "Ứng dụng này được thiết kế đặc biệt cho các gia đình, cho phép mỗi thành viên dễ dàng tham gia nhóm gia đình của họ và mở khóa nhiều tính năng hấp dẫn. Trải nghiệm lợi ích của sự gắn kết khi bạn kết nối, chia sẻ và tận dụng tối đa những gì ứng dụng mang lại!",
+        "overview-02": "Các thành viên trong gia đình có thể quản lý tài chính hiệu quả bằng cách theo dõi thu nhập và chi tiêu từ nhiều nguồn khác nhau, bao gồm lương, tiền thuê, mua sắm, hóa đơn và nhiều hơn nữa. Cách tiếp cận toàn diện này không chỉ thúc đẩy nhận thức về tài chính mà còn giúp các gia đình đưa ra quyết định chi tiêu thông minh.",
+        "overview-03": "Ứng dụng cung cấp một lịch gia đình động, tương tự như Google Calendar, có thể truy cập bởi tất cả các thành viên trong gia đình. Với các thông báo kịp thời về các sự kiện sắp tới, nó đảm bảo rằng mọi người đều được thông báo và tổ chức, làm cho việc phối hợp gia đình trở nên dễ dàng và hiệu quả.",
+        "overview-04": "Cha mẹ có thể tích cực tham gia và giám sát hành trình giáo dục của con cái, theo dõi chặt chẽ các môn học, học kỳ và điểm số để đảm bảo sự thành công của chúng.",
+        "overview-05": "Ứng dụng cung cấp các cập nhật tin tức kịp thời, đảm bảo rằng các gia đình luôn được thông báo về các phát triển quan trọng và thông tin liên quan.",
+        "overview-06": "Tính năng trò chuyện gia đình cho phép các thành viên tương tác và kết nối với nhau, tăng cường giao tiếp và củng cố mối quan hệ gia đình."
       },
       "web": {
-        "overview-01": "",
-        "overview-02": "",
-        "overview-03": ""
+        "overview-01": "Ứng dụng web cung cấp các tính năng tương tự như ứng dụng di động, mang lại trải nghiệm liền mạch cho việc quản lý tài chính gia đình, lập lịch, giáo dục, cập nhật tin tức và giao tiếp gia đình.",
+        "overview-02": "Người dùng có thể truy cập và quản lý dữ liệu tài chính của họ, theo dõi chi tiêu và thu nhập, và lập ngân sách từ sự tiện lợi của trình duyệt web.",
+        "overview-03": "Nền tảng web bao gồm một lịch gia đình, cho phép các thành viên xem và quản lý các sự kiện, với các thông báo để giữ mọi người được thông báo.",
+        "overview-04": "Cha mẹ có thể giám sát tiến trình học tập của con cái, bao gồm các môn học, học kỳ và điểm số, trực tiếp từ giao diện web.",
+        "overview-05": "Ứng dụng web cũng cung cấp các cập nhật tin tức và tính năng trò chuyện gia đình, đảm bảo rằng tất cả các thành viên trong gia đình luôn được kết nối và thông tin."
       }
     },
     "technologies": {
       "backend": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": ""
+        "tech-01": "Được xây dựng với Nest.Js để đảm bảo các hoạt động phía máy chủ hiệu quả và mạnh mẽ, mang lại hiệu suất và độ tin cậy tối ưu.",
+        "tech-02": "Tích hợp Socket.IO để cung cấp thông báo thời gian thực, giữ cho người dùng luôn được thông báo về các cập nhật.",
+        "tech-03": "Sử dụng PostgreSQL để cung cấp các giải pháp lưu trữ dữ liệu đáng tin cậy và hiệu quả, đảm bảo tính toàn vẹn và khả năng truy cập dữ liệu.",
+        "tech-04": "Tích hợp Redis để lưu trữ đệm và môi giới tin nhắn, nâng cao hiệu suất và khả năng mở rộng.",
+        "tech-05": "Docker được sử dụng để container hóa, đảm bảo môi trường nhất quán trên các giai đoạn phát triển, kiểm thử và sản xuất.",
+        "tech-06": "Kubernetes được sử dụng để điều phối container, đảm bảo quản lý hiệu quả các ứng dụng container hóa.",
+        "tech-07": "Sử dụng Jenkins cho tích hợp liên tục và triển khai liên tục, đảm bảo quy trình làm việc mượt mà và tự động.",
+        "tech-08": "Tích hợp Open Telemetry để quan sát, cung cấp thông tin chi tiết về hiệu suất và hành vi của hệ thống.",
+        "tech-09": "Sử dụng GraphQL để truy vấn dữ liệu hiệu quả và linh hoạt, nâng cao trải nghiệm API."
       },
       "mobile": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": "",
-        "tech-04": "",
-        "tech-05": "",
-        "tech-06": "",
-        "tech-07": "",
-        "tech-08": "",
-        "tech-09": ""
+        "tech-01": "Được phát triển bằng React Native để tạo ra trải nghiệm ứng dụng di động liền mạch và trực quan.",
+        "tech-02": "Sử dụng Expo để phát triển và triển khai ứng dụng di động một cách dễ dàng.",
+        "tech-03": "Tích hợp Font Awesome để cung cấp một loạt các biểu tượng, nâng cao tính thẩm mỹ của ứng dụng.",
+        "tech-04": "Tích hợp Socket.IO để cung cấp thông báo thời gian thực, giữ cho người dùng luôn được thông báo về các cập nhật."
       },
       "web": {
-        "tech-01": "",
-        "tech-02": "",
-        "tech-03": "",
-        "tech-04": "",
-        "tech-05": ""
+        "tech-01": "Tận dụng sức mạnh của React.Js để cung cấp giao diện người dùng hấp dẫn và phản hồi nhanh, nâng cao trải nghiệm người dùng tổng thể.",
+        "tech-02": "Sử dụng Next.Js để render phía máy chủ và tạo trang tĩnh, cải thiện hiệu suất và SEO.",
+        "tech-03": "Tích hợp Syncfusion để cung cấp một bộ thành phần UI toàn diện, nâng cao chức năng và giao diện của ứng dụng.",
+        "tech-04": "Tận dụng sức mạnh của Ant Design để tạo ra giao diện người dùng hấp dẫn và phản hồi nhanh, thu hút người dùng và nâng cao trải nghiệm của họ.",
+        "tech-05": "Tích hợp Socket.IO để cung cấp thông báo thời gian thực, giữ cho người dùng luôn được thông báo về các cập nhật."
       }
     }
   },
