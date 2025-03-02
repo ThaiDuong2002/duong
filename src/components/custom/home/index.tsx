@@ -23,7 +23,7 @@ const Home = ({ id }: { id?: string }) => {
         />
         <div className="absolute inset-0 bg-black bg-opacity-50 backdrop-blur-0"></div>
       </div>
-      <MaxWidthWrapper className="flex flex-col justify-center items-center mt-28 sm:mt-40 mb-12 text-center">
+      <MaxWidthWrapper className="flex flex-col justify-center items-center min-h-screen text-center">
         <div className="flex justify-center items-center space-x-2 bg-white hover:bg-white/50 shadow-md backdrop-blur mb-4 px-7 py-2 border border-gray-200 hover:border-gray-300 rounded-full max-w-fit overflow-hidden transition-all x-auto">
           <p className="font-semibold text-gray-700 text-sm">
             {t(home.greeting)}
