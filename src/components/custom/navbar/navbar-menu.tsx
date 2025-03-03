@@ -1,8 +1,8 @@
 "use client";
 
 import { scrollToSection } from "@/functions";
-import { NavbarItemsProps } from "@/interface";
 import { cn } from "@/lib/utils";
+import { NavbarItemsProps } from "@/types";
 import { Button } from "@/ui/button";
 import {
   DropdownMenu,

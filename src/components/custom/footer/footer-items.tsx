@@ -1,7 +1,7 @@
 "use client";
 
 import { scrollToSection } from "@/functions";
-import { FooterItemsProps } from "@/interface";
+import { FooterItemsProps } from "@/types";
 import { Button } from "@/ui/button";
 import { useTranslations } from "next-intl";
 

@@ -5,7 +5,7 @@ import ContributorList from "@/components/custom/projects/contributor-list";
 import ProjectCard from "@/components/custom/projects/project-card";
 import ProjectDetail from "@/components/custom/projects/project-detail";
 import ContributorInfoDto from "@/data-fetching/dto/contributor-info-dto";
-import { ProjectInterface } from "@/interface";
+import { ProjectProps } from "@/types";
 import { buttonVariants } from "@/ui/button";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
@@ -15,7 +15,7 @@ const ChatApp = ({
   projects,
 }: {
   contributors?: ContributorInfoDto[];
-  projects: ProjectInterface;
+  projects: ProjectProps;
 }) => {
   const t = useTranslations(projects.id);
 

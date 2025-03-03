@@ -1,5 +1,5 @@
 import CopyButton from "@/components/custom/copy-button";
-import { ContactCardProps } from "@/interface";
+import { ContactCardProps } from "@/types";
 
 const ContactCard = ({
   icon,

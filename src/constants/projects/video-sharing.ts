@@ -4,9 +4,9 @@ import {
   owner,
   repositories,
 } from "@/constants/contributors";
-import { ProjectInterface } from "@/interface";
+import { ProjectProps } from "@/types";
 
-const VideoSharingConstants: ProjectInterface = {
+const VideoSharingConstants: ProjectProps = {
   id: "video-sharing",
   title: "Video Sharing Platform",
   description: "description",

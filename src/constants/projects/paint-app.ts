@@ -4,9 +4,9 @@ import {
   owner,
   repositories,
 } from "@/constants/contributors";
-import { ProjectInterface } from "@/interface";
+import { ProjectProps } from "@/types";
 
-const PaintAppConstants: ProjectInterface = {
+const PaintAppConstants: ProjectProps = {
   id: "paint-app",
   title: "Paint App - Windows Application",
   description: "description",

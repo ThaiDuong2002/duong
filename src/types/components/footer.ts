@@ -1,11 +1,11 @@
 import { ReactNode } from "react";
 
-interface NavbarItemsProps {
+type FooterItemsProps = {
   id: string;
   items: Array<{
     id: string;
     icon: ReactNode;
   }>;
-}
+};
 
-export type { NavbarItemsProps };
+export type { FooterItemsProps };

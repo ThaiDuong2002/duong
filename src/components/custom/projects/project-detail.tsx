@@ -1,7 +1,7 @@
 "use client";
 
 import ImageCarousel from "@/components/custom/projects/image-carousel";
-import { ProjectDetailProps } from "@/interface/components/project-detail";
+import { ProjectDetailProps } from "@/types";
 import { useTranslations } from "next-intl";
 import Image from "next/legacy/image";
 

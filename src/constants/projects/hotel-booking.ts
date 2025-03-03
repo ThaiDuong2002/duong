@@ -4,9 +4,9 @@ import {
   owner,
   repositories,
 } from "@/constants/contributors";
-import { ProjectInterface } from "@/interface";
+import { ProjectProps } from "@/types";
 
-const HotelBookingConstants: ProjectInterface = {
+const HotelBookingConstants: ProjectProps = {
   id: "hotel-booking",
   title: "Hotel Booking - Reservation System",
   description: "description",

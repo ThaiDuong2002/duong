@@ -1,4 +1,4 @@
-interface ProjectDetailProps {
+type ProjectDetailProps = {
   id: string;
   overviewOption?: "multiple" | "single";
   technologiesOption?: "multiple" | "single";
@@ -38,6 +38,6 @@ interface ProjectDetailProps {
         | null;
     };
   };
-}
+};
 
 export type { ProjectDetailProps };

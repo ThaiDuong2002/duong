@@ -4,9 +4,9 @@ import {
   owner,
   repositories,
 } from "@/constants/contributors";
-import { ProjectInterface } from "@/interface";
+import { ProjectProps } from "@/types";
 
-const FamFundConstants: ProjectInterface = {
+const FamFundConstants: ProjectProps = {
   id: "fam-fund",
   title: "FamFund - Family Financial Management",
   description: "description",

@@ -4,9 +4,9 @@ import {
   owner,
   repositories,
 } from "@/constants/contributors";
-import { ProjectInterface } from "@/interface";
+import { ProjectProps } from "@/types";
 
-const CoffeeOrderConstants: ProjectInterface = {
+const CoffeeOrderConstants: ProjectProps = {
   id: "coffee-order",
   title: "Infinity - Coffee Order Application",
   description: "description",

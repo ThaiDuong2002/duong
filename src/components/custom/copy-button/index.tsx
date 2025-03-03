@@ -2,8 +2,8 @@
 
 import { COPY } from "@/constants";
 import { copyToClipboardWithMeta } from "@/functions";
-import { CopyButtonProps } from "@/interface";
 import { cn } from "@/lib/utils";
+import { CopyButtonProps } from "@/types";
 import { Button } from "@/ui/button";
 import { CheckIcon, ClipboardIcon } from "lucide-react";
 import { useEffect, useState } from "react";

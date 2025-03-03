@@ -1,4 +1,4 @@
-interface ProjectInterface {
+type ProjectProps = {
   id: string;
   title: string;
   description: string;
@@ -52,6 +52,6 @@ interface ProjectInterface {
         | null;
     };
   };
-}
+};
 
-export type { ProjectInterface };
+export type { ProjectProps };

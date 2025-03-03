@@ -1,10 +1,10 @@
 import { Event } from "@/lib/events";
 import { ButtonProps } from "@/ui/button";
 
-interface CopyButtonProps extends ButtonProps {
+type CopyButtonProps = ButtonProps & {
   value: string;
   src?: string;
   event?: Event["name"];
-}
+};
 
 export type { CopyButtonProps };
