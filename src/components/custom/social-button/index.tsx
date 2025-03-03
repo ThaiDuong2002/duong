@@ -1,4 +1,4 @@
-import { SocialButtonProps } from "@/interface";
+import { SocialButtonProps } from "@/types";
 import {
   Tooltip,
   TooltipContent,
