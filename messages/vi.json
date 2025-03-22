@@ -302,6 +302,10 @@
     "description": "Dưới đây là danh sách chi tiết các dự án cá nhân và dự án nhóm mà tôi đã đóng góp.",
     "title": "Dự án"
   },
+  "experience": {
+    "description": "Dưới đây là danh sách chi tiết về kinh nghiệm làm việc của tôi.",
+    "title": "Kinh nghiệm làm việc"
+  },
   "video-sharing": {
     "description": "Giới thiệu một nền tảng chia sẻ video tiên tiến được phát triển bằng các công nghệ mới nhất, bao gồm React, Node.js, Express.js và MongoDB. Người dùng có thể dễ dàng tải lên video của họ, tương tác với nội dung thông qua lượt thích và chia sẻ, và đăng ký các kênh yêu thích của họ. Ứng dụng sáng tạo này là một bản sao mạnh mẽ của YouTube, được thiết kế để nâng cao trải nghiệm chia sẻ video của bạn và tạo ra một cộng đồng trực tuyến sôi động. Tham gia với chúng tôi và trở thành một phần của nền tảng năng động này!",
     "overview": {

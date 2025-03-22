@@ -52,6 +52,7 @@ import PaintAppConstants, {
 import VideoSharingConstants, {
   VideoSharingConstantsType,
 } from "@/constants/projects/video-sharing";
+import Company01 from "./experience/company-01";
 
 export {
   AdsManagementConstants,
@@ -59,6 +60,7 @@ export {
   CarBookingConstants,
   ChatAppConstants,
   CoffeeOrderConstants,
+  Company01,
   COPY,
   EMAIL_ADDRESS,
   ErrorConstants,

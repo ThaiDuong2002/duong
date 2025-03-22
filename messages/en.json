@@ -302,6 +302,10 @@
     "description": "Here is a detailed list of personal and team projects that I have successfully contributed to.",
     "title": "Projects"
   },
+  "experience": {
+    "description": "Here is a detailed list of my work experience.",
+    "title": "Work Experience"
+  },
   "video-sharing": {
     "description": "Introducing a cutting-edge video-sharing platform developed with the latest technologies, including React, Node.js, Express.js, and MongoDB. Users can effortlessly upload their videos, engage with content through likes and shares, and subscribe to their favorite channels. This innovative application is a powerful clone of YouTube, designed to enhance your video-sharing experience and foster a vibrant online community. Join us and be a part of this dynamic platform!",
     "overview": {

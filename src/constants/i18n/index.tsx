@@ -1,4 +1,4 @@
-import { FlaskConical, Home, PhoneCall, User } from "lucide-react";
+import { Award, FlaskConical, Home, PhoneCall, User } from "lucide-react";
 
 const I18nConstants = {
   metadata: {
@@ -47,6 +47,11 @@ const I18nConstants = {
     title: "title",
     description: "description",
   },
+  experience: {
+    id: "experience",
+    title: "title",
+    description: "description",
+  },
   list: {
     id: "list",
     items: [
@@ -58,10 +63,10 @@ const I18nConstants = {
         id: "about",
         icon: <User size={24} />,
       },
-      // {
-      //   id: "experience",
-      //   icon: <Award size={24} />,
-      // },
+      {
+        id: "experience",
+        icon: <Award size={24} />,
+      },
       {
         id: "projects",
         icon: <FlaskConical size={24} />,
