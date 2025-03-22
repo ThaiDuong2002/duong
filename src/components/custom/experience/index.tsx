@@ -21,6 +21,7 @@ const Experience = ({ id }: { id?: string }) => {
       <MaxWidthWrapper className="mt-10">
         <div className="gap-14 grid grid-cols-2 max-sm:grid-cols-1 max-md:grid-cols-1 max-lg:grid-cols-1 max-xl:grid-cols-2">
           <ExperienceCard
+            id={Company01.id}
             company={Company01.name}
             description={Company01.description}
             duration={Company01.duration}

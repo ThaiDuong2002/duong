@@ -1,18 +1,25 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import Image from "next/legacy/image";
 
 const ExperienceCard = ({
+  id,
   company,
   description,
   duration,
   role,
   image,
 }: {
+  id: string;
   company: string;
   description: string;
   duration: string;
   role: string;
   image: string;
 }) => {
+  const t = useTranslations(id);
+
   return (
     <div className="shadow-lg dark:shadow-gray-700 border rounded-lg overflow-hidden hover:scale-[1.02] transition-transform duration-300 transform">
       <div className="space-y-3 p-10">
@@ -35,8 +42,8 @@ const ExperienceCard = ({
             </p>
           </div>
         </div>
-        <p className="text-muted-foreground">{duration}</p>
-        <p>{description}</p>
+        <p className="text-muted-foreground">{t(duration)}</p>
+        <p>{t(description)}</p>
       </div>
     </div>
   );

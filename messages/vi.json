@@ -120,6 +120,10 @@
       }
     }
   },
+  "company-01": {
+    "description": "Tôi hiện đang làm thực tập sinh Kỹ sư Phần mềm tại BigIn.",
+    "duration": "Tháng 03/2025 - Hiện tại"
+  },
   "contact": {
     "description": "Hãy liên hệ với tôi qua số điện thoại hoặc email",
     "email": "Địa chỉ Email",
@@ -135,6 +139,10 @@
     "gpa": "Điểm trung bình: 3.48/4.0",
     "title": "Học vấn",
     "university": "Đại học Khoa học Tự nhiên, ĐHQG-HCM"
+  },
+  "experience": {
+    "description": "Dưới đây là danh sách chi tiết về kinh nghiệm làm việc của tôi.",
+    "title": "Kinh nghiệm làm việc"
   },
   "fam-fund": {
     "description": "Giới thiệu một ứng dụng quản lý tài chính mạnh mẽ được thiết kế để giúp các gia đình theo dõi chi tiêu, lập ngân sách và đạt được các mục tiêu tài chính của họ. Công cụ trực quan này cho phép người dùng quản lý tài chính hiệu quả, hình dung thói quen chi tiêu và đưa ra các quyết định tài chính thông minh. Với các tính năng theo dõi chi tiêu, lập ngân sách và đặt mục tiêu, ứng dụng này là người bạn đồng hành đáng tin cậy của bạn để đạt được thành công tài chính. Ngoài ra, nó còn bao gồm các tính năng lập lịch, quản lý giáo dục cho trẻ em, cập nhật tin tức, chức năng trò chuyện để giữ cho gia đình luôn kết nối và thông tin, v.v.",
@@ -301,10 +309,6 @@
   "projects": {
     "description": "Dưới đây là danh sách chi tiết các dự án cá nhân và dự án nhóm mà tôi đã đóng góp.",
     "title": "Dự án"
-  },
-  "experience": {
-    "description": "Dưới đây là danh sách chi tiết về kinh nghiệm làm việc của tôi.",
-    "title": "Kinh nghiệm làm việc"
   },
   "video-sharing": {
     "description": "Giới thiệu một nền tảng chia sẻ video tiên tiến được phát triển bằng các công nghệ mới nhất, bao gồm React, Node.js, Express.js và MongoDB. Người dùng có thể dễ dàng tải lên video của họ, tương tác với nội dung thông qua lượt thích và chia sẻ, và đăng ký các kênh yêu thích của họ. Ứng dụng sáng tạo này là một bản sao mạnh mẽ của YouTube, được thiết kế để nâng cao trải nghiệm chia sẻ video của bạn và tạo ra một cộng đồng trực tuyến sôi động. Tham gia với chúng tôi và trở thành một phần của nền tảng năng động này!",
