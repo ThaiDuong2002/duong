@@ -2,7 +2,7 @@
 
 import ExperienceCard from "@/components/custom/experience/experience-card";
 import MaxWidthWrapper from "@/components/custom/max-width-wrapper";
-import { Company01, I18nConstants } from "@/constants";
+import { Company01, Company02, I18nConstants } from "@/constants";
 import { useTranslations } from "next-intl";
 
 const Experience = ({ id }: { id?: string }) => {
@@ -27,6 +27,14 @@ const Experience = ({ id }: { id?: string }) => {
             duration={Company01.duration}
             role={Company01.role}
             image={Company01.image}
+          />
+          <ExperienceCard
+            id={Company02.id}
+            company={Company02.name}
+            description={Company02.description}
+            duration={Company02.duration}
+            role={Company02.role}
+            image={Company02.image}
           />
         </div>
       </MaxWidthWrapper>

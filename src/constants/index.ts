@@ -53,6 +53,7 @@ import VideoSharingConstants, {
   VideoSharingConstantsType,
 } from "@/constants/projects/video-sharing";
 import Company01 from "./experience/company-01";
+import Company02 from "./experience/company-02";
 
 export {
   AdsManagementConstants,
@@ -61,6 +62,7 @@ export {
   ChatAppConstants,
   CoffeeOrderConstants,
   Company01,
+  Company02,
   COPY,
   EMAIL_ADDRESS,
   ErrorConstants,
