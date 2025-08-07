@@ -54,6 +54,7 @@ import VideoSharingConstants, {
 } from "@/constants/projects/video-sharing";
 import Company01 from "./experience/company-01";
 import Company02 from "./experience/company-02";
+import Company03 from "./experience/company-03";
 
 export {
   AdsManagementConstants,
@@ -63,6 +64,7 @@ export {
   CoffeeOrderConstants,
   Company01,
   Company02,
+  Company03,
   COPY,
   EMAIL_ADDRESS,
   ErrorConstants,
